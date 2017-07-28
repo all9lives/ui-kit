@@ -3,21 +3,23 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "storybook": "storybook start -p 7007"
+    "storybook:web": "start-storybook -p 6006 -c storybook/web",
+    "storybook:native": "storybook start -p 7007 -c storybook/native"
   },
   "dependencies": {
     "react": "16.0.0-alpha.12",
+    "react-dom": "16.0.0-alpha.12",
     "react-native": "0.46.4"
   },
   "devDependencies": {
+    "@storybook/react": "^3.1.9",
+    "@storybook/react-native": "^3.1.9",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "2.1.0",
     "jest": "20.0.4",
-    "react-test-renderer": "16.0.0-alpha.12",
-    "@storybook/react-native": "^3.1.9",
-    "react-dom": "16.0.0-alpha.12"
+    "react-test-renderer": "16.0.0-alpha.12"
   },
   "jest": {
     "preset": "react-native"
