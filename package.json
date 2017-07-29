@@ -8,6 +8,7 @@
     "test": "jest",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix --verbose | snazzy",
+    "typecheck": "flow",
     "generate:component": "babel-node helpers/scripts/run generator/component",
     "generate:story": "babel-node helpers/scripts/run generator/story",
     "storybook:web": "start-storybook -p 6006 -c storybook/web",
@@ -15,6 +16,7 @@
     "storybook:native": "storybook start -p 7007 -c storybook/native"
   },
   "dependencies": {
+    "flow-bin": "^0.51.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -26,9 +28,13 @@
     "@storybook/react": "^3.1.9",
     "@storybook/react-native": "^3.1.9",
     "babel-cli": "^6.24.1",
-    "babel-jest": "20.0.3",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-jest": "^20.0.3",
     "babel-preset-react-native": "2.1.0",
     "enzyme": "^2.9.1",
+    "eslint-plugin-flowtype": "^2.35.0",
     "husky": "^0.14.3",
     "jest": "20.0.4",
     "jest-serializer-enzyme": "^1.0.0",
@@ -38,6 +44,9 @@
     "standard": "^10.0.2"
   },
   "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
     "preset": "react-native",
     "snapshotSerializers": [
       "./node_modules/jest-serializer-enzyme"
@@ -48,6 +57,15 @@
     "testPathIgnorePatterns": [
       "/node_modules/",
       "helpers/"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ],
+    "ignore": [
+      "flow/"
     ]
   },
   "lint-staged": {
