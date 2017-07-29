@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render snapshot for \`Text\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#282828"
+  ellipsizeMode="tail"
+  size={16}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "fontSize": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;

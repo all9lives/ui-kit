@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render snapshot for \`Text\` on \`web\` 1`] = `
+<span
+  className="sc-bdVaJa deOdBs"
+  color="#282828"
+  size={16}
+>
+  Apple
+</span>
+`;
