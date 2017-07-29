@@ -6,8 +6,9 @@
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
     "test": "jest",
-    "lint": "standard --verbose | snazzy",
-    "lint:fix": "standard --fix --verbose | snazzy",
+    "lint:js": "standard --verbose | snazzy",
+    "lint:js-fix": "standard --fix --verbose | snazzy",
+    "lint:css": "stylelint './src/**/*.js'",
     "typecheck": "flow",
     "generate:component": "babel-node helpers/scripts/run generator/component",
     "generate:story": "babel-node helpers/scripts/run generator/story",
@@ -41,7 +42,10 @@
     "lint-staged": "^4.0.2",
     "react-test-renderer": "^15.6.1",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-processor-styled-components": "^0.2.1"
   },
   "jest": {
     "transform": {
@@ -68,9 +72,15 @@
       "flow/"
     ]
   },
+  "stylelint": {
+    "processors": ["stylelint-processor-styled-components"],
+    "extends": "stylelint-config-standard",
+    "syntax": "scss"
+  },
   "lint-staged": {
     "*.js": [
       "standard --fix",
+      "stylelint",
       "git add"
     ]
   }
