@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render snapshot for \`View\` on \`native\` 1`] = `
+<View
+  align=""
+  direction="column"
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</View>
+`;
