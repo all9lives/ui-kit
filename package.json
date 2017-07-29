@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
+    "precommit": "lint-staged",
     "test": "jest",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix --verbose | snazzy",
     "storybook:web": "start-storybook -p 6006 -c storybook/web",
     "build-storybook:web": "build-storybook -c storybook/web",
     "storybook:native": "storybook start -p 7007 -c storybook/native"
@@ -21,10 +24,20 @@
     "@storybook/react-native": "^3.1.9",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "2.1.0",
+    "husky": "^0.14.3",
     "jest": "20.0.4",
-    "react-test-renderer": "^15.6.1"
+    "lint-staged": "^4.0.2",
+    "react-test-renderer": "^15.6.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   }
 }
