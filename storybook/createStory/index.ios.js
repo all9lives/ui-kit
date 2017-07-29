@@ -1,3 +1,3 @@
-import createStory from './index.android';
+import createStory from './index.android'
 
-export default createStory;
+export default createStory

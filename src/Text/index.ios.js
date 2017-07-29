@@ -1,3 +1,3 @@
-import Text from './index.android';
+import Text from './index.android'
 
-export default Text;
+export default Text

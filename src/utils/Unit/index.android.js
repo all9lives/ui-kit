@@ -1,5 +1,5 @@
-const convert = unit => unit;
+const convert = unit => unit
 
 export default {
-  convert,
-};
+  convert
+}

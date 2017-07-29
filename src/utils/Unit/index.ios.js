@@ -1,3 +1,3 @@
-import Unit from './index.android';
+import Unit from './index.android'
 
-export default Unit;
+export default Unit

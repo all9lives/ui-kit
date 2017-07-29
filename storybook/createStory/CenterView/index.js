@@ -1,19 +1,19 @@
-import React, { PropTypes } from 'react';
-import { View } from 'react-primitives';
-import style from './style';
+import React, { PropTypes } from 'react'
+import { View } from 'react-primitives'
+import style from './style'
 
-export default function CenterView(props) {
+export default function CenterView (props) {
   return (
     <View style={style.main}>
       {props.children}
     </View>
-  );
+  )
 }
 
 CenterView.defaultProps = {
-  children: null,
-};
+  children: null
+}
 
 CenterView.propTypes = {
-  children: PropTypes.node,
-};
+  children: PropTypes.node
+}
