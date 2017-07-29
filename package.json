@@ -13,6 +13,7 @@
     "storybook:native": "storybook start -p 7007 -c storybook/native"
   },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-native": "0.42.3",
@@ -24,15 +25,23 @@
     "@storybook/react-native": "^3.1.9",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "2.1.0",
+    "enzyme": "^2.9.1",
     "husky": "^0.14.3",
     "jest": "20.0.4",
+    "jest-serializer-enzyme": "^1.0.0",
     "lint-staged": "^4.0.2",
     "react-test-renderer": "^15.6.1",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "./node_modules/jest-serializer-enzyme"
+    ],
+    "setupFiles": [
+      "./jest-setup.js"
+    ]
   },
   "lint-staged": {
     "*.js": [
