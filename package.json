@@ -8,6 +8,8 @@
     "test": "jest",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix --verbose | snazzy",
+    "generate:component": "babel-node helpers/scripts/run generator/component",
+    "generate:story": "babel-node helpers/scripts/run generator/story",
     "storybook:web": "start-storybook -p 6006 -c storybook/web",
     "build-storybook:web": "build-storybook -c storybook/web",
     "storybook:native": "storybook start -p 7007 -c storybook/native"
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@storybook/react": "^3.1.9",
     "@storybook/react-native": "^3.1.9",
+    "babel-cli": "^6.24.1",
     "babel-jest": "20.0.3",
     "babel-preset-react-native": "2.1.0",
     "enzyme": "^2.9.1",
@@ -40,7 +43,11 @@
       "./node_modules/jest-serializer-enzyme"
     ],
     "setupFiles": [
-      "./jest-setup.js"
+      "./helpers/jest/setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "helpers/"
     ]
   },
   "lint-staged": {

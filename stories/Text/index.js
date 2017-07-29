@@ -1,6 +1,6 @@
 import React from 'react'
-import createStory from '../storybook/createStory'
-import Text from '../src/Text'
+import createStory from '../../storybook/createStory'
+import Text from '../../src/Text'
 
 createStory('Text', module)
   .add('with Apple', () => <Text>Apple</Text>)
