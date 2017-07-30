@@ -3,9 +3,9 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import View from '../index.ios.js'
 
-it('render snapshot for `View` on `native`', () => {
+it('renders a snapshot for `View` with `direction:row` on `native`', () => {
   const wrapper = shallow(
-    <View>Apple</View>
+    <View direction='row' />
   )
   expect(wrapper).toMatchSnapshot()
 })

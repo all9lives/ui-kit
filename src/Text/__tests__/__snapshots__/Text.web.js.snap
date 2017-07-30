@@ -1,10 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render snapshot for \`Text\` on \`web\` 1`] = `
+exports[`renders a snapshot for \`Text\` on \`web\` 1`] = `
+.c0 {
+  font-size: 16;
+  color: #282828;
+}
+
 <span
-  className="sc-bdVaJa deOdBs"
+  className="c0"
   color="#282828"
   size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`renders a snapshot for \`Text\` with \`color:blue\` on \`web\` 1`] = `
+.c0 {
+  font-size: 16;
+  color: blue;
+}
+
+<span
+  className="c0"
+  color="blue"
+  size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`renders a snapshot for \`Text\` with \`size:tiny\` on \`web\` 1`] = `
+.c0 {
+  font-size: 12;
+  color: #282828;
+}
+
+<span
+  className="c0"
+  color="#282828"
+  size="tiny"
 >
   Apple
 </span>

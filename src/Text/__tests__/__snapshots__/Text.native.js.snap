@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render snapshot for \`Text\` on \`native\` 1`] = `
+exports[`renders a snapshot for \`Text\` on \`native\` 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -12,6 +12,48 @@ exports[`render snapshot for \`Text\` on \`native\` 1`] = `
       Object {
         "color": "#282828",
         "fontSize": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;
+
+exports[`renders a snapshot for \`Text\` with \`color:blue\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="blue"
+  ellipsizeMode="tail"
+  size={16}
+  style={
+    Array [
+      Object {
+        "color": "blue",
+        "fontSize": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;
+
+exports[`renders a snapshot for \`Text\` with \`size:tiny\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#282828"
+  ellipsizeMode="tail"
+  size="tiny"
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "fontSize": 12,
       },
       undefined,
     ]

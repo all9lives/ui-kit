@@ -1,18 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render snapshot for \`View\` on \`native\` 1`] = `
+exports[`renders a snapshot for \`View\` with \`direction:row\` on \`native\` 1`] = `
 <View
   align=""
-  direction="column"
+  direction="row"
   style={
     Array [
       Object {
-        "flexDirection": "column",
+        "flexDirection": "row",
       },
       undefined,
     ]
   }
->
-  Apple
-</View>
+/>
 `;

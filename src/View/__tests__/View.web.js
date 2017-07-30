@@ -1,11 +1,12 @@
 /* eslint-env jest */
+import 'jest-styled-components'
 import React from 'react'
 import { shallow } from 'enzyme'
 import View from '../index.js'
 
-it('render snapshot for `View` on `web`', () => {
+it('renders a snapshot for `View` with `direction:row` on `web`', () => {
   const wrapper = shallow(
-    <View>Apple</View>
+    <View direction='row' />
   )
   expect(wrapper).toMatchSnapshot()
 })
