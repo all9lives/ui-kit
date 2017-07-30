@@ -35,10 +35,11 @@
     "babel-preset-jest": "^20.0.3",
     "babel-preset-react-native": "2.1.0",
     "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "eslint-plugin-flowtype": "^2.35.0",
     "husky": "^0.14.3",
     "jest": "20.0.4",
-    "jest-serializer-enzyme": "^1.0.0",
+    "jest-styled-components": "^4.2.2",
     "lint-staged": "^4.0.2",
     "react-test-renderer": "^15.6.1",
     "snazzy": "^7.0.0",
@@ -53,7 +54,7 @@
     },
     "preset": "react-native",
     "snapshotSerializers": [
-      "./node_modules/jest-serializer-enzyme"
+      "enzyme-to-json/serializer"
     ],
     "setupFiles": [
       "./helpers/jest/setup.js"
@@ -73,7 +74,9 @@
     ]
   },
   "stylelint": {
-    "processors": ["stylelint-processor-styled-components"],
+    "processors": [
+      "stylelint-processor-styled-components"
+    ],
     "extends": "stylelint-config-standard",
     "syntax": "scss"
   },
