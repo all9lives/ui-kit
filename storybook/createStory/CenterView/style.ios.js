@@ -1,8 +1,3 @@
-import { base } from './style.js'
+import style from './style.android'
 
-export default {
-  main: {
-    ...base.main,
-    backgroundColor: '#f1ffea'
-  }
-}
+export default style

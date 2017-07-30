@@ -3,8 +3,9 @@ import base from './base'
 import defaultProps from './defaultProps'
 
 const View = styled.div`
-  display: flex;
   ${base}
+  display: flex;
+  width: ${props => props.fullWidth ? '100%' : 'auto'};
 `
 View.defaultProps = {
   ...defaultProps,

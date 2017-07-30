@@ -2,8 +2,9 @@ import React from 'react'
 import createStory from '../../storybook/createStory'
 import View from '../../src/View'
 import Text from '../../src/Text'
+import './align'
 
-createStory('View', module)
+createStory('View.direction', module)
   .add('with direction `column`', () => (
     <View direction='column'>
       <Text>Row 1</Text>
