@@ -6,12 +6,17 @@ exports[`renders a snapshot for \`Text\` on \`native\` 1`] = `
   allowFontScaling={true}
   color="#282828"
   ellipsizeMode="tail"
+  margin={0}
   size={16}
   style={
     Array [
       Object {
         "color": "#282828",
         "fontSize": 16,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
       },
       undefined,
     ]
@@ -27,12 +32,17 @@ exports[`renders a snapshot for \`Text\` with \`color:blue\` on \`native\` 1`] =
   allowFontScaling={true}
   color="blue"
   ellipsizeMode="tail"
+  margin={0}
   size={16}
   style={
     Array [
       Object {
         "color": "blue",
         "fontSize": 16,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
       },
       undefined,
     ]
@@ -48,12 +58,17 @@ exports[`renders a snapshot for \`Text\` with \`size:tiny\` on \`native\` 1`] = 
   allowFontScaling={true}
   color="#282828"
   ellipsizeMode="tail"
+  margin={0}
   size="tiny"
   style={
     Array [
       Object {
         "color": "#282828",
         "fontSize": 12,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
       },
       undefined,
     ]

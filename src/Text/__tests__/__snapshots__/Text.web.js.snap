@@ -2,8 +2,9 @@
 
 exports[`renders a snapshot for \`Text\` on \`web\` 1`] = `
 .c0 {
-  font-size: 16;
+  font-size: 16px;
   color: #282828;
+  margin: 0px;
 }
 
 <span
@@ -17,8 +18,9 @@ exports[`renders a snapshot for \`Text\` on \`web\` 1`] = `
 
 exports[`renders a snapshot for \`Text\` with \`color:blue\` on \`web\` 1`] = `
 .c0 {
-  font-size: 16;
+  font-size: 16px;
   color: blue;
+  margin: 0px;
 }
 
 <span
@@ -32,8 +34,9 @@ exports[`renders a snapshot for \`Text\` with \`color:blue\` on \`web\` 1`] = `
 
 exports[`renders a snapshot for \`Text\` with \`size:tiny\` on \`web\` 1`] = `
 .c0 {
-  font-size: 12;
+  font-size: 12px;
   color: #282828;
+  margin: 0px;
 }
 
 <span

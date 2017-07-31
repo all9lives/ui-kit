@@ -3,5 +3,6 @@ import Size from '../utils/Size'
 
 export default {
   size: Size.regular,
-  color: Color.black
+  color: Color.black,
+  margin: 0
 }
