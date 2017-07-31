@@ -1,1 +1,3 @@
-export default unit => unit
+import _ from 'lodash'
+
+export default (unit, converter = _.identity) => `${converter(unit)}px`

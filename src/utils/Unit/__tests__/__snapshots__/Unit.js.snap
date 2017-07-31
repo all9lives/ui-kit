@@ -2,4 +2,6 @@
 
 exports[`parses a string input into a proper output 1`] = `"proper-16 proper-16"`;
 
+exports[`parses a string input with a parser into a proper output 1`] = `"proper-parsed-16 proper-parsed-16"`;
+
 exports[`parses an number input into a proper output 1`] = `"proper-16"`;
