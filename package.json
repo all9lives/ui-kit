@@ -1,6 +1,7 @@
 {
   "name": "core-ui-kit",
   "version": "0.0.1",
+  "main": "./src/index.js",
   "private": true,
   "scripts": {
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
