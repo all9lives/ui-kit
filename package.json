@@ -7,6 +7,8 @@
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "lint:js": "standard --verbose | snazzy",
     "lint:js-fix": "standard --fix --verbose | snazzy",
     "lint:css": "stylelint './src/**/*.js'",
@@ -61,6 +63,10 @@
       "./helpers/jest/setup.js"
     ],
     "testPathIgnorePatterns": [
+      "/node_modules/",
+      "helpers/"
+    ],
+    "coveragePathIgnorePatterns": [
       "/node_modules/",
       "helpers/"
     ]

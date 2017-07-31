@@ -1,3 +1,4 @@
+/* eslint-env jest */
 /* Fix old version react-native warning */
 const filterWarning = [
   'Warning: Accessing createClass via the main React package is deprecated',
