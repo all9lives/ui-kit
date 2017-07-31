@@ -10,3 +10,10 @@ it('renders a snapshot for `View` with `direction:row` on `web`', () => {
   )
   expect(wrapper).toMatchSnapshot()
 })
+
+it('renders a snapshot for `View` with `fullWidth` on `web`', () => {
+  const wrapper = shallow(
+    <View fullWidth />
+  )
+  expect(wrapper).toMatchSnapshot()
+})

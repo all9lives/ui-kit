@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parses a string input into a proper output 1`] = `"proper-16 proper-16"`;
+
+exports[`parses an number input into a proper output 1`] = `"proper-16"`;

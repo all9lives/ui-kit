@@ -1,5 +1,14 @@
-const convert = unit => `${unit / 16}rem`
+import convert from './convert'
+
+const parse = (input) => {
+  if (typeof input === 'number') {
+    return convert(input)
+  }
+  const units = input.split(' ')
+  return units.map(convert).join(' ')
+}
 
 export default {
-  convert
+  convert,
+  parse
 }

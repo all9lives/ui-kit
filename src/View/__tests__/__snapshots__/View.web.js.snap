@@ -17,3 +17,21 @@ exports[`renders a snapshot for \`View\` with \`direction:row\` on \`web\` 1`] =
   direction="row"
 />
 `;
+
+exports[`renders a snapshot for \`View\` with \`fullWidth\` on \`web\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  direction="row"
+/>
+`;
