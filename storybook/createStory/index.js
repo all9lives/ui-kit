@@ -1,11 +1,10 @@
 import React from 'react'
-import { storiesOf, addDecorator } from '@storybook/react'
+import { storiesOf } from '@storybook/react'
 import CenterView from './CenterView'
 
-addDecorator(getStory =>
-  <CenterView>
-    {getStory()}
-  </CenterView>
-)
-
-export default storiesOf
+export default (Component, module) => storiesOf(Component, module)
+  .addDecorator(getStory =>
+    <CenterView>
+      {getStory()}
+    </CenterView>
+  )
