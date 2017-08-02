@@ -4,6 +4,11 @@ This is the UI Kit powered by `storybook` and `styled-components`.
 
 It contains some basic components that we find using them a lot in other projects. We use it as a foundation of other components for both web and app development.
 
+## Demo
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png" width="150">
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/android.png" width="150">
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/ios.png" width="150">
+
 ## Why
 
 A team consists of at least engineers and designers. Hence, the tools those can help each others are important. This UI Kit not only provides design guidelines but components that can be directly used in development.
