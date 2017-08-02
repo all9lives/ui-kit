@@ -5,9 +5,9 @@ This is the UI Kit powered by `storybook` and `styled-components`.
 It contains some basic components that we find using them a lot in other projects. We use it as a foundation of other components for both web and app development.
 
 ## Demo
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png" width="150">
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/android.png" width="150">
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/ios.png" width="150">
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png" width="500">
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/android.png" width="500">
+<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/ios.png" width="500">
 
 ## Why
 
