@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View.web renders a snapshot with \`align:top,left\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`direction:row\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`fullWidth\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: 100%;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`height:120\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height={120}
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`margin:tiny\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 6px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`padding:tiny\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0px;
+  padding: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`View.web renders a snapshot with \`width:120\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: 120px;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width={120}
+/>
+`;

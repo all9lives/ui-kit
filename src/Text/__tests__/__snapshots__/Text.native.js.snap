@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text.native renders a snapshot for \`Text\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#282828"
+  ellipsizeMode="tail"
+  margin={0}
+  size={16}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "fontSize": 16,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;
+
+exports[`Text.native renders a snapshot for \`Text\` with \`color:blue\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="blue"
+  ellipsizeMode="tail"
+  margin={0}
+  size={16}
+  style={
+    Array [
+      Object {
+        "color": "blue",
+        "fontSize": 16,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;
+
+exports[`Text.native renders a snapshot for \`Text\` with \`size:tiny\` on \`native\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#282828"
+  ellipsizeMode="tail"
+  margin={0}
+  size="tiny"
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;
+
+exports[`Text.native renders a snapshot with \`margin:tiny\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#282828"
+  ellipsizeMode="tail"
+  margin="tiny"
+  size={16}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "fontSize": 16,
+        "marginBottom": 6,
+        "marginLeft": 6,
+        "marginRight": 6,
+        "marginTop": 6,
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Text>
+`;

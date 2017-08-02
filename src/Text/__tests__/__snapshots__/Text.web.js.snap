@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text.web renders a snapshot 1`] = `
+.c0 {
+  font-size: 16px;
+  color: #282828;
+  margin: 0px;
+}
+
+<span
+  className="c0"
+  color="#282828"
+  size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
+.c0 {
+  font-size: 16px;
+  color: blue;
+  margin: 0px;
+}
+
+<span
+  className="c0"
+  color="blue"
+  size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
+.c0 {
+  font-size: 16px;
+  color: #282828;
+  margin: 6px;
+}
+
+<span
+  className="c0"
+  color="#282828"
+  size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`Text.web renders a snapshot with \`size:tiny\` 1`] = `
+.c0 {
+  font-size: 12px;
+  color: #282828;
+  margin: 0px;
+}
+
+<span
+  className="c0"
+  color="#282828"
+  size="tiny"
+>
+  Apple
+</span>
+`;
