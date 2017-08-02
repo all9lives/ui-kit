@@ -1,16 +1,155 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders a snapshot for \`View\` with \`direction:row\` on \`native\` 1`] = `
+exports[`View.native renders a snapshot with \`align:top,left\` 1`] = `
 <View
-  align=""
-  direction="row"
+  align="top left"
+  direction="column"
+  margin={0}
+  padding={0}
   style={
     Array [
       Object {
-        "flexDirection": "row",
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
       },
       undefined,
     ]
   }
+/>
+`;
+
+exports[`View.native renders a snapshot with \`direction:row\` 1`] = `
+<View
+  align=""
+  direction="row"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View.native renders a snapshot with \`height:120\` 1`] = `
+<View
+  align=""
+  direction="column"
+  height={120}
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View.native renders a snapshot with \`margin:10\` 1`] = `
+<View
+  align=""
+  direction="column"
+  margin={10}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View.native renders a snapshot with \`padding:10\` 1`] = `
+<View
+  align=""
+  direction="column"
+  margin={0}
+  padding={10}
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View.native renders a snapshot with \`width:120\` 1`] = `
+<View
+  align=""
+  direction="column"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+  width={120}
 />
 `;

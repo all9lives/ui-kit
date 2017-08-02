@@ -1,3 +1,5 @@
 export default {
-  align: ''
+  align: '',
+  margin: 0,
+  padding: 0
 }

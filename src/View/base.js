@@ -1,4 +1,6 @@
 import { css } from 'styled-components'
+import Unit from '../utils/Unit'
+import Spacing from '../utils/Spacing'
 
 const alignItemsMapping = {
   column_left: 'align-items: flex-start;',
@@ -27,6 +29,8 @@ ${justifyContentMapping[`${direction}_${alignList[0]}`] || justifyContentMapping
 const base = css`
   flex-direction: ${props => props.direction};
   ${props => getAlignStyles(props)}
+  margin: ${props => Unit.parse(props.margin, (margin) => Spacing[margin] || margin)};
+  padding: ${props => Unit.parse(props.padding, (padding) => Spacing[padding] || padding)};
 `
 
 export default base
