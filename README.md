@@ -1,6 +1,91 @@
-# This is the UI Kit powered by `storybook` and `styled-components`
-This repository contains some basic components that we find using them a lot in other projects. We use it as a foundation of other components for both web and app development.
+# UI Kit
+
+This is the UI Kit powered by `storybook` and `styled-components`.
+
+It contains some basic components that we find using them a lot in other projects. We use it as a foundation of other components for both web and app development.
+
+## Why
+
+A team consists of at least engineers and designers. Hence, the tools those can help each others are important. This UI Kit not only provides design guidelines but components that can be directly used in development.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+### Prerequisites
+
+```
+git clone https://github.com/Fineighbor/ui-kit.git
+cd ui-kit
+npm install // or yarn install
+```
+
+### Running
+
+Run storybook for web
+```
+npm run storybook:web
+// or
+yarn stroybook:native
+```
+
+Run storybook for native (android & ios)
+```
+npm run storybook:native
+// or
+yarn stroybook:native
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+```
+npm test 
+npm test:watch
+npm test:coverage
+// or
+yarn test
+yarn test:watch
+yarn test:coverage
+```
+
+### And coding style linting
+
+```
+npm run lint:js
+npm run lint:js-fix
+npm run lint:css
+// or
+yarn lint:js
+yarn lint:js-fix
+yarn lint:css
+```
+
+## Generate Template Files
+
+```
+npm run generate:component [COMPONENT_NAME]
+npm run generate:story [STORY_NAME]
+// or
+yarn enerate:component [COMPONENT_NAME]
+yarn generate:story [STORY_NAME]
+```
+
+## Built With
+
+* [storybook](https://storybook.js.org/) - The UI Development Environment You'll ♥️ to use
+* [styled-component](https://www.styled-components.com/) - Visual primitives for the component age.
+* [jest](https://facebook.github.io/jest/) - Delightful JavaScript Testing
 
 ## Known Issues
-- Currently Jest is not resolving files based on `Platform` correctly.
-- Can't use git submodules in react-native project (module duplicated)
+* Props are not filtering out so that all of them are passed to the inner components/elements ([Issue](https://github.com/styled-components/styled-components/issues/439))
+* Currently Jest is not resolving files based on `Platform` correctly. ([Issue](https://github.com/facebook/jest/issues/1370))
+* Can't use this repo as git submodules in react-native project (module duplicated)
+  * On web, forking this repo and make it submodules in any directory you like.
+  * On native, forking this repo and specify it as dependencies in `package.json`.
+  * Or simply copy this repo in your own project and make some adjustments.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
