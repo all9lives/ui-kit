@@ -1,3 +1,3 @@
-import _ from 'lodash'
+import R from 'ramda'
 
-export default (unit, converter = _.identity) => `${converter(unit)}px`
+export default (unit, converter = R.identity) => `${converter(unit)}px`

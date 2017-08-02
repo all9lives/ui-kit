@@ -36,7 +36,12 @@ npm run storybook:native
 yarn stroybook:native
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Build dist source
+```
+npm run build
+// or
+yarn build
+```
 
 ## Running the tests
 
@@ -68,7 +73,7 @@ yarn lint:css
 npm run generate:component [COMPONENT_NAME]
 npm run generate:story [STORY_NAME]
 // or
-yarn enerate:component [COMPONENT_NAME]
+yarn generate:component [COMPONENT_NAME]
 yarn generate:story [STORY_NAME]
 ```
 

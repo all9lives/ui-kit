@@ -1,7 +1,7 @@
-import _ from 'lodash'
+import R from 'ramda'
 import convert from './convert'
 
-const parse = (input, parser = _.identity) => {
+const parse = (input, parser = R.identity) => {
   if (typeof input === 'number') {
     return convert(input, parser)
   }
