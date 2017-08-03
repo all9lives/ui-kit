@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image.native renders a snapshot 1`] = `
+<Image
+  fit="contain"
+  height="100%"
+  size="100%"
+  source={
+    Object {
+      "uri": "",
+    }
+  }
+  src=""
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`Image.native renders a snapshot with \`fit:cover\` 1`] = `
+<Image
+  fit="cover"
+  height="100%"
+  size="100%"
+  source={
+    Object {
+      "uri": "",
+    }
+  }
+  src=""
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "cover",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`Image.native renders a snapshot with \`height:100\` 1`] = `
+<Image
+  fit="contain"
+  height={100}
+  size="100%"
+  source={
+    Object {
+      "uri": "",
+    }
+  }
+  src=""
+  style={
+    Array [
+      Object {
+        "height": 100,
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`Image.native renders a snapshot with \`size:100\` 1`] = `
+<Image
+  fit="contain"
+  height={100}
+  size={100}
+  source={
+    Object {
+      "uri": "",
+    }
+  }
+  src=""
+  style={
+    Array [
+      Object {
+        "height": 100,
+        "resizeMode": "contain",
+        "width": 100,
+      },
+      undefined,
+    ]
+  }
+  width={100}
+/>
+`;
+
+exports[`Image.native renders a snapshot with \`src\` 1`] = `
+<Image
+  fit="contain"
+  height="100%"
+  size="100%"
+  source={
+    Object {
+      "uri": "https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png",
+    }
+  }
+  src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png"
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
+<Image
+  fit="contain"
+  height="100%"
+  size="100%"
+  source={
+    Object {
+      "uri": "",
+    }
+  }
+  src=""
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": 100,
+      },
+      undefined,
+    ]
+  }
+  width={100}
+/>
+`;
