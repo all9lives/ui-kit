@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`converts numbers to values in \`number\` unit 1`] = `"16px"`;
+exports[`Unit.convert.native converts numbers to values in \`number\` unit 1`] = `"16px"`;
+
+exports[`Unit.convert.native does not convert percentage value 1`] = `"10%"`;
