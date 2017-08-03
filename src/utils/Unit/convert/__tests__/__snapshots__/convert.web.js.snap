@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`converts numbers to values in \`rem\` unit 1`] = `"1rem"`;
+exports[`Unit.convert.web converts numbers to values in \`rem\` unit 1`] = `"1rem"`;
+
+exports[`Unit.convert.web does not convert percentage value 1`] = `"10%"`;
