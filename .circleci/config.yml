@@ -23,6 +23,6 @@ jobs:
 
       - run:
           command: |
-            yarn add codecov --dev
+            yarn global add codecov
             yarn test:coverage && codecov
 
