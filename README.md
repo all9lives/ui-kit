@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/Fineighbor/ui-kit.svg?style=shield)](https://circleci.com/gh/Fineighbor/ui-kit)
+[![codecov](https://codecov.io/gh/Fineighbor/ui-kit/graph/badge.svg)](https://codecov.io/gh/Fineighbor/ui-kit)
+
 # UI Kit
 
 This is the UI Kit powered by `storybook` and `styled-components`.
