@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.web renders a snapshot 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+/>
+`;
+
+exports[`Input.web renders a snapshot with \`onChange\` 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+/>
+`;
+
+exports[`Input.web renders a snapshot with \`onChangeText\` 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+/>
+`;
+
+exports[`Input.web renders a snapshot with \`placeholder:Placeholder\` 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+/>
+`;
+
+exports[`Input.web renders a snapshot with \`readOnly\` 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+  readOnly={true}
+/>
+`;
+
+exports[`Input.web renders a snapshot with \`type:password\` 1`] = `
+.c0 {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  box-sizing: border-box;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  placeholder="Placeholder"
+  type="password"
+/>
+`;

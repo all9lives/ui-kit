@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.native renders a snapshot 1`] = `
+<TextInput
+  editable={true}
+  placeholder="Placeholder"
+  secureTextEntry={false}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Input.native renders a snapshot with \`onChange\` 1`] = `
+<TextInput
+  editable={true}
+  onChange={[Function]}
+  placeholder="Placeholder"
+  secureTextEntry={false}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Input.native renders a snapshot with \`onChangeText\` 1`] = `
+<TextInput
+  editable={true}
+  onChangeText={[Function]}
+  placeholder="Placeholder"
+  secureTextEntry={false}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Input.native renders a snapshot with \`placeholder:Placeholder\` 1`] = `
+<TextInput
+  editable={true}
+  placeholder="Placeholder"
+  secureTextEntry={false}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Input.native renders a snapshot with \`readOnly\` 1`] = `
+<TextInput
+  editable={false}
+  placeholder="Placeholder"
+  readOnly={true}
+  secureTextEntry={false}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Input.native renders a snapshot with \`type:password\` 1`] = `
+<TextInput
+  editable={true}
+  keyboardType="default"
+  placeholder="Placeholder"
+  secureTextEntry={true}
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "paddingBottom": 2,
+        "paddingLeft": 6,
+        "paddingRight": 6,
+        "paddingTop": 2,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  type="password"
+/>
+`;

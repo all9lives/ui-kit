@@ -5,7 +5,7 @@ import { shallow } from 'enzyme'
 import MyComponent from '../index.js'
 
 describe('MyComponent.web', () => {
-  it('renders a snapshot for `MyComponent` on `web`', () => {
+  it('renders a snapshot', () => {
     const wrapper = shallow(
       <MyComponent>Apple</MyComponent>
     )

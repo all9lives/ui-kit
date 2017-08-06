@@ -4,7 +4,7 @@ import { shallow } from 'enzyme'
 import MyComponent from '../index.ios.js'
 
 describe('MyComponent.native', () => {
-  it('renders a snapshot for `MyComponent` on `native`', () => {
+  it('renders a snapshot', () => {
     const wrapper = shallow(
       <MyComponent>Apple</MyComponent>
     )

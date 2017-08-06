@@ -4,7 +4,7 @@ import defaultProps from './defaultProps'
 
 const Image = styled.img.attrs(attrs)`
   ${base}
-  object-fit: ${props => props.fit}
+  object-fit: ${props => props.fit};
 `
 Image.defaultProps = {
   ...defaultProps
