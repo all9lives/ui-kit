@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.web renders a snapshot 1`] = `
+.c0 {
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  color: #FFFFFF;
+  background-color: #282828;
+  opacity: 1;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#282828"
+  onClick={[Function]}
+  title="Button"
+>
+  Apple
+</button>
+`;
+
+exports[`Button.web renders a snapshot with \`disabled\` 1`] = `
+.c0 {
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  color: #FFFFFF;
+  background-color: #282828;
+  opacity: 0.4;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#282828"
+  disabled={true}
+  onClick={[Function]}
+  title="Button"
+>
+  Button
+</button>
+`;
+
+exports[`Button.web renders a snapshot with \`onPress\` 1`] = `
+.c0 {
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  color: #FFFFFF;
+  background-color: #282828;
+  opacity: 1;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#282828"
+  onClick={[Function]}
+  title="Button"
+>
+  Button
+</button>
+`;
+
+exports[`Button.web renders a snapshot with \`primary\` 1`] = `
+.c0 {
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  color: #FFFFFF;
+  background-color: #de5656;
+  opacity: 1;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#de5656"
+  onClick={[Function]}
+  title="Button"
+>
+  Button
+</button>
+`;
+
+exports[`Button.web renders a snapshot with \`title:Press\` 1`] = `
+.c0 {
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  color: #FFFFFF;
+  background-color: #282828;
+  opacity: 1;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#282828"
+  onClick={[Function]}
+  title="Press"
+>
+  Press
+</button>
+`;

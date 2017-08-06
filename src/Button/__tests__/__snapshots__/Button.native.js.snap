@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.native renders a snapshot 1`] = `
+<Button
+  color="#282828"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+      },
+      undefined,
+    ]
+  }
+  title="Button"
+>
+  Apple
+</Button>
+`;
+
+exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
+<Button
+  color="#282828"
+  disabled={true}
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+      },
+      undefined,
+    ]
+  }
+  title="Button"
+/>
+`;
+
+exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
+<Button
+  color="#282828"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+      },
+      undefined,
+    ]
+  }
+  title="Button"
+/>
+`;
+
+exports[`Button.native renders a snapshot with \`primary\` 1`] = `
+<Button
+  color="#de5656"
+  onPress={[Function]}
+  primary={true}
+  style={
+    Array [
+      Object {
+        "color": "#de5656",
+      },
+      undefined,
+    ]
+  }
+  title="Button"
+/>
+`;
+
+exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
+<Button
+  color="#282828"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+      },
+      undefined,
+    ]
+  }
+  title="Press"
+/>
+`;

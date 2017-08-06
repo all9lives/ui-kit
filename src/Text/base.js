@@ -6,7 +6,7 @@ import Spacing from '../utils/Spacing'
 
 const base = css`
   font-size: ${props => Unit.convert(Size[props.size] || props.size)};
-  color: ${props => Color[props.color] || props.color};
+  color: ${props => (Color[props.color] || props.color)};
   margin: ${props => Unit.parse(props.margin, (margin) => Spacing[margin] || margin)};
 `
 
