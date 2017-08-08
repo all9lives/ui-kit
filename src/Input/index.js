@@ -4,14 +4,11 @@ import base from './base'
 import defaultProps from './defaultProps'
 
 const Input = styled.input.attrs({
-  onChange: (props) => e => {
+  onChange: props => props.onChange || (e => {
     if (props.onChangeText) {
-      props.onChangeText(e.target.value)
+      return props.onChangeText(e.target.value)
     }
-    if (props.onChange) {
-      props.onChange(e)
-    }
-  }
+  })
 })`
   ${base}
   padding: 0.5rem 0.3rem;

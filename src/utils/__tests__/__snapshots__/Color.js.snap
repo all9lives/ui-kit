@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color does not handle incorrect digits hex color 1`] = `[Error: Invalid HEX color.]`;
+
+exports[`Color inverts 3 digits hex color correctly 1`] = `"#333333"`;
+
+exports[`Color inverts black and white correctly 1`] = `"#000000"`;
+
+exports[`Color inverts hex color correctly 1`] = `"#d7d7d7"`;
+
+exports[`Color inverts hex color even without hash 1`] = `"#333333"`;

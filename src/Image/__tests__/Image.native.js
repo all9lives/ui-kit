@@ -11,9 +11,16 @@ describe('Image.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `src`', () => {
+  it('renders a snapshot with string `src`', () => {
     const wrapper = shallow(
       <Image src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with number `src`', () => {
+    const wrapper = shallow(
+      <Image src={123} />
     )
     expect(wrapper).toMatchSnapshot()
   })

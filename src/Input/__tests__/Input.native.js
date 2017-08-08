@@ -45,4 +45,20 @@ describe('Input.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('triggers onChange', () => {
+    const wrapper = shallow(
+      <Input onChange={() => 'onChanged'} />
+    )
+    const result = wrapper.props().onChange()
+    expect(result).toMatchSnapshot()
+  })
+
+  it('triggers onChangeText', () => {
+    const wrapper = shallow(
+      <Input onChangeText={() => 'onChangedText'} />
+    )
+    const result = wrapper.props().onChangeText()
+    expect(result).toMatchSnapshot()
+  })
 })

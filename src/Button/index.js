@@ -6,7 +6,7 @@ import defaultProps from './defaultProps'
 const Button = styled.button.attrs({
   ...attrs,
   children: props => (props.children || props.title),
-  onClick: props => (props.onPress || props.onClick)
+  onClick: props => (props.onClick || props.onPress)
 })`
   ${base}
   background: none;
