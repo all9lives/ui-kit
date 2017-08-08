@@ -39,4 +39,19 @@ describe('Button.web', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('triggers something when onPressed', () => {
+    const wrapper = shallow(
+      <Button />
+    )
+    wrapper.props().onClick()
+  })
+
+  it('returns something when onPressed', () => {
+    const wrapper = shallow(
+      <Button onPress={() => 'onPressed'} />
+    )
+    const result = wrapper.props().onClick()
+    expect(result).toEqual('onPressed')
+  })
 })

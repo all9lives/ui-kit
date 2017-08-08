@@ -85,3 +85,9 @@ exports[`Input.web renders a snapshot with \`type:password\` 1`] = `
   type="password"
 />
 `;
+
+exports[`Input.web triggers onChange 1`] = `"onChanged"`;
+
+exports[`Input.web triggers onChange without passing functions 1`] = `undefined`;
+
+exports[`Input.web triggers onChangeText 1`] = `"onChangedText"`;
