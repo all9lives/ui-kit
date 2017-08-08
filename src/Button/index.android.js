@@ -4,7 +4,7 @@ import defaultProps from './defaultProps'
 
 const Button = styled.Button.attrs({
   ...attrs,
-  title: props => (props.title || props.children)
+  title: props => (props.children || props.title)
 })`
   ${base}
 `

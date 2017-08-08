@@ -130,3 +130,7 @@ exports[`Input.native renders a snapshot with \`type:password\` 1`] = `
   type="password"
 />
 `;
+
+exports[`Input.native triggers onChange 1`] = `"onChanged"`;
+
+exports[`Input.native triggers onChangeText 1`] = `"onChangedText"`;
