@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FloatLabelInput.native renders a snapshot 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot with \`handleBlur\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot with \`handleFocus\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={true}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
