@@ -16,6 +16,15 @@ It contains some basic components that we find using them a lot in other project
 
 A team consists of at least engineers and designers. Hence, the tools those can help each others are important. This UI Kit not only provides design guidelines but components that can be directly used in development.
 
+## Current Available Components
+
+* Text
+* View
+* Image
+* Button
+* Input
+* FloatLabel
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
