@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FloatLabelInput.AnimatedInput.native renders a snapshot 1`] = `
+<Styled(AnimatedComponent)
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingTop": 10,
+    }
+  }
+/>
+`;
+
+exports[`FloatLabelInput.AnimatedInput.native renders a snapshot with \`value:foo\` 1`] = `
+<Styled(AnimatedComponent)
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingTop": 10,
+    }
+  }
+  value="foo"
+/>
+`;
+
+exports[`FloatLabelInput.AnimatedInput.native renders a snapshot with \`value:foo\` changing to \`value:empty\` 1`] = `
+<Styled(AnimatedComponent)
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingTop": 10,
+    }
+  }
+  value=""
+/>
+`;
+
+exports[`FloatLabelInput.AnimatedInput.native renders a snapshot with \`value:foo\` unchanged 1`] = `
+<Styled(AnimatedComponent)
+  style={
+    Object {
+      "paddingBottom": 10,
+      "paddingTop": 10,
+    }
+  }
+  value="foo"
+/>
+`;
+
+exports[`FloatLabelInput.AnimatedInput.native renders a snapshot with \`value:undefined\` changing to \`value:bar\` 1`] = `
+<Styled(AnimatedComponent)
+  style={
+    Object {
+      "paddingBottom": 2,
+      "paddingTop": 18,
+    }
+  }
+  value="foo"
+/>
+`;
+
+exports[`FloatLabelInput.AnimatedLabel.native renders a snapshot 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "left": 8,
+      "opacity": 0,
+      "position": "absolute",
+      "top": 2,
+      "transform": Array [
+        Object {
+          "translateY": 8,
+        },
+      ],
+    }
+  }
+>
+  <Styled(Styled(Text)) />
+</AnimatedComponent>
+`;
+
+exports[`FloatLabelInput.AnimatedLabel.native renders a snapshot with \`show\` 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "left": 8,
+      "opacity": 1,
+      "position": "absolute",
+      "top": 2,
+      "transform": Array [
+        Object {
+          "translateY": 0,
+        },
+      ],
+    }
+  }
+>
+  <Styled(Styled(Text))
+    show={true}
+  />
+</AnimatedComponent>
+`;
+
+exports[`FloatLabelInput.AnimatedLabel.native renders a snapshot with \`show\` changing to \`show:false\` 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "left": 8,
+      "opacity": 0,
+      "position": "absolute",
+      "top": 2,
+      "transform": Array [
+        Object {
+          "translateY": 8,
+        },
+      ],
+    }
+  }
+>
+  <Styled(Styled(Text))
+    show={false}
+  />
+</AnimatedComponent>
+`;
+
+exports[`FloatLabelInput.AnimatedLabel.native renders a snapshot with \`show\` unchanged 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "left": 8,
+      "opacity": 0,
+      "position": "absolute",
+      "top": 2,
+      "transform": Array [
+        Object {
+          "translateY": 8,
+        },
+      ],
+    }
+  }
+>
+  <Styled(Styled(Text))
+    show={true}
+  />
+</AnimatedComponent>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot with \`handleBlur\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot with \`handleFocus\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={true}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot without \`onBlur\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.native renders a snapshot without \`onFocus\` 1`] = `
+<Styled(Styled(View))>
+  <AnimatedLabel
+    isFocus={true}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </AnimatedLabel>
+  <AnimatedInput
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;

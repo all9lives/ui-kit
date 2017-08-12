@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FloatLabelInput.Input.web renders a snapshot 1`] = `
+.c0 {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+  -webkit-transition-property: padding-top,padding-bottom;
+  transition-property: padding-top,padding-bottom;
+}
+
+<Styled(TextInput)
+  className="c0"
+  placeholder="Placeholder"
+/>
+`;
+
+exports[`FloatLabelInput.Input.web renders a snapshot with \`value:foo\` 1`] = `
+.c0 {
+  position: relative;
+  padding-top: 18px;
+  padding-bottom: 2px;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+  -webkit-transition-property: padding-top,padding-bottom;
+  transition-property: padding-top,padding-bottom;
+}
+
+<Styled(TextInput)
+  className="c0"
+  placeholder="Placeholder"
+  value="foo"
+/>
+`;
+
+exports[`FloatLabelInput.Label.web renders a snapshot 1`] = `
+.c0 {
+  color: #282828;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 8px;
+  opacity: 0;
+  -webkit-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transform: translateY(8px);
+  pointer-events: none;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+  -webkit-transition-property: -webkit-transform,opacity,color;
+  -webkit-transition-property: transform,opacity,color;
+  transition-property: transform,opacity,color;
+}
+
+<Styled(Text)
+  className="c0"
+  color="#282828"
+  margin={0}
+  size={16}
+/>
+`;
+
+exports[`FloatLabelInput.Label.web renders a snapshot with \`show\` 1`] = `
+.c0 {
+  color: #282828;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 8px;
+  opacity: 0.5;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  pointer-events: none;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+  -webkit-transition-property: -webkit-transform,opacity,color;
+  -webkit-transition-property: transform,opacity,color;
+  transition-property: transform,opacity,color;
+}
+
+<Styled(Text)
+  className="c0"
+  color="#282828"
+  margin={0}
+  show={true}
+  size={16}
+/>
+`;
+
+exports[`FloatLabelInput.Label.web renders a snapshot with \`show\` and \`isFocus\` 1`] = `
+.c0 {
+  color: #de5656;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 8px;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  pointer-events: none;
+  -webkit-transition: 300ms ease-in;
+  transition: 300ms ease-in;
+  -webkit-transition-property: -webkit-transform,opacity,color;
+  -webkit-transition-property: transform,opacity,color;
+  transition-property: transform,opacity,color;
+}
+
+<Styled(Text)
+  className="c0"
+  color="#282828"
+  isFocus={true}
+  margin={0}
+  show={true}
+  size={16}
+/>
+`;
+
+exports[`FloatLabelInput.web renders a snapshot 1`] = `
+<Styled(Styled(View))>
+  <Styled(Styled(Text))
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </Styled(Styled(Text))>
+  <Styled(Styled(TextInput))
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.web renders a snapshot with \`handleBlur\` 1`] = `
+<Styled(Styled(View))>
+  <Styled(Styled(Text))
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </Styled(Styled(Text))>
+  <Styled(Styled(TextInput))
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.web renders a snapshot with \`handleFocus\` 1`] = `
+<Styled(Styled(View))>
+  <Styled(Styled(Text))
+    isFocus={true}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </Styled(Styled(Text))>
+  <Styled(Styled(TextInput))
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.web renders a snapshot without \`onBlur\` 1`] = `
+<Styled(Styled(View))>
+  <Styled(Styled(Text))
+    isFocus={false}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </Styled(Styled(Text))>
+  <Styled(Styled(TextInput))
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`FloatLabelInput.web renders a snapshot without \`onFocus\` 1`] = `
+<Styled(Styled(View))>
+  <Styled(Styled(Text))
+    isFocus={true}
+    show={false}
+    size="small"
+  >
+    Placeholder
+  </Styled(Styled(Text))>
+  <Styled(Styled(TextInput))
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+  />
+</Styled(Styled(View))>
+`;

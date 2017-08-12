@@ -64,7 +64,7 @@ exports[`Text.native renders a snapshot for \`Text\` with \`size:tiny\` on \`nat
     Array [
       Object {
         "color": "#282828",
-        "fontSize": 12,
+        "fontSize": 8,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,

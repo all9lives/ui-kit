@@ -1,5 +1,6 @@
 export default {
-  tiny: 12,
+  tiny: 8,
+  small: 12,
   regular: 16,
   large: 20
 }
