@@ -23,7 +23,7 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 * Image
 * Button
 * Input
-* FloatLabel
+* FloatLabelInput
 
 ## Getting Started
 
