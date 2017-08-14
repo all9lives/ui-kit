@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal.styled.web renders a snapshot 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+<Styled(View)
+  align=""
+  className="c0"
+  direction="column"
+  margin={0}
+  padding={0}
+>
+  <Styled(Text)
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    Content
+  </Styled(Text)>
+</Styled(View)>
+`;
+
+exports[`Modal.web renders a snapshot 1`] = `
+<StateProvider>
+  <Styled(Styled(View))>
+    <Styled(Text)
+      color="#282828"
+      margin={0}
+      size={16}
+    >
+      Content
+    </Styled(Text)>
+  </Styled(Styled(View))>
+</StateProvider>
+`;
