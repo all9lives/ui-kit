@@ -31,4 +31,11 @@ describe('Text.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `alignSelf:center`', () => {
+    const wrapper = shallow(
+      <Text alignSelf='center'>Apple</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

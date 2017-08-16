@@ -55,6 +55,7 @@ exports[`FloatLabelInput.Label.web renders a snapshot 1`] = `
 }
 
 <Styled(Text)
+  alignSelf="auto"
   className="c0"
   color="#282828"
   margin={0}
@@ -82,6 +83,7 @@ exports[`FloatLabelInput.Label.web renders a snapshot with \`show\` 1`] = `
 }
 
 <Styled(Text)
+  alignSelf="auto"
   className="c0"
   color="#282828"
   margin={0}
@@ -110,6 +112,7 @@ exports[`FloatLabelInput.Label.web renders a snapshot with \`show\` and \`isFocu
 }
 
 <Styled(Text)
+  alignSelf="auto"
   className="c0"
   color="#282828"
   isFocus={true}

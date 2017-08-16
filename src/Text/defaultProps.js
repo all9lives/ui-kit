@@ -4,5 +4,6 @@ import Size from '../utils/Size'
 export default {
   size: Size.regular,
   color: Color.black,
-  margin: 0
+  margin: 0,
+  alignSelf: 'auto'
 }
