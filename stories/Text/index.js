@@ -1,4 +1,5 @@
 import React from 'react'
+import { action } from '@storybook/addon-actions'
 import createStory from '../../storybook/createStory'
 import Text from '../../src/Text'
 import View from '../../src/View'
@@ -28,4 +29,7 @@ createStory('Text', module)
     <View style={squareStyle}>
       <Text alignSelf='center'>Align Center</Text>
     </View>
+  ))
+  .add('with onPress', () => (
+    <Text onPress={action('Pressed')}>Press Me</Text>
   ))

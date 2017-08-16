@@ -38,4 +38,12 @@ describe('Text.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('returns something when onPressed', () => {
+    const wrapper = shallow(
+      <Text onPress={() => 'onPressed'}>Text Button</Text>
+    )
+    const result = wrapper.props().onPress()
+    expect(result).toEqual('onPressed')
+  })
 })

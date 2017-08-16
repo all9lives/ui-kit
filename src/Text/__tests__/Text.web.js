@@ -39,4 +39,12 @@ describe('Text.web', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('returns something when onPressed', () => {
+    const wrapper = shallow(
+      <Text onPress={() => 'onPressed'}>Text Button</Text>
+    )
+    const result = wrapper.props().onClick()
+    expect(result).toEqual('onPressed')
+  })
 })

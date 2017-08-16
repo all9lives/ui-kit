@@ -8,6 +8,7 @@ exports[`Text.web renders a snapshot 1`] = `
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  cursor: auto;
 }
 
 <span
@@ -27,6 +28,7 @@ exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  cursor: auto;
 }
 
 <span
@@ -46,6 +48,7 @@ exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  cursor: auto;
 }
 
 <span
@@ -65,6 +68,7 @@ exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  cursor: auto;
 }
 
 <span
@@ -84,6 +88,7 @@ exports[`Text.web renders a snapshot with \`size:tiny\` 1`] = `
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+  cursor: auto;
 }
 
 <span
