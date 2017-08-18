@@ -34,6 +34,13 @@ describe('Image.native', () => {
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
+  it('renders a snapshot with number `source`', () => {
+    const wrapper = shallow(
+      <Image source={123} />
+    )
+    expect(diveToBase(wrapper)).toMatchSnapshot()
+  })
+
   it('renders a snapshot with `fit:cover`', () => {
     const wrapper = shallow(
       <Image fit='cover' />

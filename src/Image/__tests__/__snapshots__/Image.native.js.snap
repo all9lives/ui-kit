@@ -80,6 +80,23 @@ exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
 />
 `;
 
+exports[`Image.native renders a snapshot with number \`source\` 1`] = `
+<Image
+  innerRef={[Function]}
+  source={123}
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`Image.native renders a snapshot with number \`src\` 1`] = `
 <Image
   innerRef={[Function]}

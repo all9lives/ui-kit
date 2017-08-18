@@ -48,6 +48,19 @@ exports[`Image.web renders a snapshot with \`size:100\` 1`] = `
 />
 `;
 
+exports[`Image.web renders a snapshot with \`source\` 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+<img
+  className="c0"
+  src="any source"
+/>
+`;
+
 exports[`Image.web renders a snapshot with \`src\` 1`] = `
 .c0 {
   width: 100%;
@@ -57,7 +70,7 @@ exports[`Image.web renders a snapshot with \`src\` 1`] = `
 
 <img
   className="c0"
-  src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png"
+  src="any source"
 />
 `;
 

@@ -16,7 +16,14 @@ describe('Image.web', () => {
 
   it('renders a snapshot with `src`', () => {
     const wrapper = shallow(
-      <Image src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png' />
+      <Image src='any source' />
+    )
+    expect(diveToBase(wrapper)).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `source`', () => {
+    const wrapper = shallow(
+      <Image source='any source' />
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
