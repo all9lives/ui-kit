@@ -31,4 +31,19 @@ describe('Text.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `alignSelf:center`', () => {
+    const wrapper = shallow(
+      <Text alignSelf='center'>Apple</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('returns something when onPressed', () => {
+    const wrapper = shallow(
+      <Text onPress={() => 'onPressed'}>Text Button</Text>
+    )
+    const result = wrapper.props().onPress()
+    expect(result).toEqual('onPressed')
+  })
 })

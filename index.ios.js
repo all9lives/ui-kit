@@ -12,7 +12,10 @@ import {
   View
 } from 'react-native'
 
-export default class core_ui_kit extends Component { // eslint-disable-line camelcase
+type Props = {}
+type State = {}
+
+export default class core_ui_kit extends Component<Props, State> { // eslint-disable-line camelcase
   render () {
     return (
       <View style={styles.container}>

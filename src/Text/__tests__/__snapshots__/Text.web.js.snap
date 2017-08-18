@@ -5,6 +5,30 @@ exports[`Text.web renders a snapshot 1`] = `
   font-size: 16px;
   color: #282828;
   margin: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  cursor: auto;
+}
+
+<span
+  className="c0"
+  color="#282828"
+  size={16}
+>
+  Apple
+</span>
+`;
+
+exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
+.c0 {
+  font-size: 16px;
+  color: #282828;
+  margin: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  cursor: auto;
 }
 
 <span
@@ -21,6 +45,10 @@ exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
   font-size: 16px;
   color: blue;
   margin: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  cursor: auto;
 }
 
 <span
@@ -37,6 +65,10 @@ exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
   font-size: 16px;
   color: #282828;
   margin: 6px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  cursor: auto;
 }
 
 <span
@@ -53,6 +85,10 @@ exports[`Text.web renders a snapshot with \`size:tiny\` 1`] = `
   font-size: 8px;
   color: #282828;
   margin: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  cursor: auto;
 }
 
 <span

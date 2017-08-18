@@ -1,7 +1,10 @@
 import React from 'react'
+import { action } from '@storybook/addon-actions'
 import createStory from '../../storybook/createStory'
 import Text from '../../src/Text'
 import View from '../../src/View'
+
+const squareStyle = { width: 200, height: 200, backgroundColor: 'white' }
 
 createStory('Text', module)
   .add('with Apple', () => <Text>Apple</Text>)
@@ -21,4 +24,12 @@ createStory('Text', module)
       <Text margin='large'>Margin Large</Text>
       <Text margin='large'>Margin Large</Text>
     </View>
+  ))
+  .add('with alignSelf `center`', () => (
+    <View style={squareStyle}>
+      <Text alignSelf='center'>Align Center</Text>
+    </View>
+  ))
+  .add('with onPress', () => (
+    <Text onPress={action('Pressed')}>Press Me</Text>
   ))
