@@ -4,6 +4,7 @@
   "main": "./src/index.js",
   "private": true,
   "scripts": {
+    "prepare": "npm run build && node helpers/prepare.js",
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
     "build": "webpack",
