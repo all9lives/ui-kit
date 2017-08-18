@@ -2,23 +2,25 @@ import React from 'react'
 import createStory from '../../storybook/createStory'
 import Image from '../../src/Image'
 
+const sourceUrl = 'https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+
 createStory('Image', module)
   .add('with fit `contain`', () =>
     <Image
       fit='contain'
-      src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+      src={sourceUrl}
     />
   )
   .add('with fit `cover`', () =>
     <Image
       fit='cover'
-      src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+      src={sourceUrl}
     />
   )
   .add('with size `200`', () =>
     <Image
       size={200}
-      src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+      src={sourceUrl}
     />
   )
   .add('with width `300`, height `200`', () =>
@@ -26,6 +28,11 @@ createStory('Image', module)
       width={300}
       height={200}
       fit='cover'
-      src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+      src={sourceUrl}
+    />
+  )
+  .add('with `source`', () =>
+    <Image
+      source={sourceUrl}
     />
   )
