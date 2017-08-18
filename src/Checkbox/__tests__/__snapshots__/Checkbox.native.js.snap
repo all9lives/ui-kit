@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox.Checkbox.native renders a snapshot 1`] = `
+<Switch
+  disabled={false}
+  onTintColor="#de5656"
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  thumbTintColor="#fafafa"
+  tintColor="#fb9999"
+  value={false}
+/>
+`;
+
+exports[`Checkbox.Checkbox.native renders a snapshot with \`onChange & onValueChange\` 1`] = `
+<Switch
+  disabled={false}
+  onTintColor="#de5656"
+  onValueChange={[Function]}
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  thumbTintColor="#fafafa"
+  tintColor="#fb9999"
+  value={false}
+/>
+`;
+
+exports[`Checkbox.Checkbox.native renders a snapshot with \`onChange\` 1`] = `
+<Switch
+  disabled={false}
+  onTintColor="#de5656"
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  thumbTintColor="#fafafa"
+  tintColor="#fb9999"
+  value={false}
+/>
+`;
+
+exports[`Checkbox.Checkbox.native renders a snapshot with \`value:false\` 1`] = `
+<Switch
+  disabled={false}
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  thumbTintColor="#cacaca"
+  value={false}
+/>
+`;
+
+exports[`Checkbox.Checkbox.native renders a snapshot with \`value:true\` 1`] = `
+<Switch
+  disabled={false}
+  onTintColor="#fb9999"
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  thumbTintColor="#de5656"
+  value={true}
+/>
+`;
+
+exports[`Checkbox.native does not triggers \`handleLabelPress\` 1`] = `null`;
+
+exports[`Checkbox.native renders a snapshot 1`] = `
+<Styled(Styled(View))
+  align="middle"
+>
+  <Styled(Switch)
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  >
+    FOOBAR
+  </Styled(Text)>
+</Styled(Styled(View))>
+`;
+
+exports[`Checkbox.native renders a snapshot with \`onValueChange\` 1`] = `
+<Styled(Styled(View))
+  align="middle"
+>
+  <Styled(Switch)
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`Checkbox.native renders a snapshot without \`onValueChange\` 1`] = `
+<Styled(Styled(View))
+  align="middle"
+>
+  <Styled(Switch)
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  />
+</Styled(Styled(View))>
+`;
+
+exports[`Checkbox.native triggers \`handleLabelPress\` 1`] = `false`;

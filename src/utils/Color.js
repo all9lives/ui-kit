@@ -21,7 +21,9 @@ export const invert = (hex, bw) => {
 }
 
 export default {
+  primary: '#de5656',
+  primary_light: '#fb9999',
   black: '#282828',
   white: '#fafafa',
-  primary: '#de5656'
+  gray: '#cacaca'
 }

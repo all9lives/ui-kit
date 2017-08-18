@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox.Checkbox.web renders a snapshot 1`] = `
+.c0 {
+  position: relative;
+  margin-right: 10px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox.Checkbox.web renders a snapshot with \`onChange & onValueChange\` 1`] = `
+.c0 {
+  position: relative;
+  margin-right: 10px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox.Checkbox.web renders a snapshot with \`onChange\` 1`] = `
+.c0 {
+  position: relative;
+  margin-right: 10px;
+}
+
+<input
+  className="c0"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Checkbox.Checkbox.web renders a snapshot with \`value:true\` 1`] = `
+.c0 {
+  position: relative;
+  margin-right: 10px;
+}
+
+<input
+  checked={true}
+  className="c0"
+  onChange={[Function]}
+  type="checkbox"
+  value={true}
+/>
+`;
+
+exports[`Checkbox.web does not triggers \`handleLabelPress\` 1`] = `null`;
+
+exports[`Checkbox.web renders a snapshot 1`] = `
+<Styled(View)
+  align="middle"
+  direction="column"
+  margin={0}
+  padding={0}
+>
+  <styled.input
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  >
+    FOOBAR
+  </Styled(Text)>
+</Styled(View)>
+`;
+
+exports[`Checkbox.web renders a snapshot with \`onValueChange\` 1`] = `
+<Styled(View)
+  align="middle"
+  direction="column"
+  margin={0}
+  padding={0}
+>
+  <styled.input
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  />
+</Styled(View)>
+`;
+
+exports[`Checkbox.web renders a snapshot without \`onValueChange\` 1`] = `
+<Styled(View)
+  align="middle"
+  direction="column"
+  margin={0}
+  padding={0}
+>
+  <styled.input
+    onValueChange={[Function]}
+  />
+  <Styled(Text)
+    alignSelf="center"
+    color="#282828"
+    margin={0}
+    onPress={[Function]}
+    size={16}
+  />
+</Styled(View)>
+`;
+
+exports[`Checkbox.web triggers \`handleLabelPress\` 1`] = `false`;
