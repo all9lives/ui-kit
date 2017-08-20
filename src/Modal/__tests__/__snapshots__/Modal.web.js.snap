@@ -1,5 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Modal.StateProvider.web renders a snapshot 1`] = `null`;
+
+exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to false 1`] = `
+<Styled(Text)
+  alignSelf="auto"
+  color="#282828"
+  isOpen={true}
+  isOpening={false}
+  margin={0}
+  size={16}
+>
+  Child
+</Styled(Text)>
+`;
+
+exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to true 1`] = `
+<Styled(Text)
+  alignSelf="auto"
+  color="#282828"
+  isOpen={true}
+  isOpening={false}
+  margin={0}
+  size={16}
+>
+  Child
+</Styled(Text)>
+`;
+
+exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` unchanged 1`] = `
+<Styled(Text)
+  alignSelf="auto"
+  color="#282828"
+  isOpen={true}
+  isOpening={false}
+  margin={0}
+  size={16}
+>
+  Child
+</Styled(Text)>
+`;
+
 exports[`Modal.styled.web renders a snapshot 1`] = `
 .c0 {
   position: fixed;
@@ -30,8 +71,56 @@ exports[`Modal.styled.web renders a snapshot 1`] = `
 </Styled(View)>
 `;
 
+exports[`Modal.styled.web renders a snapshot with \`isOpening\` 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+<Styled(View)
+  align=""
+  className="c0"
+  direction="column"
+  isOpening={true}
+  margin={0}
+  padding={0}
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    Content
+  </Styled(Text)>
+</Styled(View)>
+`;
+
 exports[`Modal.web renders a snapshot 1`] = `
 <StateProvider>
+  <Styled(Styled(View))>
+    <Styled(Text)
+      alignSelf="auto"
+      color="#282828"
+      margin={0}
+      size={16}
+    >
+      Content
+    </Styled(Text)>
+  </Styled(Styled(View))>
+</StateProvider>
+`;
+
+exports[`Modal.web renders a snapshot with \`isOpen\` changed to true 1`] = `
+<StateProvider
+  isOpen={true}
+>
   <Styled(Styled(View))>
     <Styled(Text)
       alignSelf="auto"
