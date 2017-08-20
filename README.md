@@ -24,6 +24,9 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 * Button
 * Input
 * FloatLabelInput
+* Checkbox
+* Icon
+* Modal
 
 ## Getting Started
 
