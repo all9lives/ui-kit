@@ -20,6 +20,7 @@ exports[`Modal.styled.web renders a snapshot 1`] = `
   padding={0}
 >
   <Styled(Text)
+    alignSelf="auto"
     color="#282828"
     margin={0}
     size={16}
@@ -33,6 +34,7 @@ exports[`Modal.web renders a snapshot 1`] = `
 <StateProvider>
   <Styled(Styled(View))>
     <Styled(Text)
+      alignSelf="auto"
       color="#282828"
       margin={0}
       size={16}

@@ -12,6 +12,7 @@ exports[`Modal.native renders a snapshot 1`] = `
   visible={true}
 >
   <Styled(Text)
+    alignSelf="auto"
     color="#282828"
     margin={0}
     size={16}
