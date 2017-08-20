@@ -2,15 +2,7 @@
 
 exports[`Image.native renders a snapshot 1`] = `
 <Image
-  fit="contain"
-  height="100%"
-  size="100%"
-  source={
-    Object {
-      "uri": "",
-    }
-  }
-  src=""
+  innerRef={[Function]}
   style={
     Array [
       Object {
@@ -21,21 +13,12 @@ exports[`Image.native renders a snapshot 1`] = `
       undefined,
     ]
   }
-  width="100%"
 />
 `;
 
 exports[`Image.native renders a snapshot with \`fit:cover\` 1`] = `
 <Image
-  fit="cover"
-  height="100%"
-  size="100%"
-  source={
-    Object {
-      "uri": "",
-    }
-  }
-  src=""
+  innerRef={[Function]}
   style={
     Array [
       Object {
@@ -46,21 +29,12 @@ exports[`Image.native renders a snapshot with \`fit:cover\` 1`] = `
       undefined,
     ]
   }
-  width="100%"
 />
 `;
 
 exports[`Image.native renders a snapshot with \`height:100\` 1`] = `
 <Image
-  fit="contain"
-  height={100}
-  size="100%"
-  source={
-    Object {
-      "uri": "",
-    }
-  }
-  src=""
+  innerRef={[Function]}
   style={
     Array [
       Object {
@@ -71,21 +45,12 @@ exports[`Image.native renders a snapshot with \`height:100\` 1`] = `
       undefined,
     ]
   }
-  width="100%"
 />
 `;
 
 exports[`Image.native renders a snapshot with \`size:100\` 1`] = `
 <Image
-  fit="contain"
-  height={100}
-  size={100}
-  source={
-    Object {
-      "uri": "",
-    }
-  }
-  src=""
+  innerRef={[Function]}
   style={
     Array [
       Object {
@@ -96,21 +61,12 @@ exports[`Image.native renders a snapshot with \`size:100\` 1`] = `
       undefined,
     ]
   }
-  width={100}
 />
 `;
 
 exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
 <Image
-  fit="contain"
-  height="100%"
-  size="100%"
-  source={
-    Object {
-      "uri": "",
-    }
-  }
-  src=""
+  innerRef={[Function]}
   style={
     Array [
       Object {
@@ -121,17 +77,30 @@ exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
       undefined,
     ]
   }
-  width={100}
+/>
+`;
+
+exports[`Image.native renders a snapshot with number \`source\` 1`] = `
+<Image
+  innerRef={[Function]}
+  source={123}
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
 />
 `;
 
 exports[`Image.native renders a snapshot with number \`src\` 1`] = `
 <Image
-  fit="contain"
-  height="100%"
-  size="100%"
+  innerRef={[Function]}
   source={123}
-  src={123}
   style={
     Array [
       Object {
@@ -142,21 +111,17 @@ exports[`Image.native renders a snapshot with number \`src\` 1`] = `
       undefined,
     ]
   }
-  width="100%"
 />
 `;
 
-exports[`Image.native renders a snapshot with string \`src\` 1`] = `
+exports[`Image.native renders a snapshot with string \`source\` 1`] = `
 <Image
-  fit="contain"
-  height="100%"
-  size="100%"
+  innerRef={[Function]}
   source={
     Object {
       "uri": "https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png",
     }
   }
-  src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png"
   style={
     Array [
       Object {
@@ -167,6 +132,26 @@ exports[`Image.native renders a snapshot with string \`src\` 1`] = `
       undefined,
     ]
   }
-  width="100%"
+/>
+`;
+
+exports[`Image.native renders a snapshot with string \`src\` 1`] = `
+<Image
+  innerRef={[Function]}
+  source={
+    Object {
+      "uri": "https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "resizeMode": "contain",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
 />
 `;

@@ -9,9 +9,6 @@ exports[`Image.web renders a snapshot 1`] = `
 
 <img
   className="c0"
-  height="100%"
-  size="100%"
-  width="100%"
 />
 `;
 
@@ -24,9 +21,6 @@ exports[`Image.web renders a snapshot with \`fit:cover\` 1`] = `
 
 <img
   className="c0"
-  height="100%"
-  size="100%"
-  width="100%"
 />
 `;
 
@@ -39,9 +33,6 @@ exports[`Image.web renders a snapshot with \`height:100\` 1`] = `
 
 <img
   className="c0"
-  height={100}
-  size="100%"
-  width="100%"
 />
 `;
 
@@ -54,9 +45,19 @@ exports[`Image.web renders a snapshot with \`size:100\` 1`] = `
 
 <img
   className="c0"
-  height={100}
-  size={100}
-  width={100}
+/>
+`;
+
+exports[`Image.web renders a snapshot with \`source\` 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+<img
+  className="c0"
+  src="any source"
 />
 `;
 
@@ -69,10 +70,7 @@ exports[`Image.web renders a snapshot with \`src\` 1`] = `
 
 <img
   className="c0"
-  height="100%"
-  size="100%"
-  src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png"
-  width="100%"
+  src="any source"
 />
 `;
 
@@ -85,8 +83,5 @@ exports[`Image.web renders a snapshot with \`width:100\` 1`] = `
 
 <img
   className="c0"
-  height="100%"
-  size="100%"
-  width={100}
 />
 `;

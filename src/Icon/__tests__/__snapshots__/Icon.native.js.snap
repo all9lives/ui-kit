@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon.native renders a snapshot 1`] = `
+<mapProps(Styled(Image))
+  innerRef={[Function]}
+  size={16}
+  src="any source"
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Icon.native renders a snapshot with \`size:large\` 1`] = `
+<mapProps(Styled(Image))
+  innerRef={[Function]}
+  size="large"
+  src="any source"
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;

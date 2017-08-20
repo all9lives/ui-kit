@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal.native renders a snapshot 1`] = `
+<Component
+  hardwareAccelerated={false}
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+  visible={true}
+>
+  <Styled(Text)
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    Content
+  </Styled(Text)>
+</Component>
+`;
