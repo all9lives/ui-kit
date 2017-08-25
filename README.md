@@ -19,12 +19,20 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 ## Current Available Components
 
 * Text
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Text.png" width="500">
 * View
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/View.png" width="500">
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/View_align.png" width="500">
 * Image
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Image.png" width="500">
 * Button
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Button.png" width="500">
 * Input
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Input.png" width="500">
 * FloatLabelInput
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelInput.png" width="500">
 * Checkbox
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Checkbox.png" width="500">
 * Icon
 * Modal
 
