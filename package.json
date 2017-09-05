@@ -1,10 +1,10 @@
 {
   "name": "core_ui_kit",
   "version": "1.0.11",
-  "main": "./src/index.js",
+  "main": "./lib/main.js",
   "private": true,
   "scripts": {
-    "prepare": "npm run build && node helpers/prepare.js",
+    "prepare": "npm run build",
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
     "build": "webpack",
