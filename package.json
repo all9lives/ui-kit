@@ -53,7 +53,7 @@
     "lint-staged": "^4.2.1",
     "ncu": "^0.2.1",
     "npm-check-updates": "^2.12.1",
-    "react-test-renderer": "^15.6.1",
+    "react-test-renderer": "16.0.0-beta.5",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3",
     "stylelint": "^8.1.1",
