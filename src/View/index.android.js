@@ -1,8 +1,13 @@
 import styled from 'styled-components/native'
+import { View as NativeView } from 'react-native'
 import base from './base'
 import defaultProps from './defaultProps'
+import { filterProps } from '../utils/Misc'
 
-const View = styled.View`
+export const Base = filterProps(NativeView, ['direction'])
+Base.displayName = 'View'
+
+const View = styled(Base)`
   ${base}
 `
 View.defaultProps = {

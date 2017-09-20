@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import React from 'react'
 import { shallow } from 'enzyme'
-import FloatLabelInput, { AnimatedInput, AnimatedLabel } from '../index.ios.js'
+import FloatLabelInput, { Container, AnimatedInput, AnimatedLabel } from '../index.ios.js'
 
 jest.mock('Animated', () => {
   const ActualAnimated = require.requireActual('Animated')
@@ -95,6 +95,15 @@ describe('FloatLabelInput.AnimatedLabel.native', () => {
       , { lifecycleExperimental: true })
     wrapper.setProps({ show: true })
     wrapper.update()
+    expect(wrapper).toMatchSnapshot()
+  })
+})
+
+describe('FloatLabelInput.Container.native', () => {
+  it('renders a snapshot', () => {
+    const wrapper = shallow(
+      <Container />
+    )
     expect(wrapper).toMatchSnapshot()
   })
 })

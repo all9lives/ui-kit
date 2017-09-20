@@ -145,6 +145,25 @@ exports[`FloatLabelInput.AnimatedLabel.native renders a snapshot with \`show\` u
 </AnimatedComponent>
 `;
 
+exports[`FloatLabelInput.Container.native renders a snapshot 1`] = `
+<Styled(View)
+  align=""
+  direction="column"
+  innerRef={[Function]}
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`FloatLabelInput.native renders a snapshot 1`] = `
 <Styled(Styled(View))>
   <AnimatedLabel
