@@ -9,6 +9,7 @@ export const base = {
 export default {
   main: {
     ...base.main,
+    display: 'flex',
     height: '100vh',
     backgroundColor: '#e0ecff'
   }

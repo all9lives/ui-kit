@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { View } from 'react-native'
 import style from './style'
 
 export default function CenterView (props) {
   return (
-    <div style={style.main}>
+    <View style={style.main}>
       {props.children}
-    </div>
+    </View>
   )
 }
 
