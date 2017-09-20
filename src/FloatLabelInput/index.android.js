@@ -6,7 +6,7 @@ import View from '../View'
 import BaseInput from '../Input'
 import Text from '../Text'
 
-const Container = styled(View)`
+export const Container = styled(View)`
   ${base}
 `
 

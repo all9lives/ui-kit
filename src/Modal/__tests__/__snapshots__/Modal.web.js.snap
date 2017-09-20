@@ -2,18 +2,7 @@
 
 exports[`Modal.StateProvider.web renders a snapshot 1`] = `null`;
 
-exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to false 1`] = `
-<Styled(Text)
-  alignSelf="auto"
-  color="#282828"
-  isOpen={true}
-  isOpening={false}
-  margin={0}
-  size={16}
->
-  Child
-</Styled(Text)>
-`;
+exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to false 1`] = `null`;
 
 exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to true 1`] = `
 <Styled(Text)

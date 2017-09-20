@@ -5,6 +5,7 @@ import Color from '../utils/Color'
 
 const base = css`
   position: relative;
+  width: 100%;
 `
 
 export const labelBase = css`
