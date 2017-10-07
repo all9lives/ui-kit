@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Modal.StateProvider.web renders a snapshot 1`] = `null`;
+exports[`Modal.StateProvider.web renders a snapshot 1`] = `""`;
 
-exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to false 1`] = `null`;
+exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to false 1`] = `""`;
 
 exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to true 1`] = `
 <Styled(Text)
