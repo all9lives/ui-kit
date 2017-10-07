@@ -53,8 +53,8 @@ describe('Modal.StateProvider.web', () => {
     , { lifecycleExperimental: true })
     jest.useFakeTimers()
     wrapper.setProps({ isOpen: false })
-    wrapper.update()
     jest.runAllTimers()
+    wrapper.update()
     expect(wrapper).toMatchSnapshot()
   })
 
