@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondaryScreen.native renders a snapshot 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = `
+<BaseComponent
+  actionButtons={
+    Array [
+      <Styled(Text)
+        alignSelf="auto"
+        color="#282828"
+        margin={0}
+        size={16}
+      >
+        1
+      </Styled(Text)>,
+      <Styled(Text)
+        alignSelf="auto"
+        color="#282828"
+        margin={0}
+        size={16}
+      >
+        2
+      </Styled(Text)>,
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="MyTitle"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
