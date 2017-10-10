@@ -12,13 +12,13 @@ const TRANSITION_TIME = 300
 const AnimatedView = Animated.createAnimatedComponent(RNView)
 const AnimatedText = Animated.createAnimatedComponent(RNText)
 
-export const Header = ({ toggleHeader, headerStyle, actionButtons }) => (
+export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress }) => (
   <View
     style={[styles.header, toggleHeader && styles.shadow, headerStyle]}
     align='middle'
     direction='row'
   >
-    <TouchableOpacity>
+    <TouchableOpacity onPress={onBackPress}>
       <View style={styles.backBtn} align='center middle'>
         <Text>{'<'}</Text>
       </View>
@@ -57,7 +57,7 @@ class BaseComponent extends Component {
   }
   render () {
     const { toggleHeader } = this.state
-    const { headerStyle, title, children, actionButtons } = this.props
+    const { headerStyle, title, children, actionButtons, onBackPress } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
@@ -76,6 +76,7 @@ class BaseComponent extends Component {
           toggleHeader={toggleHeader}
           headerStyle={headerStyle}
           actionButtons={actionButtons}
+          onBackPress={onBackPress}
         />
         <AnimatedView
           style={[styles.title, { top: animatedTop, left: animatedLeft }]}
