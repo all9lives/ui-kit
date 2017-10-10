@@ -36,8 +36,7 @@ export default new StyleSheet({
     ...Shadow.normal()
   },
   body: {
-    marginTop: HEADER_HEIGHT + TITLE_HEIGHT * 1.2,
-    padding: SCREEN_PADDING
+    marginTop: HEADER_HEIGHT + TITLE_HEIGHT * 1.2
   },
   backBtn: {
     width: HEADER_HEIGHT,
