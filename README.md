@@ -35,6 +35,9 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Checkbox.png" width="500">
 * Icon
 * Modal
+* SecondaryScreen
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_1.png" width="500">
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
 
 ## Getting Started
 
