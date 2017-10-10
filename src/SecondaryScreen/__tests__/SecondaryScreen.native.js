@@ -29,4 +29,13 @@ describe('SecondaryScreen.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `onBackPress`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen onBackPress={() => console.log('onBackPressed')}>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
