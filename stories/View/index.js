@@ -37,3 +37,9 @@ createStory('View', module)
       <Text>Height 120</Text>
     </View>
   ))
+  .add('with grow `1:2`', () => (
+    <View direction='row'>
+      <View grow={1}><Text>Grow 1</Text></View>
+      <View grow={2}><Text>Grow 2</Text></View>
+    </View>
+  ))

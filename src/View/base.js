@@ -28,6 +28,7 @@ ${justifyContentMapping[`${direction}_${alignList[0]}`] || justifyContentMapping
 
 const base = css`
   flex-direction: ${props => props.direction};
+  ${props => props.grow && `flex-grow: ${props.grow};`}
   ${props => getAlignStyles(props)}
   margin: ${props => Unit.parse(props.margin, (margin) => Spacing[margin] || margin)};
   padding: ${props => Unit.parse(props.padding, (padding) => Spacing[padding] || padding)};
