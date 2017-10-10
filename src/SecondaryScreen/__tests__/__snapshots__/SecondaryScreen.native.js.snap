@@ -67,6 +67,31 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
 </BaseComponent>
 `;
 
+exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  onBackPress={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#282828"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
 exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
 <BaseComponent
   actionButtons={Array []}
