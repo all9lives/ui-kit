@@ -7,7 +7,7 @@ exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to f
 exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to true 1`] = `
 <Styled(Text)
   alignSelf="auto"
-  color="#282828"
+  color="#191919"
   isOpen={true}
   isOpening={false}
   margin={0}
@@ -20,7 +20,7 @@ exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` changed to t
 exports[`Modal.StateProvider.web renders a snapshot with \`isOpen\` unchanged 1`] = `
 <Styled(Text)
   alignSelf="auto"
-  color="#282828"
+  color="#191919"
   isOpen={true}
   isOpening={false}
   margin={0}
@@ -51,7 +51,7 @@ exports[`Modal.styled.web renders a snapshot 1`] = `
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >
@@ -82,7 +82,7 @@ exports[`Modal.styled.web renders a snapshot with \`isOpening\` 1`] = `
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >
@@ -96,7 +96,7 @@ exports[`Modal.web renders a snapshot 1`] = `
   <Styled(Styled(View))>
     <Styled(Text)
       alignSelf="auto"
-      color="#282828"
+      color="#191919"
       margin={0}
       size={16}
     >
@@ -113,7 +113,7 @@ exports[`Modal.web renders a snapshot with \`isOpen\` changed to true 1`] = `
   <Styled(Styled(View))>
     <Styled(Text)
       alignSelf="auto"
-      color="#282828"
+      color="#191919"
       margin={0}
       size={16}
     >

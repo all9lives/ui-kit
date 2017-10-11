@@ -15,7 +15,7 @@ exports[`SecondaryScreen.native renders a snapshot 1`] = `
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >
@@ -30,7 +30,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
     Array [
       <Styled(Text)
         alignSelf="auto"
-        color="#282828"
+        color="#191919"
         margin={0}
         size={16}
       >
@@ -38,7 +38,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
       </Styled(Text)>,
       <Styled(Text)
         alignSelf="auto"
-        color="#282828"
+        color="#191919"
         margin={0}
         size={16}
       >
@@ -58,7 +58,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >
@@ -83,7 +83,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >
@@ -107,7 +107,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >

@@ -5,7 +5,7 @@ exports[`Text.native renders a snapshot for \`Text\` on \`native\` 1`] = `
   accessible={true}
   alignSelf="auto"
   allowFontScaling={true}
-  color="#282828"
+  color="#191919"
   disabled={false}
   ellipsizeMode="tail"
   margin={0}
@@ -14,7 +14,7 @@ exports[`Text.native renders a snapshot for \`Text\` on \`native\` 1`] = `
     Array [
       Object {
         "alignSelf": "auto",
-        "color": "#282828",
+        "color": "#191919",
         "fontSize": 16,
         "marginBottom": 0,
         "marginLeft": 0,
@@ -92,7 +92,7 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
   accessible={true}
   alignSelf="center"
   allowFontScaling={true}
-  color="#282828"
+  color="#191919"
   disabled={false}
   ellipsizeMode="tail"
   margin={0}
@@ -101,7 +101,7 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
     Array [
       Object {
         "alignSelf": "center",
-        "color": "#282828",
+        "color": "#191919",
         "fontSize": 16,
         "marginBottom": 0,
         "marginLeft": 0,
@@ -116,26 +116,26 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
 </Text>
 `;
 
-exports[`Text.native renders a snapshot with \`margin:tiny\` 1`] = `
+exports[`Text.native renders a snapshot with \`margin:0.5\` 1`] = `
 <Text
   accessible={true}
   alignSelf="auto"
   allowFontScaling={true}
-  color="#282828"
+  color="#191919"
   disabled={false}
   ellipsizeMode="tail"
-  margin="tiny"
+  margin={0.5}
   size={16}
   style={
     Array [
       Object {
         "alignSelf": "auto",
-        "color": "#282828",
+        "color": "#191919",
         "fontSize": 16,
-        "marginBottom": 6,
-        "marginLeft": 6,
-        "marginRight": 6,
-        "marginTop": 6,
+        "marginBottom": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 5,
       },
       undefined,
     ]

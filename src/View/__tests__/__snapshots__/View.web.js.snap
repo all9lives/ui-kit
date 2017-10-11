@@ -100,12 +100,12 @@ exports[`View.web renders a snapshot with \`height:120\` 1`] = `
 />
 `;
 
-exports[`View.web renders a snapshot with \`margin:tiny\` 1`] = `
+exports[`View.web renders a snapshot with \`margin:0.5\` 1`] = `
 .c0 {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  margin: 6px;
+  margin: 5px;
   padding: 0px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -123,13 +123,13 @@ exports[`View.web renders a snapshot with \`margin:tiny\` 1`] = `
 />
 `;
 
-exports[`View.web renders a snapshot with \`padding:tiny\` 1`] = `
+exports[`View.web renders a snapshot with \`padding:0.5\` 1`] = `
 .c0 {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   margin: 0px;
-  padding: 6px;
+  padding: 5px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

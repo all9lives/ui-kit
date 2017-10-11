@@ -13,16 +13,16 @@ createStory('Text', module)
   .add('with size `large`', () => <Text size='large'>Large</Text>)
   .add('with color `white`', () => <Text color='white'>White</Text>)
   .add('with color `primary`', () => <Text color='primary'>Primary</Text>)
-  .add('with margin `tiny`', () => (
+  .add('with margin `0.5`', () => (
     <View>
-      <Text margin='tiny'>Margin Tiny</Text>
-      <Text margin='tiny'>Margin Tiny</Text>
+      <Text margin={0.5}>Margin 0.5x</Text>
+      <Text margin={0.5}>Margin 0.5x</Text>
     </View>
   ))
-  .add('with margin `large`', () => (
+  .add('with margin `2`', () => (
     <View>
-      <Text margin='large'>Margin Large</Text>
-      <Text margin='large'>Margin Large</Text>
+      <Text margin={2}>Margin 2x</Text>
+      <Text margin={2}>Margin 2x</Text>
     </View>
   ))
   .add('with alignSelf `center`', () => (

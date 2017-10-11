@@ -3,7 +3,7 @@
 exports[`Text.web renders a snapshot 1`] = `
 .c0 {
   font-size: 16px;
-  color: #282828;
+  color: #191919;
   margin: 0px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
@@ -13,7 +13,7 @@ exports[`Text.web renders a snapshot 1`] = `
 
 <span
   className="c0"
-  color="#282828"
+  color="#191919"
   size={16}
 >
   Apple
@@ -23,7 +23,7 @@ exports[`Text.web renders a snapshot 1`] = `
 exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
 .c0 {
   font-size: 16px;
-  color: #282828;
+  color: #191919;
   margin: 0px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -33,7 +33,7 @@ exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
 
 <span
   className="c0"
-  color="#282828"
+  color="#191919"
   size={16}
 >
   Apple
@@ -63,8 +63,8 @@ exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
 exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
 .c0 {
   font-size: 16px;
-  color: #282828;
-  margin: 6px;
+  color: #191919;
+  margin: NaNpx;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
@@ -73,7 +73,7 @@ exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
 
 <span
   className="c0"
-  color="#282828"
+  color="#191919"
   size={16}
 >
   Apple
@@ -82,8 +82,8 @@ exports[`Text.web renders a snapshot with \`margin:tiny\` 1`] = `
 
 exports[`Text.web renders a snapshot with \`size:tiny\` 1`] = `
 .c0 {
-  font-size: 8px;
-  color: #282828;
+  font-size: tinypx;
+  color: #191919;
   margin: 0px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
@@ -93,7 +93,7 @@ exports[`Text.web renders a snapshot with \`size:tiny\` 1`] = `
 
 <span
   className="c0"
-  color="#282828"
+  color="#191919"
   size="tiny"
 >
   Apple

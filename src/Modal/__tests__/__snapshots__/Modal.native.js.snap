@@ -13,7 +13,7 @@ exports[`Modal.native renders a snapshot 1`] = `
 >
   <Styled(Text)
     alignSelf="auto"
-    color="#282828"
+    color="#191919"
     margin={0}
     size={16}
   >

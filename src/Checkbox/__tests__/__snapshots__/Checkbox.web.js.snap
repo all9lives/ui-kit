@@ -68,7 +68,7 @@ exports[`Checkbox.web renders a snapshot 1`] = `
   />
   <Styled(Text)
     alignSelf="center"
-    color="#282828"
+    color="#191919"
     margin={0}
     onPress={[Function]}
     size={16}
@@ -90,7 +90,7 @@ exports[`Checkbox.web renders a snapshot with \`onValueChange\` 1`] = `
   />
   <Styled(Text)
     alignSelf="center"
-    color="#282828"
+    color="#191919"
     margin={0}
     onPress={[Function]}
     size={16}
@@ -110,7 +110,7 @@ exports[`Checkbox.web renders a snapshot without \`onValueChange\` 1`] = `
   />
   <Styled(Text)
     alignSelf="center"
-    color="#282828"
+    color="#191919"
     margin={0}
     onPress={[Function]}
     size={16}
