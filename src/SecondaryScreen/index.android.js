@@ -57,7 +57,7 @@ class BaseComponent extends Component {
   }
   render () {
     const { toggleHeader } = this.state
-    const { headerStyle, title, children, actionButtons, onBackPress } = this.props
+    const { headerStyle, bodyStyle, title, children, actionButtons, onBackPress } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
@@ -88,7 +88,8 @@ class BaseComponent extends Component {
           </AnimatedText>
         </AnimatedView>
         <ScrollView
-          contentContainerStyle={styles.body}
+          style={styles.scrollable}
+          contentContainerStyle={[styles.body, bodyStyle]}
           onScroll={this.handleScroll}
           scrollEventThrottle={16}
         >
