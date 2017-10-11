@@ -1,5 +1,4 @@
-import { Platform } from 'react-native'
-import Dimensions from 'Dimensions'
+import { Platform, Dimensions } from 'react-native'
 
 const SCREEN_HEIGHT_ADJUST = Platform.OS === 'ios' ? 0 : 25
 
