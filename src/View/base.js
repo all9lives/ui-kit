@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 import Unit from '../utils/Unit'
-import Spacing from '../utils/Spacing'
+import Size from '../utils/Size'
 
 const alignItemsMapping = {
   column_left: 'align-items: flex-start;',
@@ -30,8 +30,8 @@ const base = css`
   flex-direction: ${props => props.direction};
   ${props => props.grow && `flex-grow: ${props.grow};`}
   ${props => getAlignStyles(props)}
-  margin: ${props => Unit.parse(props.margin, (margin) => Spacing[margin] || margin)};
-  padding: ${props => Unit.parse(props.padding, (padding) => Spacing[padding] || padding)};
+  margin: ${props => Unit.parse(props.margin, (margin) => margin * Size.spacing)};
+  padding: ${props => Unit.parse(props.padding, (padding) => padding * Size.spacing)};
 `
 
 export default base

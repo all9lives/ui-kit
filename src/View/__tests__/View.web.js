@@ -40,16 +40,16 @@ describe('View.web', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `margin:tiny`', () => {
+  it('renders a snapshot with `margin:0.5`', () => {
     const wrapper = shallow(
-      <View margin='tiny' />
+      <View margin={0.5} />
     )
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `padding:tiny`', () => {
+  it('renders a snapshot with `padding:0.5`', () => {
     const wrapper = shallow(
-      <View padding='tiny' />
+      <View padding={0.5} />
     )
     expect(wrapper).toMatchSnapshot()
   })

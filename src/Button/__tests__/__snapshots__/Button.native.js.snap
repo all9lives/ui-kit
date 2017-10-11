@@ -2,12 +2,12 @@
 
 exports[`Button.native renders a snapshot 1`] = `
 <Button
-  color="#282828"
+  color="#191919"
   onPress={[Function]}
   style={
     Array [
       Object {
-        "color": "#282828",
+        "color": "#191919",
       },
       undefined,
     ]
@@ -20,13 +20,13 @@ exports[`Button.native renders a snapshot 1`] = `
 
 exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
 <Button
-  color="#282828"
+  color="#191919"
   disabled={true}
   onPress={[Function]}
   style={
     Array [
       Object {
-        "color": "#282828",
+        "color": "#191919",
       },
       undefined,
     ]
@@ -37,12 +37,12 @@ exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
 
 exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
 <Button
-  color="#282828"
+  color="#191919"
   onPress={[Function]}
   style={
     Array [
       Object {
-        "color": "#282828",
+        "color": "#191919",
       },
       undefined,
     ]
@@ -53,13 +53,13 @@ exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
 
 exports[`Button.native renders a snapshot with \`primary\` 1`] = `
 <Button
-  color="#de5656"
+  color="#b71c1c"
   onPress={[Function]}
   primary={true}
   style={
     Array [
       Object {
-        "color": "#de5656",
+        "color": "#b71c1c",
       },
       undefined,
     ]
@@ -70,12 +70,12 @@ exports[`Button.native renders a snapshot with \`primary\` 1`] = `
 
 exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
 <Button
-  color="#282828"
+  color="#191919"
   onPress={[Function]}
   style={
     Array [
       Object {
-        "color": "#282828",
+        "color": "#191919",
       },
       undefined,
     ]

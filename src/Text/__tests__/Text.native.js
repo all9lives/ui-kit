@@ -25,9 +25,9 @@ describe('Text.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `margin:tiny`', () => {
+  it('renders a snapshot with `margin:0.5`', () => {
     const wrapper = shallow(
-      <Text margin='tiny'>Apple</Text>
+      <Text margin={0.5}>Apple</Text>
     )
     expect(wrapper).toMatchSnapshot()
   })

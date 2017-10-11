@@ -1,12 +1,12 @@
 import React, { PureComponent } from 'react'
 import { css } from 'styled-components'
 import Unit from '../utils/Unit'
-import Spacing from '../utils/Spacing'
+import Size from '../utils/Size'
 import Text from '../Text'
 
 const base = css`
   position: relative;
-  margin-right: ${Unit.convert(Spacing.regular)};
+  margin-right: ${Unit.convert(Size.spacing)};
 `
 
 export const getComponent = ({ View, Checkbox }) => class Component extends PureComponent {
