@@ -35,8 +35,11 @@ export default new StyleSheet({
   shadow: {
     ...Shadow.normal()
   },
+  scrollable: {
+    flex: 1
+  },
   body: {
-    marginTop: HEADER_HEIGHT + TITLE_HEIGHT * 1.2
+    paddingTop: HEADER_HEIGHT + TITLE_HEIGHT * 1.2
   },
   backBtn: {
     width: HEADER_HEIGHT,
