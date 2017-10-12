@@ -7,7 +7,7 @@
     "prepare": "npm run build",
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
-    "build": "webpack && babel src/ --out-dir native/",
+    "build": "webpack && babel src/ --out-dir native/ --copy-files",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:coverage": "npm run test -- --coverage",
@@ -78,9 +78,7 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "helpers/",
-      "lib/",
-      "native/"
+      "helpers/"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
