@@ -115,3 +115,28 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
   </Styled(Text)>
 </BaseComponent>
 `;
+
+exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+  whiteBackIcon={true}
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;

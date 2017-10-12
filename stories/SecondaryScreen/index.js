@@ -23,3 +23,8 @@ createStory('SecondaryScreen', module)
       <ScreenStuff />
     </SecondaryScreen>
   ))
+  .add('with whiteBackIcon', () => (
+    <SecondaryScreen whiteBackIcon>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))

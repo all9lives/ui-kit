@@ -38,4 +38,13 @@ describe('SecondaryScreen.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `whiteBackIcon`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen whiteBackIcon>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
