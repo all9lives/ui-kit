@@ -19,10 +19,10 @@ createStory('Text', module)
       <Text margin={0.5}>Margin 0.5x</Text>
     </View>
   ))
-  .add('with margin `2`', () => (
+  .add('with margin `1 2`', () => (
     <View>
-      <Text margin={2}>Margin 2x</Text>
-      <Text margin={2}>Margin 2x</Text>
+      <Text margin='1 2'>Margin 1x 2x</Text>
+      <Text margin='1 2'>Margin 1x 2x</Text>
     </View>
   ))
   .add('with alignSelf `center`', () => (

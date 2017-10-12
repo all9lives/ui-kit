@@ -39,6 +39,13 @@ describe('View.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
+  it('renders a snapshot with `margin:\'1 2\'`', () => {
+    const wrapper = shallow(
+      <View margin='1 2' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
   it('renders a snapshot with `padding:10`', () => {
     const wrapper = shallow(
       <View padding={10} />

@@ -4,7 +4,7 @@ import base from './base'
 import defaultProps from './defaultProps'
 import { filterProps } from '../utils/Misc'
 
-export const Base = filterProps(NativeView, ['direction'])
+export const Base = filterProps(NativeView, ['direction', 'margin', 'padding'])
 Base.displayName = 'View'
 
 const View = styled(Base)`
