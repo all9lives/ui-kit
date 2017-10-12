@@ -9,8 +9,8 @@
     "precommit": "lint-staged",
     "build": "webpack && babel src/ --out-dir native/",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test:watch": "npm run test -- --watch",
+    "test:coverage": "npm run test -- --coverage",
     "lint:js": "standard --verbose | snazzy",
     "lint:js-fix": "standard --fix --verbose | snazzy",
     "lint:css": "stylelint './src/**/*.js'",
@@ -78,7 +78,9 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "helpers/"
+      "helpers/",
+      "lib/",
+      "native/"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",

@@ -58,22 +58,22 @@ exports[`Text.native renders a snapshot for \`Text\` with \`color:blue\` on \`na
 </Text>
 `;
 
-exports[`Text.native renders a snapshot for \`Text\` with \`size:tiny\` on \`native\` 1`] = `
+exports[`Text.native renders a snapshot for \`Text\` with \`size:small\` on \`native\` 1`] = `
 <Text
   accessible={true}
   alignSelf="auto"
   allowFontScaling={true}
-  color="#282828"
+  color="#191919"
   disabled={false}
   ellipsizeMode="tail"
   margin={0}
-  size="tiny"
+  size="small"
   style={
     Array [
       Object {
         "alignSelf": "auto",
-        "color": "#282828",
-        "fontSize": 8,
+        "color": "#191919",
+        "fontSize": 14,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,

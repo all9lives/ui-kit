@@ -9,7 +9,7 @@ const squareStyle = { width: 200, height: 200, backgroundColor: 'white' }
 createStory('Text', module)
   .add('with Apple', () => <Text>Apple</Text>)
   .add('with Banana', () => <Text>Banana</Text>)
-  .add('with size `tiny`', () => <Text size='tiny'>Tiny</Text>)
+  .add('with size `small`', () => <Text size='small'>Tiny</Text>)
   .add('with size `large`', () => <Text size='large'>Large</Text>)
   .add('with color `white`', () => <Text color='white'>White</Text>)
   .add('with color `primary`', () => <Text color='primary'>Primary</Text>)

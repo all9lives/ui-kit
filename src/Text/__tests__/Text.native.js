@@ -11,9 +11,9 @@ describe('Text.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot for `Text` with `size:tiny` on `native`', () => {
+  it('renders a snapshot for `Text` with `size:small` on `native`', () => {
     const wrapper = shallow(
-      <Text size='tiny'>Apple</Text>
+      <Text size='small'>Apple</Text>
     )
     expect(wrapper).toMatchSnapshot()
   })
