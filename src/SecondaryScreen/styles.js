@@ -2,11 +2,12 @@ import { Platform } from 'react-native'
 import StyleSheet from '../utils/StyleSheet'
 import Shadow from '../utils/Shadow'
 import Color from '../utils/Color'
+import Size from '../utils/Size'
 
 export const STATUS_BAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0
 export const HEADER_HEIGHT = 45
 export const TITLE_HEIGHT = 40
-export const TITLE_BEGIN_Y = HEADER_HEIGHT + STATUS_BAR_HEIGHT
+export const TITLE_BEGIN_Y = HEADER_HEIGHT + STATUS_BAR_HEIGHT + Size.spacing
 export const TITLE_END_Y = STATUS_BAR_HEIGHT
 export const SCREEN_PADDING = 20
 export const TITLE_BEGIN_X = SCREEN_PADDING
@@ -39,7 +40,7 @@ export default new StyleSheet({
     flex: 1
   },
   body: {
-    paddingTop: HEADER_HEIGHT + TITLE_HEIGHT * 1.2
+    paddingTop: HEADER_HEIGHT + TITLE_HEIGHT + 5 * Size.spacing
   },
   backBtn: {
     width: HEADER_HEIGHT,

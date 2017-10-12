@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components/native'
 import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated } from 'react-native'
+import Size from '../utils/Size'
 import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
 import View from '../View'
 import Text from '../Text'
@@ -68,7 +69,7 @@ class BaseComponent extends Component {
     })
     const animatedFontSize = this.animatedValue.interpolate({
       inputRange: [0, 1],
-      outputRange: [30, 16]
+      outputRange: [Size.title, Size.regular]
     })
     return (
       <View style={[this.props.style, styles.container]}>
