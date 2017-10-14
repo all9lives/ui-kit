@@ -9,7 +9,7 @@ export const HEADER_HEIGHT = 45
 export const TITLE_HEIGHT = 40
 export const TITLE_BEGIN_Y = HEADER_HEIGHT + STATUS_BAR_HEIGHT + Size.spacing
 export const TITLE_END_Y = STATUS_BAR_HEIGHT
-export const SCREEN_PADDING = 20
+export const SCREEN_PADDING = Size.spacing * 2
 export const TITLE_BEGIN_X = SCREEN_PADDING
 export const TITLE_END_X = HEADER_HEIGHT
 
@@ -47,11 +47,11 @@ export default new StyleSheet({
     height: HEADER_HEIGHT
   },
   actionBtns: {
-    paddingRight: SCREEN_PADDING
+    paddingRight: SCREEN_PADDING / 2
   },
   actionBtn: {
-    marginLeft: 10,
-    marginRight: 10
+    marginLeft: Size.spacing,
+    marginRight: Size.spacing
   },
   title: {
     height: HEADER_HEIGHT,

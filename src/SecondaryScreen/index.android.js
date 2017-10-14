@@ -8,6 +8,7 @@ import Icon from '../Icon'
 import base from './base'
 import defaultProps from './defaultProps'
 
+const SCROLL_THRESHOLD = Size.spacing * 3.5
 const TRANSITION_TIME = 300
 
 const AnimatedView = Animated.createAnimatedComponent(RNView)
@@ -50,15 +51,16 @@ class BaseComponent extends Component {
   }
   handleScroll = (e) => {
     const scrollTop = e.nativeEvent.contentOffset.y
-    if (scrollTop > 10 && !this.state.toggleHeader) {
+    if (scrollTop > SCROLL_THRESHOLD && !this.state.toggleHeader) {
       this.setState({ toggleHeader: true })
-    } else if (scrollTop <= 10 && this.state.toggleHeader) {
+    } else if (scrollTop <= SCROLL_THRESHOLD && this.state.toggleHeader) {
       this.setState({ toggleHeader: false })
     }
   }
   render () {
     const { toggleHeader } = this.state
-    const { headerStyle, bodyStyle, title, children, actionButtons, onBackPress, whiteBackIcon } = this.props
+    const { headerStyle, bodyStyle, title, children, actionButtons,
+      onBackPress, whiteBackIcon, getScrollViewRef } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
@@ -90,6 +92,7 @@ class BaseComponent extends Component {
           </AnimatedText>
         </AnimatedView>
         <ScrollView
+          ref={getScrollViewRef}
           style={styles.scrollable}
           contentContainerStyle={[styles.body, bodyStyle]}
           onScroll={this.handleScroll}
