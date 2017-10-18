@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components/native'
-import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated } from 'react-native'
+import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated, RefreshControl } from 'react-native'
 import Size from '../utils/Size'
 import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
 import View from '../View'
@@ -35,7 +35,8 @@ export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress, 
 class BaseComponent extends Component {
   static defaultProps = {
     title: 'Title',
-    actionButtons: []
+    actionButtons: [],
+    refreshing: false
   }
   state = {
     toggleHeader: false
@@ -60,7 +61,7 @@ class BaseComponent extends Component {
   render () {
     const { toggleHeader } = this.state
     const { headerStyle, bodyStyle, title, children, actionButtons,
-      onBackPress, whiteBackIcon, getScrollViewRef } = this.props
+      onBackPress, whiteBackIcon, getScrollViewRef, refreshing, onRefresh } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
@@ -94,6 +95,10 @@ class BaseComponent extends Component {
         <ScrollView
           ref={getScrollViewRef}
           style={styles.scrollable}
+          refreshControl={<RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+          />}
           contentContainerStyle={[styles.body, bodyStyle]}
           onScroll={this.handleScroll}
           scrollEventThrottle={16}
