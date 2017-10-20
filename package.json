@@ -78,7 +78,9 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "helpers/"
+      "helpers/",
+      "lib/",
+      "native/"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
