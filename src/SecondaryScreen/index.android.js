@@ -95,7 +95,7 @@ class BaseComponent extends Component {
         <ScrollView
           ref={getScrollViewRef}
           style={styles.scrollable}
-          refreshControl={<RefreshControl
+          refreshControl={(refreshing || onRefresh) && <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
           />}

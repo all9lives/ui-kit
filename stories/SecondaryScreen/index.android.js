@@ -1,4 +1,5 @@
 import React from 'react'
+import { action } from '@storybook/addon-actions'
 import createStory from '../../storybook/createStory'
 import ScreenStuff from '../../storybook/createStory/ScreenStuff'
 import SecondaryScreen from '../../src/SecondaryScreen'
@@ -26,6 +27,31 @@ createStory('SecondaryScreen', module)
   ))
   .add('with whiteBackIcon', () => (
     <SecondaryScreen whiteBackIcon>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with style', () => (
+    <SecondaryScreen style={{ backgroundColor: 'black' }}>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with headerStyle', () => (
+    <SecondaryScreen headerStyle={{ backgroundColor: 'black' }}>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with bodyStyle', () => (
+    <SecondaryScreen bodyStyle={{ backgroundColor: 'black' }}>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with refreshing', () => (
+    <SecondaryScreen refreshing>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with onRefresh', () => (
+    <SecondaryScreen onRefresh={action('PullToRefresh')}>
       <ScreenStuff />
     </SecondaryScreen>
   ))

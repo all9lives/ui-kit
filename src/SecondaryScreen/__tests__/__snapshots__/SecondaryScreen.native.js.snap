@@ -3,6 +3,7 @@
 exports[`SecondaryScreen.native renders a snapshot 1`] = `
 <BaseComponent
   actionButtons={Array []}
+  refreshing={false}
   style={
     Array [
       Object {
@@ -46,6 +47,67 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
       </Styled(Text)>,
     ]
   }
+  refreshing={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  bodyStyle={
+    Object {
+      "backgroundColor": "black",
+    }
+  }
+  refreshing={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`headerStyle\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  headerStyle={
+    Object {
+      "backgroundColor": "black",
+    }
+  }
+  refreshing={false}
   style={
     Array [
       Object {
@@ -71,6 +133,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
 <BaseComponent
   actionButtons={Array []}
   onBackPress={[Function]}
+  refreshing={false}
   style={
     Array [
       Object {
@@ -92,9 +155,88 @@ exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
 </BaseComponent>
 `;
 
+exports[`SecondaryScreen.native renders a snapshot with \`onRefresh\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  onRefresh={[Function]}
+  refreshing={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`refreshing\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  refreshing={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with \`style\` 1`] = `
+<BaseComponent
+  actionButtons={Array []}
+  refreshing={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      Object {
+        "backgroundColor": "black",
+      },
+    ]
+  }
+  title="Title"
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</BaseComponent>
+`;
+
 exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
 <BaseComponent
   actionButtons={Array []}
+  refreshing={false}
   style={
     Array [
       Object {
@@ -119,6 +261,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
 exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = `
 <BaseComponent
   actionButtons={Array []}
+  refreshing={false}
   style={
     Array [
       Object {

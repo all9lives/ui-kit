@@ -47,4 +47,49 @@ describe('SecondaryScreen.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `style`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen style={{ backgroundColor: 'black' }}>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `headerStyle`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen headerStyle={{ backgroundColor: 'black' }}>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `bodyStyle`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen bodyStyle={{ backgroundColor: 'black' }}>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `onRefresh`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen onRefresh={() => {}}>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `refreshing`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen refreshing>
+        <Text>SecondaryScreen</Text>
+      </SecondaryScreen>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
