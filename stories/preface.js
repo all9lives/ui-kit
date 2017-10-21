@@ -1,6 +1,7 @@
 import './Text'
 import './View'
 import './Image'
+import './Icon'
 import './Button'
 import './Input'
 import './FloatLabelInput'
