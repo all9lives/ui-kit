@@ -8,7 +8,7 @@ const Text = styled.span.attrs({
 })`
   ${base}
   cursor: ${props => (props.onClick || props.onPress) ? 'pointer' : 'auto'};
-  line-height: ${props => props.content ? Size.spacing * 2.5 : Size.spacing / 10};
+  line-height: ${props => props.content ? Size.spacing * 2.5 : Size.spacing / 8};
   ${props => props.content ? 'line-height: 1.7; flex-wrap: wrap;' : ''}
 `
 Text.defaultProps = defaultProps

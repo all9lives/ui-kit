@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar.web renders a snapshot 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`borderRadius:5\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={5}
+  className="c0"
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`label:boo\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  label="boo"
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`labelStyle\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  labelStyle={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`labelTextStyle\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  labelTextStyle={
+    Object {
+      "color": "white",
+    }
+  }
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`name:foo\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  name="foo"
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`nameStyle\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  nameStyle={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`nameTextStyle\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  nameTextStyle={
+    Object {
+      "color": "white",
+    }
+  }
+  size="regular"
+  source={1}
+/>
+`;
+
+exports[`Avatar.web renders a snapshot with \`size:small\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Base
+  borderRadius={0}
+  className="c0"
+  size="small"
+  source={1}
+/>
+`;

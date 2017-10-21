@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar.native renders a snapshot 1`] = `
+<Base
+  borderRadius={0}
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+>
+  Apple
+</Base>
+`;
+
+exports[`Avatar.native renders a snapshot with \`borderRadius:5\` 1`] = `
+<Base
+  borderRadius={5}
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`label:boo\` 1`] = `
+<Base
+  borderRadius={0}
+  label="boo"
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`labelStyle\` 1`] = `
+<Base
+  borderRadius={0}
+  labelStyle={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`labelTextStyle\` 1`] = `
+<Base
+  borderRadius={0}
+  labelTextStyle={
+    Object {
+      "color": "white",
+    }
+  }
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`name:foo\` 1`] = `
+<Base
+  borderRadius={0}
+  name="foo"
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`nameStyle\` 1`] = `
+<Base
+  borderRadius={0}
+  nameStyle={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`nameTextStyle\` 1`] = `
+<Base
+  borderRadius={0}
+  nameTextStyle={
+    Object {
+      "color": "white",
+    }
+  }
+  size="regular"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Avatar.native renders a snapshot with \`size:small\` 1`] = `
+<Base
+  borderRadius={0}
+  size="small"
+  source={1}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
