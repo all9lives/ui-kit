@@ -46,4 +46,11 @@ describe('Text.native', () => {
     const result = wrapper.props().onPress()
     expect(result).toEqual('onPressed')
   })
+
+  it('renders a snapshot with `content`', () => {
+    const wrapper = shallow(
+      <Text content>Content</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

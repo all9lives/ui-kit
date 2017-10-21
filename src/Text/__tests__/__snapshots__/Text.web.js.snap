@@ -9,6 +9,7 @@ exports[`Text.web renders a snapshot 1`] = `
   -ms-flex-item-align: auto;
   align-self: auto;
   cursor: auto;
+  line-height: 1;
 }
 
 <span
@@ -29,6 +30,7 @@ exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
   -ms-flex-item-align: center;
   align-self: center;
   cursor: auto;
+  line-height: 1;
 }
 
 <span
@@ -49,6 +51,7 @@ exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
   -ms-flex-item-align: auto;
   align-self: auto;
   cursor: auto;
+  line-height: 1;
 }
 
 <span
@@ -57,6 +60,32 @@ exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
   size={16}
 >
   Apple
+</span>
+`;
+
+exports[`Text.web renders a snapshot with \`content\` 1`] = `
+.c0 {
+  font-size: 16px;
+  color: #191919;
+  margin: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  cursor: auto;
+  line-height: 25;
+  line-height: 1.7;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+<span
+  className="c0"
+  color="#191919"
+  content={true}
+  size={16}
+>
+  Content
 </span>
 `;
 
@@ -69,6 +98,7 @@ exports[`Text.web renders a snapshot with \`margin:'1 0'\` 1`] = `
   -ms-flex-item-align: auto;
   align-self: auto;
   cursor: auto;
+  line-height: 1;
 }
 
 <span
@@ -89,6 +119,7 @@ exports[`Text.web renders a snapshot with \`size:small\` 1`] = `
   -ms-flex-item-align: auto;
   align-self: auto;
   cursor: auto;
+  line-height: 1;
 }
 
 <span

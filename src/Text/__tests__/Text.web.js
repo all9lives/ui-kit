@@ -47,4 +47,11 @@ describe('Text.web', () => {
     const result = wrapper.props().onClick()
     expect(result).toEqual('onPressed')
   })
+
+  it('renders a snapshot with `content`', () => {
+    const wrapper = shallow(
+      <Text content>Content</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

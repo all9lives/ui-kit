@@ -33,3 +33,8 @@ createStory('Text', module)
   .add('with onPress', () => (
     <Text onPress={action('Pressed')}>Press Me</Text>
   ))
+  .add('with content', () => (
+    <Text content>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat ante in velit condimentum dictum. Aenean eros lacus, ultrices at imperdiet eu, dapibus nec odio. Curabitur posuere eleifend diam vel feugiat. Maecenas vel urna sed ante rutrum vestibulum sit amet a odio. Vestibulum vitae eros non magna bibendum congue nec eget lectus. Sed eleifend euismod ex a pulvinar. Ut vitae mauris in lacus molestie ullamcorper. Etiam in magna ac ligula lobortis vehicula ac sit amet libero.
+
+Ut faucibus lobortis erat, at rhoncus eros. Morbi posuere mollis interdum. Nunc faucibus tortor vitae felis elementum dignissim. Curabitur arcu orci, consectetur eu ipsum eget, convallis semper tellus. Proin varius ultrices nisl, ut porttitor ligula bibendum sit amet. Praesent porttitor ipsum purus, vel venenatis enim lacinia vitae. Fusce ac arcu eu odio pretium maximus. Mauris at lobortis ligula. Aenean sed vehicula magna. Aenean fringilla, tellus vel vestibulum pharetra, dolor mauris placerat urna, in fringilla lectus odio vel massa. Aliquam et magna nec mauris ultrices tincidunt sit amet eget est. Aliquam vulputate tellus et tristique venenatis. Curabitur sed consectetur mi, ac malesuada arcu. Donec pellentesque vehicula ante, quis commodo tortor fringilla at. Curabitur in lacus magna. Donec semper vehicula dui id tristique.`}</Text>
+  ))
