@@ -2,32 +2,21 @@
 
 exports[`Icon.native renders a snapshot 1`] = `
 <mapProps(Styled(Image))
-  innerRef={[Function]}
-  size={16}
+  size={24}
   src="any source"
-  style={
-    Array [
-      Object {
-        "position": "relative",
-      },
-      undefined,
-    ]
-  }
 />
 `;
 
 exports[`Icon.native renders a snapshot with \`size:large\` 1`] = `
 <mapProps(Styled(Image))
-  innerRef={[Function]}
-  size="large"
+  size={48}
   src="any source"
-  style={
-    Array [
-      Object {
-        "position": "relative",
-      },
-      undefined,
-    ]
-  }
+/>
+`;
+
+exports[`Icon.native renders a snapshot with \`size:small\` 1`] = `
+<mapProps(Styled(Image))
+  size={12}
+  src="any source"
 />
 `;

@@ -16,6 +16,7 @@ exports[`Text.native renders a snapshot for \`Text\` on \`native\` 1`] = `
         "alignSelf": "auto",
         "color": "#191919",
         "fontSize": 16,
+        "lineHeight": 20,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
@@ -45,6 +46,7 @@ exports[`Text.native renders a snapshot for \`Text\` with \`color:blue\` on \`na
         "alignSelf": "auto",
         "color": "blue",
         "fontSize": 16,
+        "lineHeight": 20,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
@@ -58,22 +60,23 @@ exports[`Text.native renders a snapshot for \`Text\` with \`color:blue\` on \`na
 </Text>
 `;
 
-exports[`Text.native renders a snapshot for \`Text\` with \`size:tiny\` on \`native\` 1`] = `
+exports[`Text.native renders a snapshot for \`Text\` with \`size:small\` on \`native\` 1`] = `
 <Text
   accessible={true}
   alignSelf="auto"
   allowFontScaling={true}
-  color="#282828"
+  color="#191919"
   disabled={false}
   ellipsizeMode="tail"
   margin={0}
-  size="tiny"
+  size="small"
   style={
     Array [
       Object {
         "alignSelf": "auto",
-        "color": "#282828",
-        "fontSize": 8,
+        "color": "#191919",
+        "fontSize": 14,
+        "lineHeight": 20,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
@@ -103,6 +106,7 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
         "alignSelf": "center",
         "color": "#191919",
         "fontSize": 16,
+        "lineHeight": 20,
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
@@ -113,6 +117,37 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
   }
 >
   Apple
+</Text>
+`;
+
+exports[`Text.native renders a snapshot with \`content\` 1`] = `
+<Text
+  accessible={true}
+  alignSelf="auto"
+  allowFontScaling={true}
+  color="#191919"
+  content={true}
+  disabled={false}
+  ellipsizeMode="tail"
+  margin={0}
+  size={16}
+  style={
+    Array [
+      Object {
+        "alignSelf": "auto",
+        "color": "#191919",
+        "fontSize": 16,
+        "lineHeight": 25,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Content
 </Text>
 `;
 
@@ -132,6 +167,7 @@ exports[`Text.native renders a snapshot with \`margin:0.5\` 1`] = `
         "alignSelf": "auto",
         "color": "#191919",
         "fontSize": 16,
+        "lineHeight": 20,
         "marginBottom": 5,
         "marginLeft": 5,
         "marginRight": 5,

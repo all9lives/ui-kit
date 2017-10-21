@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GhostButton.web renders a snapshot 1`] = `
+<span>
+  <Base
+    color="#191919"
+    title="Button"
+  >
+    Apple
+  </Base>
+</span>
+`;
+
+exports[`GhostButton.web renders a snapshot with \`color:white\` 1`] = `
+<span>
+  <Base
+    color="white"
+    title="Button"
+  >
+    Apple
+  </Base>
+</span>
+`;
+
+exports[`GhostButton.web renders a snapshot with \`onPress\` 1`] = `
+<span
+  onClick={[Function]}
+>
+  <Base
+    color="#191919"
+    title="Button"
+  >
+    Apple
+  </Base>
+</span>
+`;

@@ -5,6 +5,6 @@ configure(() => {
   require('../../stories/preface')
 }, module)
 
-const StorybookUI = getStorybookUI({ port: 7007, host: '127.0.0.1' })
+const StorybookUI = getStorybookUI({ port: 7007, host: '10.0.0.1' })
 AppRegistry.registerComponent('core_ui_kit', () => StorybookUI)
 export default StorybookUI

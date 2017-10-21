@@ -1,16 +1,16 @@
 {
   "name": "@fn/ui-kit",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "./lib/main.js",
   "private": true,
   "scripts": {
     "prepare": "npm run build",
     "start:native": "node node_modules/react-native/local-cli/cli.js start",
     "precommit": "lint-staged",
-    "build": "webpack && babel src/ --out-dir native/",
+    "build": "webpack && babel src/ --out-dir native/ --copy-files",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test:watch": "npm run test -- --watch",
+    "test:coverage": "npm run test -- --coverage",
     "lint:js": "standard --verbose | snazzy",
     "lint:js-fix": "standard --fix --verbose | snazzy",
     "lint:css": "stylelint './src/**/*.js'",
@@ -78,7 +78,9 @@
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "helpers/"
+      "helpers/",
+      "lib/",
+      "native/"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",

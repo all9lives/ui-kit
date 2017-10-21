@@ -1,7 +1,9 @@
-import R from 'ramda'
+import { unless, contains, __ } from 'ramda'
 
-export const ignorePercentage = R.unless(R.contains('%'), R.__)
+export const ignorePercentage = unless(contains('%'), __)
+export const ignoreAuto = unless(contains('auto'), __)
 
 export default {
-  ignorePercentage
+  ignorePercentage,
+  ignoreAuto
 }

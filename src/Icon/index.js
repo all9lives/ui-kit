@@ -1,11 +1,6 @@
-import styled from 'styled-components'
-import base, { attrs } from './base'
+import { Base as Icon } from './base'
 import defaultProps from './defaultProps'
-import Image from '../Image'
 
-const Icon = styled(Image).attrs(attrs)`
-  ${base}
-`
 Icon.defaultProps = defaultProps
 
 export default Icon

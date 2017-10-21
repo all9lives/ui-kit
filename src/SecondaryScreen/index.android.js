@@ -1,18 +1,20 @@
 import React, { Component } from 'react'
 import styled from 'styled-components/native'
-import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated } from 'react-native'
+import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated, RefreshControl } from 'react-native'
+import Size from '../utils/Size'
 import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
 import View from '../View'
-import Text from '../Text'
+import Icon from '../Icon'
 import base from './base'
 import defaultProps from './defaultProps'
 
+const SCROLL_THRESHOLD = Size.spacing * 3.5
 const TRANSITION_TIME = 300
 
 const AnimatedView = Animated.createAnimatedComponent(RNView)
 const AnimatedText = Animated.createAnimatedComponent(RNText)
 
-export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress }) => (
+export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress, whiteBackIcon }) => (
   <View
     style={[styles.header, toggleHeader && styles.shadow, headerStyle]}
     align='middle'
@@ -20,7 +22,7 @@ export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress }
   >
     <TouchableOpacity onPress={onBackPress}>
       <View style={styles.backBtn} align='center middle'>
-        <Text>{'<'}</Text>
+        <Icon source={whiteBackIcon ? require('../assets/back-white.png') : require('../assets/back-black.png')} />
       </View>
     </TouchableOpacity>
     <View grow={1} />
@@ -33,7 +35,8 @@ export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress }
 class BaseComponent extends Component {
   static defaultProps = {
     title: 'Title',
-    actionButtons: []
+    actionButtons: [],
+    refreshing: false
   }
   state = {
     toggleHeader: false
@@ -49,15 +52,16 @@ class BaseComponent extends Component {
   }
   handleScroll = (e) => {
     const scrollTop = e.nativeEvent.contentOffset.y
-    if (scrollTop > 10 && !this.state.toggleHeader) {
+    if (scrollTop > SCROLL_THRESHOLD && !this.state.toggleHeader) {
       this.setState({ toggleHeader: true })
-    } else if (scrollTop <= 10 && this.state.toggleHeader) {
+    } else if (scrollTop <= SCROLL_THRESHOLD && this.state.toggleHeader) {
       this.setState({ toggleHeader: false })
     }
   }
   render () {
     const { toggleHeader } = this.state
-    const { headerStyle, bodyStyle, title, children, actionButtons, onBackPress } = this.props
+    const { headerStyle, bodyStyle, title, children, actionButtons,
+      onBackPress, whiteBackIcon, getScrollViewRef, refreshing, onRefresh } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
       outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
@@ -68,7 +72,7 @@ class BaseComponent extends Component {
     })
     const animatedFontSize = this.animatedValue.interpolate({
       inputRange: [0, 1],
-      outputRange: [30, 16]
+      outputRange: [Size.title, Size.regular]
     })
     return (
       <View style={[this.props.style, styles.container]}>
@@ -77,6 +81,7 @@ class BaseComponent extends Component {
           headerStyle={headerStyle}
           actionButtons={actionButtons}
           onBackPress={onBackPress}
+          whiteBackIcon={whiteBackIcon}
         />
         <AnimatedView
           style={[styles.title, { top: animatedTop, left: animatedLeft }]}
@@ -88,7 +93,12 @@ class BaseComponent extends Component {
           </AnimatedText>
         </AnimatedView>
         <ScrollView
+          ref={getScrollViewRef}
           style={styles.scrollable}
+          refreshControl={(refreshing || onRefresh) && <RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+          />}
           contentContainerStyle={[styles.body, bodyStyle]}
           onScroll={this.handleScroll}
           scrollEventThrottle={16}

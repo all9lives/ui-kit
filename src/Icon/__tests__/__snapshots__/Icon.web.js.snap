@@ -1,25 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Icon.web renders a snapshot 1`] = `
-.c0 {
-  position: relative;
-}
-
 <mapProps(Styled(Image))
-  className="c0"
-  size={16}
+  size={24}
   src="any source"
 />
 `;
 
 exports[`Icon.web renders a snapshot with \`size:large\` 1`] = `
-.c0 {
-  position: relative;
-}
-
 <mapProps(Styled(Image))
-  className="c0"
-  size="large"
+  size={48}
+  src="any source"
+/>
+`;
+
+exports[`Icon.web renders a snapshot with \`size:small\` 1`] = `
+<mapProps(Styled(Image))
+  size={12}
   src="any source"
 />
 `;

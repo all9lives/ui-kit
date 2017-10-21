@@ -12,9 +12,9 @@ describe('Text.web', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `size:tiny`', () => {
+  it('renders a snapshot with `size:small`', () => {
     const wrapper = shallow(
-      <Text size='tiny'>Apple</Text>
+      <Text size='small'>Apple</Text>
     )
     expect(wrapper).toMatchSnapshot()
   })
@@ -26,9 +26,9 @@ describe('Text.web', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `margin:tiny`', () => {
+  it('renders a snapshot with `margin:\'1 0\'`', () => {
     const wrapper = shallow(
-      <Text margin='tiny'>Apple</Text>
+      <Text margin='1 0'>Apple</Text>
     )
     expect(wrapper).toMatchSnapshot()
   })
@@ -46,5 +46,12 @@ describe('Text.web', () => {
     )
     const result = wrapper.props().onClick()
     expect(result).toEqual('onPressed')
+  })
+
+  it('renders a snapshot with `content`', () => {
+    const wrapper = shallow(
+      <Text content>Content</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
   })
 })

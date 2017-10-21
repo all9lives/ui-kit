@@ -1,6 +1,6 @@
-import R from 'ramda'
+import { identity } from 'ramda'
 import { ignorePercentage } from './enhance'
 
 const transform = value => `${value / 16}rem`
 
-export default (unit, converter = R.identity) => ignorePercentage(transform)(converter(unit))
+export default (unit, converter = identity) => ignorePercentage(transform)(converter(unit))

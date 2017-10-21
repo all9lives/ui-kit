@@ -1,5 +1,3 @@
-import Size from '../utils/Size'
-
 export default {
-  size: Size.regular
+  size: 'regular'
 }

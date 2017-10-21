@@ -11,9 +11,9 @@ describe('Text.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot for `Text` with `size:tiny` on `native`', () => {
+  it('renders a snapshot for `Text` with `size:small` on `native`', () => {
     const wrapper = shallow(
-      <Text size='tiny'>Apple</Text>
+      <Text size='small'>Apple</Text>
     )
     expect(wrapper).toMatchSnapshot()
   })
@@ -45,5 +45,12 @@ describe('Text.native', () => {
     )
     const result = wrapper.props().onPress()
     expect(result).toEqual('onPressed')
+  })
+
+  it('renders a snapshot with `content`', () => {
+    const wrapper = shallow(
+      <Text content>Content</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
   })
 })

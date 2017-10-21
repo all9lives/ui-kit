@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GhostButton.native renders a snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <Base
+    color="#191919"
+    title="Button"
+  >
+    Apple
+  </Base>
+</TouchableOpacity>
+`;
+
+exports[`GhostButton.native renders a snapshot with \`color:white\` 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+>
+  <Base
+    color="white"
+    title="Button"
+  >
+    Apple
+  </Base>
+</TouchableOpacity>
+`;
+
+exports[`GhostButton.native renders a snapshot with \`onPress\` 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Base
+    color="#191919"
+    title="Button"
+  >
+    Apple
+  </Base>
+</TouchableOpacity>
+`;

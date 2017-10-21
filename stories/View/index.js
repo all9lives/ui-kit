@@ -18,13 +18,33 @@ createStory('View', module)
     </View>
   ))
   .add('with margin `10`', () => (
-    <View margin={10}>
-      <Text>Margin 10</Text>
+    <View>
+      <View margin={10}>
+        <Text>Margin 10x</Text>
+      </View>
+      <View margin={10}>
+        <Text>Margin 10x</Text>
+      </View>
     </View>
   ))
-  .add('with padding `10`', () => (
-    <View padding={10}>
-      <Text>Padding 10</Text>
+  .add('with margin `1 2`', () => (
+    <View>
+      <View margin='1 2'>
+        <Text>Margin 1x/2x</Text>
+      </View>
+      <View margin='1 2'>
+        <Text>Margin 1x/2x</Text>
+      </View>
+    </View>
+  ))
+  .add('with padding `2`', () => (
+    <View>
+      <View padding={2}>
+        <Text>Padding 2x</Text>
+      </View>
+      <View padding={2}>
+        <Text>Padding 2x</Text>
+      </View>
     </View>
   ))
   .add('with width `120`', () => (

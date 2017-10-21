@@ -17,4 +17,11 @@ describe('Icon.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `size:small`', () => {
+    const wrapper = shallow(
+      <Icon src='any source' size='small' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
