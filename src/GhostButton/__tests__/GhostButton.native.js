@@ -10,4 +10,18 @@ describe('GhostButton.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `color:white`', () => {
+    const wrapper = shallow(
+      <GhostButton color='white'>Apple</GhostButton>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `onPress`', () => {
+    const wrapper = shallow(
+      <GhostButton onPress={() => {}}>Apple</GhostButton>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
