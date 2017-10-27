@@ -41,6 +41,7 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
 * Avatar
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Avatar.png" width="500">
+* FadeInView
 
 ## Getting Started
 
