@@ -7,7 +7,7 @@ import defaultProps from './defaultProps'
 import Color from '../utils/Color'
 import Size from '../utils/Size'
 
-const StyledView = styled.View.attrs({
+export const StyledView = styled.View.attrs({
   ...attrs
 })`
   background-color: ${props => props.color};
@@ -15,7 +15,7 @@ const StyledView = styled.View.attrs({
   border-radius: ${Size.spacing * 2};
 `
 
-const StyledText = styled.Text.attrs({
+export const StyledText = styled.Text.attrs({
   ...attrs
 })`
   color: ${props => Color[tinycolor(props.color).getBrightness() < 200 ? 'white' : 'black']};
@@ -25,7 +25,7 @@ const Button = ({ onPress, children, title, ...props }) => (
   <TouchableOpacity onPress={onPress}>
     <StyledView {...props}>
       <StyledText {...props}>
-        {title || children}
+        {children || title}
       </StyledText>
     </StyledView>
   </TouchableOpacity>

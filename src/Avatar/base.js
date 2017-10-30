@@ -13,7 +13,7 @@ const SIZE_MAPPING = {
   large: 4
 }
 
-const Label = View.extend`
+export const Label = View.extend`
   position: absolute;
   border-radius: ${Unit.parse(3)};
   padding: ${Unit.parse(Size.spacing * 0.3)};
@@ -22,12 +22,12 @@ const Label = View.extend`
   bottom: ${props => props.name ? Unit.parse(Size.spacing * 2) : Unit.parse(Size.spacing * 0.1)};
 `
 
-const LabelText = Text.extend`
+export const LabelText = Text.extend`
   font-size: ${Unit.parse(Size.small)};
   color: ${Color.white};
 `
 
-const Name = View.extend`
+export const Name = View.extend`
   margin-top: ${Unit.parse(Size.spacing * 0.5)};
   background-color: ${Color.gray};
   border-radius: ${Unit.parse(Size.small)};
@@ -35,7 +35,7 @@ const Name = View.extend`
   justify-content: center;
 `
 
-const NameText = Text.extend`
+export const NameText = Text.extend`
   font-size: ${Unit.parse(Size.small)};
   color: ${Color.white};
 `

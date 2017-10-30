@@ -5,7 +5,7 @@ import Size from '../utils/Size'
 import View from '../View'
 import Text from '../Text'
 
-const StyledView = View.extend`
+export const StyledView = View.extend`
   border-style: solid;
   border-radius: ${Unit.convert(Size.title)};
   border-width: 1px;
@@ -13,7 +13,7 @@ const StyledView = View.extend`
   padding: ${`${Unit.convert(Size.spacing * 1.5)} ${Unit.convert(Size.spacing * 5)}`};
 `
 
-const StyledText = Text.extend`
+export const StyledText = Text.extend`
   color: ${props => Color[props.color] || props.color};
   background-color: transparent;
 `

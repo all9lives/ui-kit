@@ -75,3 +75,22 @@ exports[`FadeInView.native renders a snapshot with \`duration:1000\` 1`] = `
   </Styled(Text)>
 </AnimatedComponent>
 `;
+
+exports[`FadeInView.native renders a snapshot with unmount 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;

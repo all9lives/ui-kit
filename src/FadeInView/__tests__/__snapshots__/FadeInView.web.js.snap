@@ -79,3 +79,23 @@ exports[`FadeInView.web renders a snapshot with \`duration:1000\` 1`] = `
   </Styled(Text)>
 </div>
 `;
+
+exports[`FadeInView.web renders a snapshot with unmount 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 1,
+      "transition": "opacity 300ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;

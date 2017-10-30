@@ -1,4 +1,4 @@
-import SecondaryScreen, { Header } from './index.android'
+import SecondaryScreen, { Base, Header } from './index.android'
 
-export { Header }
+export { Base, Header }
 export default SecondaryScreen

@@ -58,4 +58,17 @@ describe('FadeInView.native', () => {
     wrapper.update()
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with unmount', () => {
+    jest.useFakeTimers()
+    const wrapper = shallow(
+      <FadeInView>
+        <Text>Apple</Text>
+      </FadeInView>
+    )
+    jest.runAllTimers()
+    wrapper.update()
+    wrapper.unmount()
+    expect(wrapper).toMatchSnapshot()
+  })
 })

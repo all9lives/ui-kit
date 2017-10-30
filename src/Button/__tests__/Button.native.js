@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import React from 'react'
 import { shallow } from 'enzyme'
-import Button from '../index.ios.js'
+import Button, { StyledText, StyledView } from '../index.ios.js'
 
 describe('Button.native', () => {
   it('renders a snapshot', () => {
@@ -59,5 +59,44 @@ describe('Button.native', () => {
     )
     const result = wrapper.props().onPress()
     expect(result).toEqual('onPressed')
+  })
+})
+
+describe('Button.StyledView.native', () => {
+  it('renders a snapshot', () => {
+    const wrapper = shallow(
+      <StyledView />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `color:white`', () => {
+    const wrapper = shallow(
+      <StyledView color='white' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+})
+
+describe('Button.StyledText.native', () => {
+  it('renders a snapshot', () => {
+    const wrapper = shallow(
+      <StyledText>Text</StyledText>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `color:white`', () => {
+    const wrapper = shallow(
+      <StyledText color='white'>Text</StyledText>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `title:Text`', () => {
+    const wrapper = shallow(
+      <StyledText title='Text' />
+    )
+    expect(wrapper).toMatchSnapshot()
   })
 })

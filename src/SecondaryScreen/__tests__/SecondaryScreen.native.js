@@ -1,15 +1,32 @@
 /* eslint-env jest */
 import React from 'react'
 import { shallow } from 'enzyme'
-import SecondaryScreen from '../index.ios.js'
+import SecondaryScreen, { Base, Header } from '../index.ios.js'
 import Text from '../../Text'
+
+jest.mock('Animated', () => {
+  const ActualAnimated = require.requireActual('Animated')
+  return {
+    ...ActualAnimated,
+    timing: (value, config) => {
+      return {
+        start: (callback) => {
+          value.setValue(config.toValue)
+          callback && callback()
+        }
+      }
+    }
+  }
+})
+
+const diveToBase = wrapper => wrapper.find(Base).dive()
 
 describe('SecondaryScreen.native', () => {
   it('renders a snapshot', () => {
     const wrapper = shallow(
       <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `title:MyTitle`', () => {
@@ -18,7 +35,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `actionButtons`', () => {
@@ -27,7 +44,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `onBackPress`', () => {
@@ -36,7 +53,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `whiteBackIcon`', () => {
@@ -45,7 +62,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `style`', () => {
@@ -54,7 +71,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `headerStyle`', () => {
@@ -63,7 +80,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `bodyStyle`', () => {
@@ -72,7 +89,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `onRefresh`', () => {
@@ -81,7 +98,7 @@ describe('SecondaryScreen.native', () => {
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
-    expect(wrapper).toMatchSnapshot()
+    expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `refreshing`', () => {
@@ -89,6 +106,69 @@ describe('SecondaryScreen.native', () => {
       <SecondaryScreen refreshing>
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
+    )
+    expect(diveToBase(wrapper)).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `handleScroll:toggleHeader:true`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+    )
+    const baseWrapper = diveToBase(wrapper)
+    baseWrapper.instance().handleScroll({ nativeEvent: { contentOffset: { y: 40 } } })
+    baseWrapper.update()
+    expect(baseWrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `handleScroll:toggleHeader:false`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+    )
+    const baseWrapper = diveToBase(wrapper)
+    baseWrapper.instance().setState({ toggleHeader: true })
+    baseWrapper.update()
+    baseWrapper.instance().handleScroll({ nativeEvent: { contentOffset: { y: 30 } } })
+    expect(baseWrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `handleScroll:nothing`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+    )
+    const baseWrapper = diveToBase(wrapper)
+    baseWrapper.instance().handleScroll({ nativeEvent: { contentOffset: { y: 30 } } })
+    expect(baseWrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `componentWillUpdate`', () => {
+    const wrapper = shallow(
+      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+    )
+    const baseWrapper = diveToBase(wrapper)
+    baseWrapper.setState({ toggleHeader: false })
+    baseWrapper.update()
+    expect(baseWrapper).toMatchSnapshot()
+  })
+})
+
+describe('SecondaryScreen.Header.native', () => {
+  it('renders a snapshot', () => {
+    const wrapper = shallow(
+      <Header actionButtons={[]} />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `toggleHeader:true`', () => {
+    const wrapper = shallow(
+      <Header toggleHeader actionButtons={[<Text>Action</Text>]} />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
+  it('renders a snapshot with `whiteBackIcon:true`', () => {
+    const wrapper = shallow(
+      <Header actionButtons={[]} whiteBackIcon />
     )
     expect(wrapper).toMatchSnapshot()
   })

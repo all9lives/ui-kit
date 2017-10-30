@@ -13,6 +13,77 @@ exports[`GhostButton.native renders a snapshot 1`] = `
 </TouchableOpacity>
 `;
 
+exports[`GhostButton.native renders a snapshot with \`StyledText\` 1`] = `
+<Text
+  accessible={true}
+  alignSelf="auto"
+  allowFontScaling={true}
+  color="#191919"
+  disabled={false}
+  ellipsizeMode="tail"
+  margin={0}
+  size={16}
+  style={
+    Array [
+      Object {
+        "alignSelf": "auto",
+        "backgroundColor": "transparent",
+        "color": "#191919",
+        "fontSize": 16,
+        "lineHeight": 20,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Button
+</Text>
+`;
+
+exports[`GhostButton.native renders a snapshot with \`StyledView\` 1`] = `
+<View
+  align=""
+  color="#191919"
+  direction="column"
+  innerRef={[Function]}
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "borderColor": "#191919",
+        "borderRadius": 25,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 15,
+        "paddingLeft": 50,
+        "paddingRight": 50,
+        "paddingTop": 15,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Button
+  </Styled(Text)>
+</View>
+`;
+
 exports[`GhostButton.native renders a snapshot with \`color:white\` 1`] = `
 <TouchableOpacity
   activeOpacity={0.2}

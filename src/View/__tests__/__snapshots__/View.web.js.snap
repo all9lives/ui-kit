@@ -77,6 +77,32 @@ exports[`View.web renders a snapshot with \`fullWidth\` 1`] = `
 />
 `;
 
+exports[`View.web renders a snapshot with \`grow:1\` 1`] = `
+.c0 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: autopx;
+  width: autopx;
+}
+
+<div
+  className="c0"
+  direction="row"
+  height="auto"
+  width="auto"
+/>
+`;
+
 exports[`View.web renders a snapshot with \`height:120\` 1`] = `
 .c0 {
   -webkit-flex-direction: row;

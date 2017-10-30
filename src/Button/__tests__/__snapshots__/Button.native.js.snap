@@ -1,5 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Button.StyledText.native renders a snapshot 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#191919"
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#fafafa",
+      },
+      undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Button.StyledText.native renders a snapshot with \`color:white\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="white"
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#191919",
+      },
+      undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Button.StyledText.native renders a snapshot with \`title:Text\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#191919"
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#fafafa",
+      },
+      undefined,
+    ]
+  }
+  title="Text"
+/>
+`;
+
+exports[`Button.StyledView.native renders a snapshot 1`] = `
+<View
+  color="#191919"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#191919",
+        "borderRadius": 20,
+        "paddingBottom": 10,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Button.StyledView.native renders a snapshot with \`color:white\` 1`] = `
+<View
+  color="white"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fafafa",
+        "borderRadius": 20,
+        "paddingBottom": 10,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`Button.native renders a snapshot 1`] = `
 <TouchableOpacity
   activeOpacity={0.2}
@@ -7,7 +104,7 @@ exports[`Button.native renders a snapshot 1`] = `
 >
   <Styled(View)>
     <Styled(Text)>
-      Button
+      Apple
     </Styled(Text)>
   </Styled(View)>
 </TouchableOpacity>

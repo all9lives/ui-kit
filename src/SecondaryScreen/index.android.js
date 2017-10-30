@@ -32,7 +32,7 @@ export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress, 
   </View>
 )
 
-class BaseComponent extends Component {
+export class Base extends Component {
   static defaultProps = {
     title: 'Title',
     actionButtons: [],
@@ -109,7 +109,7 @@ class BaseComponent extends Component {
     )
   }
 }
-const SecondaryScreen = styled(BaseComponent)`
+const SecondaryScreen = styled(Base)`
   ${base}
 `
 SecondaryScreen.defaultProps = defaultProps
