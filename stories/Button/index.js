@@ -24,3 +24,6 @@ createStory('Button', module)
   .add('with `color:white`', () =>
     <Button color='white' />
   )
+  .add('with `margin:2`', () =>
+    <Button margin={2} />
+  )

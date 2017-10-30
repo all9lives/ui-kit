@@ -60,6 +60,13 @@ describe('Button.native', () => {
     const result = wrapper.props().onPress()
     expect(result).toEqual('onPressed')
   })
+
+  it('renders a snapshot with `style`', () => {
+    const wrapper = shallow(
+      <Button style={{ margin: 10 }} />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
 
 describe('Button.StyledView.native', () => {

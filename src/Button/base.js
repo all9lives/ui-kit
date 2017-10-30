@@ -1,5 +1,7 @@
 import { css } from 'styled-components'
 import Color from '../utils/Color'
+import Unit from '../utils/Unit'
+import Size from '../utils/Size'
 
 export const attrs = {
   color: props => props.primary
@@ -8,7 +10,7 @@ export const attrs = {
 }
 
 const base = css`
-  color: ${props => props.color};
+  margin: ${props => Unit.parse(props.margin, (margin) => margin * Size.spacing)};
 `
 
 export default base
