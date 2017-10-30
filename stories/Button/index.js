@@ -27,3 +27,6 @@ createStory('Button', module)
   .add('with `margin:2`', () =>
     <Button margin={2} />
   )
+  .add('with `margin:2 1`', () =>
+    <Button margin='2 1' />
+  )
