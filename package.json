@@ -32,7 +32,8 @@
     "ramda": "^0.25.0",
     "react-primitives": "^0.4.3",
     "recompose": "^0.26.0",
-    "styled-components": "^2.2.2"
+    "styled-components": "^2.2.2",
+    "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
     "@storybook/react": "^3.2.13",
