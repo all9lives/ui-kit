@@ -60,18 +60,18 @@ exports[`Button.StyledText.native renders a snapshot with \`title:Text\` 1`] = `
 `;
 
 exports[`Button.StyledView.native renders a snapshot 1`] = `
-<View
+<Styled(View)
+  align=""
   color="#191919"
+  direction="column"
+  innerRef={[Function]}
   margin={0}
+  padding={0}
   style={
     Array [
       Object {
         "backgroundColor": "#191919",
         "borderRadius": 20,
-        "marginBottom": 0,
-        "marginLeft": 0,
-        "marginRight": 0,
-        "marginTop": 0,
         "paddingBottom": 10,
         "paddingLeft": 30,
         "paddingRight": 30,
@@ -84,18 +84,18 @@ exports[`Button.StyledView.native renders a snapshot 1`] = `
 `;
 
 exports[`Button.StyledView.native renders a snapshot with \`color:white\` 1`] = `
-<View
+<Styled(View)
+  align=""
   color="white"
+  direction="column"
+  innerRef={[Function]}
   margin={0}
+  padding={0}
   style={
     Array [
       Object {
         "backgroundColor": "#fafafa",
         "borderRadius": 20,
-        "marginBottom": 0,
-        "marginLeft": 0,
-        "marginRight": 0,
-        "marginTop": 0,
         "paddingBottom": 10,
         "paddingLeft": 30,
         "paddingRight": 30,
@@ -112,7 +112,7 @@ exports[`Button.native renders a snapshot 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     style={
       Object {
@@ -120,12 +120,10 @@ exports[`Button.native renders a snapshot 1`] = `
       }
     }
   >
-    <Styled(Text)
-      margin={0}
-    >
+    <Styled(Text)>
       Apple
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -134,7 +132,7 @@ exports[`Button.native renders a snapshot with \`color:white\` 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     color="white"
     margin={0}
     style={
@@ -145,11 +143,10 @@ exports[`Button.native renders a snapshot with \`color:white\` 1`] = `
   >
     <Styled(Text)
       color="white"
-      margin={0}
     >
       Button
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -159,7 +156,7 @@ exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
   disabled={true}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     style={
       Object {
@@ -167,12 +164,10 @@ exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
       }
     }
   >
-    <Styled(Text)
-      margin={0}
-    >
+    <Styled(Text)>
       Button
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -181,7 +176,7 @@ exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     style={
       Object {
@@ -189,12 +184,10 @@ exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
       }
     }
   >
-    <Styled(Text)
-      margin={0}
-    >
+    <Styled(Text)>
       Button
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -203,7 +196,7 @@ exports[`Button.native renders a snapshot with \`primary\` 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     primary={true}
     style={
@@ -213,12 +206,11 @@ exports[`Button.native renders a snapshot with \`primary\` 1`] = `
     }
   >
     <Styled(Text)
-      margin={0}
       primary={true}
     >
       Button
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -227,7 +219,7 @@ exports[`Button.native renders a snapshot with \`style\` 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     style={
       Object {
@@ -235,12 +227,10 @@ exports[`Button.native renders a snapshot with \`style\` 1`] = `
       }
     }
   >
-    <Styled(Text)
-      margin={0}
-    >
+    <Styled(Text)>
       Button
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
 
@@ -249,7 +239,7 @@ exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
   activeOpacity={0.2}
   onPress={[Function]}
 >
-  <Styled(View)
+  <Styled(Styled(View))
     margin={0}
     style={
       Object {
@@ -257,11 +247,9 @@ exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
       }
     }
   >
-    <Styled(Text)
-      margin={0}
-    >
+    <Styled(Text)>
       Press
     </Styled(Text)>
-  </Styled(View)>
+  </Styled(Styled(View))>
 </TouchableOpacity>
 `;
