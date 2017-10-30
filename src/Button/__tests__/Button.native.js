@@ -39,6 +39,13 @@ describe('Button.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
+  it('renders a snapshot with `color:white`', () => {
+    const wrapper = shallow(
+      <Button color='white' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+
   it('triggers something when onPressed', () => {
     const wrapper = shallow(
       <Button />

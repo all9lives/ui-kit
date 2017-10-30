@@ -16,7 +16,7 @@ const Button = styled.button.attrs({
   overflow: visible;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: ${props => invert(props.color, true)};
   background-color: ${props => props.color};
   opacity: ${props => props.disabled ? '0.4' : 1};

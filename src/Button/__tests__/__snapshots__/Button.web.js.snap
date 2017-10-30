@@ -13,7 +13,7 @@ exports[`Button.web renders a snapshot 1`] = `
   -ms-user-select: none;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: #FFFFFF;
   background-color: #191919;
   opacity: 1;
@@ -35,6 +35,41 @@ exports[`Button.web renders a snapshot 1`] = `
 </button>
 `;
 
+exports[`Button.web renders a snapshot with \`color:white\` 1`] = `
+.c0 {
+  color: #fafafa;
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  color: #000000;
+  background-color: #fafafa;
+  opacity: 1;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="white"
+  onClick={[Function]}
+  title="Button"
+>
+  Button
+</button>
+`;
+
 exports[`Button.web renders a snapshot with \`disabled\` 1`] = `
 .c0 {
   color: #191919;
@@ -48,7 +83,7 @@ exports[`Button.web renders a snapshot with \`disabled\` 1`] = `
   -ms-user-select: none;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: #FFFFFF;
   background-color: #191919;
   opacity: 0.4;
@@ -84,7 +119,7 @@ exports[`Button.web renders a snapshot with \`onPress\` 1`] = `
   -ms-user-select: none;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: #FFFFFF;
   background-color: #191919;
   opacity: 1;
@@ -119,7 +154,7 @@ exports[`Button.web renders a snapshot with \`primary\` 1`] = `
   -ms-user-select: none;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: #FFFFFF;
   background-color: #b71c1c;
   opacity: 1;
@@ -154,7 +189,7 @@ exports[`Button.web renders a snapshot with \`title:Press\` 1`] = `
   -ms-user-select: none;
   user-select: none;
   padding: 0.3rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   color: #FFFFFF;
   background-color: #191919;
   opacity: 1;

@@ -1,85 +1,91 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button.native renders a snapshot 1`] = `
-<Button
-  color="#191919"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
 >
-  Apple
-</Button>
+  <Styled(View)>
+    <Styled(Text)>
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
+`;
+
+exports[`Button.native renders a snapshot with \`color:white\` 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Styled(View)
+    color="white"
+  >
+    <Styled(Text)
+      color="white"
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
-<Button
-  color="#191919"
-  disabled={true}
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)
+    disabled={true}
+  >
+    <Styled(Text)
+      disabled={true}
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
-<Button
-  color="#191919"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)>
+    <Styled(Text)>
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`primary\` 1`] = `
-<Button
-  color="#b71c1c"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  primary={true}
-  style={
-    Array [
-      Object {
-        "color": "#b71c1c",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)
+    primary={true}
+  >
+    <Styled(Text)
+      primary={true}
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
-<Button
-  color="#191919"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Press"
-/>
+>
+  <Styled(View)>
+    <Styled(Text)>
+      Press
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
