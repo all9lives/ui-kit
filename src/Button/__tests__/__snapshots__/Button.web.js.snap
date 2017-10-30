@@ -2,7 +2,7 @@
 
 exports[`Button.web renders a snapshot 1`] = `
 .c0 {
-  color: #191919;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;
@@ -37,7 +37,7 @@ exports[`Button.web renders a snapshot 1`] = `
 
 exports[`Button.web renders a snapshot with \`color:white\` 1`] = `
 .c0 {
-  color: #fafafa;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;
@@ -72,7 +72,7 @@ exports[`Button.web renders a snapshot with \`color:white\` 1`] = `
 
 exports[`Button.web renders a snapshot with \`disabled\` 1`] = `
 .c0 {
-  color: #191919;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;
@@ -108,7 +108,7 @@ exports[`Button.web renders a snapshot with \`disabled\` 1`] = `
 
 exports[`Button.web renders a snapshot with \`onPress\` 1`] = `
 .c0 {
-  color: #191919;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;
@@ -143,7 +143,7 @@ exports[`Button.web renders a snapshot with \`onPress\` 1`] = `
 
 exports[`Button.web renders a snapshot with \`primary\` 1`] = `
 .c0 {
-  color: #b71c1c;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;
@@ -178,7 +178,7 @@ exports[`Button.web renders a snapshot with \`primary\` 1`] = `
 
 exports[`Button.web renders a snapshot with \`title:Press\` 1`] = `
 .c0 {
-  color: #191919;
+  margin: 0px;
   background: none;
   border: 0;
   font: inherit;

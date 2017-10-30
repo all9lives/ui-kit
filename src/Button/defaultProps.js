@@ -1,4 +1,5 @@
 export default {
   title: 'Button',
-  onPress: () => {}
+  onPress: () => {},
+  margin: 0
 }
