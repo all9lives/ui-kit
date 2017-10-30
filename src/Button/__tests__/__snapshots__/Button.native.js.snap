@@ -1,9 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button.native renders a snapshot 1`] = `
-<Button
+exports[`Button.StyledText.native renders a snapshot 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
   color="#191919"
-  onPress={[Function]}
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#fafafa",
+      },
+      undefined,
+    ]
+  }
+>
+  Text
+</Text>
+`;
+
+exports[`Button.StyledText.native renders a snapshot with \`color:white\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="white"
+  disabled={false}
+  ellipsizeMode="tail"
   style={
     Array [
       Object {
@@ -12,74 +35,154 @@ exports[`Button.native renders a snapshot 1`] = `
       undefined,
     ]
   }
-  title="Button"
 >
-  Apple
-</Button>
+  Text
+</Text>
+`;
+
+exports[`Button.StyledText.native renders a snapshot with \`title:Text\` 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="#191919"
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#fafafa",
+      },
+      undefined,
+    ]
+  }
+  title="Text"
+/>
+`;
+
+exports[`Button.StyledView.native renders a snapshot 1`] = `
+<View
+  color="#191919"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#191919",
+        "borderRadius": 20,
+        "paddingBottom": 10,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Button.StyledView.native renders a snapshot with \`color:white\` 1`] = `
+<View
+  color="white"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fafafa",
+        "borderRadius": 20,
+        "paddingBottom": 10,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Button.native renders a snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Styled(View)>
+    <Styled(Text)>
+      Apple
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
+`;
+
+exports[`Button.native renders a snapshot with \`color:white\` 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Styled(View)
+    color="white"
+  >
+    <Styled(Text)
+      color="white"
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`disabled\` 1`] = `
-<Button
-  color="#191919"
-  disabled={true}
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)
+    disabled={true}
+  >
+    <Styled(Text)
+      disabled={true}
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
-<Button
-  color="#191919"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)>
+    <Styled(Text)>
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`primary\` 1`] = `
-<Button
-  color="#b71c1c"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  primary={true}
-  style={
-    Array [
-      Object {
-        "color": "#b71c1c",
-      },
-      undefined,
-    ]
-  }
-  title="Button"
-/>
+>
+  <Styled(View)
+    primary={true}
+  >
+    <Styled(Text)
+      primary={true}
+    >
+      Button
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;
 
 exports[`Button.native renders a snapshot with \`title:Press\` 1`] = `
-<Button
-  color="#191919"
+<TouchableOpacity
+  activeOpacity={0.2}
   onPress={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#191919",
-      },
-      undefined,
-    ]
-  }
-  title="Press"
-/>
+>
+  <Styled(View)>
+    <Styled(Text)>
+      Press
+    </Styled(Text)>
+  </Styled(View)>
+</TouchableOpacity>
 `;

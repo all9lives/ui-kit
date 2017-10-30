@@ -52,4 +52,11 @@ describe('View.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `grow:1`', () => {
+    const wrapper = shallow(
+      <View grow={1} />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

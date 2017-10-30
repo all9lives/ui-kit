@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FadeInView.native renders a snapshot 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;
+
+exports[`FadeInView.native renders a snapshot after delay 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;
+
+exports[`FadeInView.native renders a snapshot with \`delay:3000\` 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;
+
+exports[`FadeInView.native renders a snapshot with \`duration:1000\` 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;
+
+exports[`FadeInView.native renders a snapshot with unmount 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</AnimatedComponent>
+`;

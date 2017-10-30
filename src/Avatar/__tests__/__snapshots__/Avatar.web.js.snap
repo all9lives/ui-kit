@@ -5,12 +5,26 @@ exports[`Avatar.web renders a snapshot 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
+  margin={0}
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`borderRadius:5\` 1`] = `
@@ -18,12 +32,67 @@ exports[`Avatar.web renders a snapshot with \`borderRadius:5\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={5}
   className="c0"
+  direction="column"
+  margin={0}
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 5,
+      }
+    }
+  />
+</Styled(View)>
+`;
+
+exports[`Avatar.web renders a snapshot with \`label,name\` 1`] = `
+<View
+  align=""
+  direction="column"
+  innerRef={[Function]}
+  margin={0}
+  name="bar"
+  padding={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ea4949",
+        "borderRadius": 3,
+        "bottom": 20,
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+        "paddingTop": 3,
+        "position": "absolute",
+        "right": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    boo
+  </Styled(Text)>
+</View>
 `;
 
 exports[`Avatar.web renders a snapshot with \`label:boo\` 1`] = `
@@ -31,13 +100,82 @@ exports[`Avatar.web renders a snapshot with \`label:boo\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
   label="boo"
+  margin={0}
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    margin={0}
+    padding={0}
+  >
+    <Styled(Text)
+      alignSelf="auto"
+      color="#191919"
+      margin={0}
+      size={16}
+    >
+      boo
+    </Styled(Text)>
+  </Styled(View)>
+</Styled(View)>
+`;
+
+exports[`Avatar.web renders a snapshot with \`label\` without \`name\` 1`] = `
+<View
+  align=""
+  direction="column"
+  innerRef={[Function]}
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ea4949",
+        "borderRadius": 3,
+        "bottom": 1,
+        "flexDirection": "column",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 3,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+        "paddingTop": 3,
+        "position": "absolute",
+        "right": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    boo
+  </Styled(Text)>
+</View>
 `;
 
 exports[`Avatar.web renders a snapshot with \`labelStyle\` 1`] = `
@@ -45,17 +183,31 @@ exports[`Avatar.web renders a snapshot with \`labelStyle\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
   labelStyle={
     Object {
       "backgroundColor": "white",
     }
   }
+  margin={0}
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`labelTextStyle\` 1`] = `
@@ -63,17 +215,31 @@ exports[`Avatar.web renders a snapshot with \`labelTextStyle\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
   labelTextStyle={
     Object {
       "color": "white",
     }
   }
+  margin={0}
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`name:foo\` 1`] = `
@@ -81,13 +247,42 @@ exports[`Avatar.web renders a snapshot with \`name:foo\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
+  margin={0}
   name="foo"
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    margin={0}
+    padding={0}
+  >
+    <Styled(Text)
+      alignSelf="auto"
+      color="#191919"
+      margin={0}
+      size={16}
+    >
+      foo
+    </Styled(Text)>
+  </Styled(View)>
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`nameStyle\` 1`] = `
@@ -95,17 +290,31 @@ exports[`Avatar.web renders a snapshot with \`nameStyle\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
+  margin={0}
   nameStyle={
     Object {
       "backgroundColor": "white",
     }
   }
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`nameTextStyle\` 1`] = `
@@ -113,17 +322,31 @@ exports[`Avatar.web renders a snapshot with \`nameTextStyle\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
+  margin={0}
   nameTextStyle={
     Object {
       "color": "white",
     }
   }
+  padding={0}
   size="regular"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;
 
 exports[`Avatar.web renders a snapshot with \`size:small\` 1`] = `
@@ -131,10 +354,24 @@ exports[`Avatar.web renders a snapshot with \`size:small\` 1`] = `
   position: relative;
 }
 
-<Base
+<Styled(View)
+  align=""
   borderRadius={0}
   className="c0"
+  direction="column"
+  margin={0}
+  padding={0}
   size="small"
   source={1}
-/>
+>
+  <mapProps(Styled(Image))
+    size={48}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
 `;

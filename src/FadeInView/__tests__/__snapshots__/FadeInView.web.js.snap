@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FadeInView.web renders a snapshot 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 0,
+      "transition": "opacity 300ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;
+
+exports[`FadeInView.web renders a snapshot after delay 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 1,
+      "transition": "opacity 300ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;
+
+exports[`FadeInView.web renders a snapshot with \`delay:3000\` 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 0,
+      "transition": "opacity 300ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;
+
+exports[`FadeInView.web renders a snapshot with \`duration:1000\` 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 0,
+      "transition": "opacity 1000ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;
+
+exports[`FadeInView.web renders a snapshot with unmount 1`] = `
+<div
+  style={
+    Object {
+      "opacity": 1,
+      "transition": "opacity 300ms linear",
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    Apple
+  </Styled(Text)>
+</div>
+`;

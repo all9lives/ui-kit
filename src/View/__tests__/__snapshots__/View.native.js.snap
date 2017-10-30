@@ -54,6 +54,34 @@ exports[`View.native renders a snapshot with \`direction:row\` 1`] = `
 />
 `;
 
+exports[`View.native renders a snapshot with \`grow:1\` 1`] = `
+<View
+  align=""
+  direction="column"
+  grow={1}
+  innerRef={[Function]}
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
 exports[`View.native renders a snapshot with \`height:120\` 1`] = `
 <View
   align=""

@@ -18,3 +18,9 @@ createStory('Button', module)
   .add('with `primary`', () =>
     <Button primary />
   )
+  .add('with `color:success`', () =>
+    <Button color='success' />
+  )
+  .add('with `color:white`', () =>
+    <Button color='white' />
+  )
