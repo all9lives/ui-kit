@@ -33,6 +33,9 @@ export default new StyleSheet({
       top: STATUS_BAR_HEIGHT
     }
   },
+  transparent: {
+    backgroundColor: 'transparent'
+  },
   shadow: {
     ...Shadow.normal()
   },
@@ -64,5 +67,8 @@ export default new StyleSheet({
   },
   titleText: {
     backgroundColor: 'transparent'
+  },
+  titleWhite: {
+    color: Color.white
   }
 })

@@ -56,9 +56,9 @@ describe('SecondaryScreen.native', () => {
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `whiteBackIcon`', () => {
+  it('renders a snapshot with `whiteStyle`', () => {
     const wrapper = shallow(
-      <SecondaryScreen whiteBackIcon>
+      <SecondaryScreen whiteStyle>
         <Text>SecondaryScreen</Text>
       </SecondaryScreen>
     )
@@ -166,9 +166,9 @@ describe('SecondaryScreen.Header.native', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `whiteBackIcon:true`', () => {
+  it('renders a snapshot with `whiteStyle:true`', () => {
     const wrapper = shallow(
-      <Header actionButtons={[]} whiteBackIcon />
+      <Header actionButtons={[]} whiteStyle />
     )
     expect(wrapper).toMatchSnapshot()
   })

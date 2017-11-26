@@ -25,8 +25,8 @@ createStory('SecondaryScreen', module)
       <ScreenStuff />
     </SecondaryScreen>
   ))
-  .add('with whiteBackIcon', () => (
-    <SecondaryScreen whiteBackIcon>
+  .add('with whiteStyle', () => (
+    <SecondaryScreen whiteStyle>
       <ScreenStuff />
     </SecondaryScreen>
   ))
@@ -52,6 +52,11 @@ createStory('SecondaryScreen', module)
   ))
   .add('with onRefresh', () => (
     <SecondaryScreen onRefresh={action('PullToRefresh')}>
+      <ScreenStuff />
+    </SecondaryScreen>
+  ))
+  .add('with transparentHeader', () => (
+    <SecondaryScreen transparentHeader>
       <ScreenStuff />
     </SecondaryScreen>
   ))

@@ -19,6 +19,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot 1`] = `
       },
       undefined,
       undefined,
+      undefined,
     ]
   }
 >
@@ -91,6 +92,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot with \`toggleHeader:tr
         "shadowRadius": 2.5,
       },
       undefined,
+      undefined,
     ]
   }
 >
@@ -159,7 +161,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot with \`toggleHeader:tr
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteBackIcon:true\` 1`] = `
+exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteStyle:true\` 1`] = `
 <Styled(View)
   align="middle"
   direction="row"
@@ -176,6 +178,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteBackIcon:t
         "top": 20,
         "zIndex": 1,
       },
+      undefined,
       undefined,
       undefined,
     ]
@@ -1382,7 +1385,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = `
+exports[`SecondaryScreen.native renders a snapshot with \`whiteStyle\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1407,7 +1410,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = 
   <Header
     actionButtons={Array []}
     toggleHeader={false}
-    whiteBackIcon={true}
+    whiteStyle={true}
   />
   <AnimatedComponent
     style={
@@ -1433,6 +1436,9 @@ exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = 
           },
           Object {
             "fontSize": 25,
+          },
+          Object {
+            "color": "#fafafa",
           },
         ]
       }
