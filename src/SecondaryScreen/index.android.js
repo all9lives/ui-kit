@@ -62,6 +62,9 @@ export class Base extends Component {
     } else if (scrollTop <= SCROLL_THRESHOLD && this.state.toggleHeader) {
       this.setState({ toggleHeader: false })
     }
+    if (this.props.onScroll) {
+      this.props.onScroll(e)
+    }
   }
   render () {
     const { toggleHeader } = this.state
