@@ -67,8 +67,5 @@ export default new StyleSheet({
   },
   titleText: {
     backgroundColor: 'transparent'
-  },
-  titleWhite: {
-    color: Color.white
   }
 })

@@ -25,11 +25,6 @@ createStory('SecondaryScreen', module)
       <ScreenStuff />
     </SecondaryScreen>
   ))
-  .add('with whiteStyle', () => (
-    <SecondaryScreen whiteStyle>
-      <ScreenStuff />
-    </SecondaryScreen>
-  ))
   .add('with style', () => (
     <SecondaryScreen style={{ backgroundColor: 'black' }}>
       <ScreenStuff />

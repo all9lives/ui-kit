@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components/native'
 import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated, RefreshControl } from 'react-native'
 import Size from '../utils/Size'
+import Color from '../utils/Color'
 import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
 import View from '../View'
 import Icon from '../Icon'
@@ -14,13 +15,13 @@ const TRANSITION_TIME = 300
 const AnimatedView = Animated.createAnimatedComponent(RNView)
 const AnimatedText = Animated.createAnimatedComponent(RNText)
 
-export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress, whiteStyle, transparent }) => (
+export const Header = ({ whiteStyle, style, actionButtons, onBackPress }) => (
   <View
     style={[
       styles.header,
-      (toggleHeader && !transparent) && styles.shadow,
-      headerStyle,
-      transparent && styles.transparent
+      style,
+      !whiteStyle && styles.shadow,
+      whiteStyle && styles.transparent
     ]}
     align='middle'
     direction='row'
@@ -69,7 +70,7 @@ export class Base extends Component {
   render () {
     const { toggleHeader } = this.state
     const { headerStyle, bodyStyle, title, children, actionButtons,
-      onBackPress, whiteStyle, getScrollViewRef, refreshing,
+      onBackPress, getScrollViewRef, refreshing,
       onRefresh, transparentHeader } = this.props
     const animatedTop = this.animatedValue.interpolate({
       inputRange: [0, 1],
@@ -83,25 +84,21 @@ export class Base extends Component {
       inputRange: [0, 1],
       outputRange: [Size.title, Size.regular]
     })
-    const textStyle = [styles.titleText, { fontSize: animatedFontSize }]
-    if (whiteStyle) {
-      textStyle.push(styles.titleWhite)
-    }
+    const whiteStyle = transparentHeader && !toggleHeader
     return (
       <View style={[this.props.style, styles.container]}>
         <Header
-          toggleHeader={toggleHeader}
-          headerStyle={headerStyle}
+          whiteStyle={whiteStyle}
+          style={headerStyle}
           actionButtons={actionButtons}
           onBackPress={onBackPress}
-          whiteStyle={whiteStyle}
-          transparent={transparentHeader}
         />
         <AnimatedView
           style={[styles.title, { top: animatedTop, left: animatedLeft }]}
         >
           <AnimatedText
-            style={textStyle}
+            ref={c => (this.refTitle = c)}
+            style={[styles.titleText, { fontSize: animatedFontSize, color: whiteStyle ? Color.white : Color.black }]}
           >
             {title}
           </AnimatedText>

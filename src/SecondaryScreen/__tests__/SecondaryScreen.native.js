@@ -56,15 +56,6 @@ describe('SecondaryScreen.native', () => {
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
-  it('renders a snapshot with `whiteStyle`', () => {
-    const wrapper = shallow(
-      <SecondaryScreen whiteStyle>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
-    )
-    expect(diveToBase(wrapper)).toMatchSnapshot()
-  })
-
   it('renders a snapshot with `style`', () => {
     const wrapper = shallow(
       <SecondaryScreen style={{ backgroundColor: 'black' }}>
