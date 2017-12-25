@@ -30,3 +30,6 @@ createStory('Button', module)
   .add('with `margin:2 1`', () =>
     <Button margin='2 1' />
   )
+  .add('with `style`', () =>
+    <Button style={{ width: 200, alignItems: 'center' }} />
+  )

@@ -27,7 +27,7 @@ export const StyledText = styled.Text.attrs({
 
 const Button = ({ onPress, disabled, margin, style, children, title, ...props }) => (
   <TouchableOpacity disabled={disabled} onPress={onPress}>
-    <StyledView {...props} margin={margin} style={{ opacity: disabled ? 0.4 : 1 }}>
+    <StyledView {...props} margin={margin} style={[style, { opacity: disabled ? 0.4 : 1 }]}>
       <StyledText {...props}>
         {children || title}
       </StyledText>
