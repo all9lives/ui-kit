@@ -8,6 +8,7 @@ const base = css`
   color: ${props => (Color[props.color] || props.color)};
   margin: ${props => Unit.parse(props.margin, (margin) => margin * Size.spacing)};
   align-self: ${props => props.alignSelf};
+  ${props => props.bold ? 'font-weight: bold;' : ''}
 `
 
 export default base

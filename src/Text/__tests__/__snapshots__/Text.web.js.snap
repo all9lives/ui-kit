@@ -42,6 +42,28 @@ exports[`Text.web renders a snapshot with \`alignSelf:center\` 1`] = `
 </span>
 `;
 
+exports[`Text.web renders a snapshot with \`bold\` 1`] = `
+.c0 {
+  font-size: 16px;
+  color: #191919;
+  margin: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  font-weight: bold;
+  cursor: auto;
+  line-height: 1.25;
+}
+
+<span
+  className="c0"
+  color="#191919"
+  size={16}
+>
+  Bold
+</span>
+`;
+
 exports[`Text.web renders a snapshot with \`color:blue\` 1`] = `
 .c0 {
   font-size: 16px;

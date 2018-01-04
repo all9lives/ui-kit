@@ -38,3 +38,6 @@ createStory('Text', module)
 
 Ut faucibus lobortis erat, at rhoncus eros. Morbi posuere mollis interdum. Nunc faucibus tortor vitae felis elementum dignissim. Curabitur arcu orci, consectetur eu ipsum eget, convallis semper tellus. Proin varius ultrices nisl, ut porttitor ligula bibendum sit amet. Praesent porttitor ipsum purus, vel venenatis enim lacinia vitae. Fusce ac arcu eu odio pretium maximus. Mauris at lobortis ligula. Aenean sed vehicula magna. Aenean fringilla, tellus vel vestibulum pharetra, dolor mauris placerat urna, in fringilla lectus odio vel massa. Aliquam et magna nec mauris ultrices tincidunt sit amet eget est. Aliquam vulputate tellus et tristique venenatis. Curabitur sed consectetur mi, ac malesuada arcu. Donec pellentesque vehicula ante, quis commodo tortor fringilla at. Curabitur in lacus magna. Donec semper vehicula dui id tristique.`}</Text>
   ))
+  .add('with bold', () => (
+    <Text bold>Bold</Text>
+  ))
