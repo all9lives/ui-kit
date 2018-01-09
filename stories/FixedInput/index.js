@@ -59,3 +59,8 @@ createStory('FixedInput', module)
       <FixedInput onChangeText={action('Input onChangeText')} />
     </StateProvider>
   ))
+  .add('with mask', () => (
+    <StateProvider>
+      <FixedInput mask />
+    </StateProvider>
+  ))

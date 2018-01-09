@@ -24,6 +24,11 @@ exports[`FixedInput.native renders a snapshot with show 1`] = `
         grow={1}
         margin={0}
         padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
       />
     </TouchableWithoutFeedback>
     <Styled(Styled(View))>
@@ -101,6 +106,11 @@ exports[`FixedInput.native renders a snapshot with show and label 1`] = `
         grow={1}
         margin={0}
         padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
       />
     </TouchableWithoutFeedback>
     <Styled(Styled(View))>
@@ -178,6 +188,11 @@ exports[`FixedInput.native renders a snapshot with show and multiline 1`] = `
         grow={1}
         margin={0}
         padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
       />
     </TouchableWithoutFeedback>
     <Styled(Styled(View))>
@@ -259,6 +274,11 @@ exports[`FixedInput.native renders a snapshot with show and onRequestDismiss 1`]
         grow={1}
         margin={0}
         padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
       />
     </TouchableWithoutFeedback>
     <Styled(Styled(View))>
@@ -336,6 +356,11 @@ exports[`FixedInput.native renders a snapshot with show and saveText 1`] = `
         grow={1}
         margin={0}
         padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
       />
     </TouchableWithoutFeedback>
     <Styled(Styled(View))>

@@ -63,7 +63,7 @@ export default class FixedInput extends Component {
     this.setState({ value })
   }
   render () {
-    const { show, label, saveText, onRequestDismiss, value, ...props } = this.props
+    const { show, label, saveText, onRequestDismiss, value, mask, ...props } = this.props
     if (!show) {
       return null
     }
@@ -71,7 +71,7 @@ export default class FixedInput extends Component {
       <Modal visible transparent onRequestClose={onRequestDismiss}>
         <KeyboardAvoidingView style={{ flex: 1 }} behavior='height'>
           <TouchableWithoutFeedback onPress={onRequestDismiss}>
-            <View grow={1} />
+            <View grow={1} style={{ backgroundColor: mask ? 'rgba(0, 0, 0, 0.4)' : 'transparent' }} />
           </TouchableWithoutFeedback>
           <Container>
             <Header align='center'>
