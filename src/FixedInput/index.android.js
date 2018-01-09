@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Modal, Keyboard, KeyboardAvoidingView, TouchableWithoutFeedback } from 'react-native'
+import { Modal, Keyboard, KeyboardAvoidingView, TouchableWithoutFeedback, TouchableOpacity } from 'react-native'
 import styled from 'styled-components/native'
 import base from './base'
 import defaultProps from './defaultProps'
@@ -8,7 +8,6 @@ import Color from '../utils/Color'
 import Size from '../utils/Size'
 import View from '../View'
 import Text from '../Text'
-import Button from '../Button'
 import Input from '../Input'
 
 const Container = styled(View)`
@@ -26,9 +25,7 @@ const Header = styled(View)`
 `
 
 const Save = styled(View)`
-  position: absolute;
-  top: ${Unit.convert(Size.spacing)};
-  right: ${Unit.convert(Size.spacing)};
+  padding: 0 ${Unit.convert(Size.spacing)};
 `
 
 const Body = styled(View)`
@@ -77,11 +74,15 @@ export default class FixedInput extends Component {
             <View grow={1} />
           </TouchableWithoutFeedback>
           <Container>
-            <Header align='center' direction='row'>
-              <Text>{label}</Text>
-              <Save>
-                <Button title={saveText} color='gray' onPress={this.handlePress} />
-              </Save>
+            <Header align='center'>
+              <View direction='row'>
+                <Text numberOfLines={1} style={{ flex: 1 }}>{label}</Text>
+                <Save>
+                  <TouchableOpacity onPress={this.handlePress}>
+                    <Text>{saveText}</Text>
+                  </TouchableOpacity>
+                </Save>
+              </View>
             </Header>
             <Body>
               <Input {...props} value={this.state.value || value} autoFocus onChangeText={this.handleChangeText} />

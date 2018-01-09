@@ -29,24 +29,43 @@ exports[`FixedInput.native renders a snapshot with show 1`] = `
     <Styled(Styled(View))>
       <Styled(Styled(View))
         align="center"
-        direction="row"
       >
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
+        <Styled(View)
+          align=""
+          direction="row"
           margin={0}
-          size={16}
+          padding={0}
         >
-          Label
-        </Styled(Text)>
-        <Styled(Styled(View))>
-          <Button
-            color="gray"
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
             margin={0}
-            onPress={[Function]}
-            title="Save"
-          />
-        </Styled(Styled(View))>
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
       </Styled(Styled(View))>
       <Styled(Styled(View))>
         <Styled(TextInput)
@@ -87,24 +106,43 @@ exports[`FixedInput.native renders a snapshot with show and label 1`] = `
     <Styled(Styled(View))>
       <Styled(Styled(View))
         align="center"
-        direction="row"
       >
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
+        <Styled(View)
+          align=""
+          direction="row"
           margin={0}
-          size={16}
+          padding={0}
         >
-          MyLabel
-        </Styled(Text)>
-        <Styled(Styled(View))>
-          <Button
-            color="gray"
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
             margin={0}
-            onPress={[Function]}
-            title="Save"
-          />
-        </Styled(Styled(View))>
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            MyLabel
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
       </Styled(Styled(View))>
       <Styled(Styled(View))>
         <Styled(TextInput)
@@ -145,24 +183,43 @@ exports[`FixedInput.native renders a snapshot with show and multiline 1`] = `
     <Styled(Styled(View))>
       <Styled(Styled(View))
         align="center"
-        direction="row"
       >
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
+        <Styled(View)
+          align=""
+          direction="row"
           margin={0}
-          size={16}
+          padding={0}
         >
-          Label
-        </Styled(Text)>
-        <Styled(Styled(View))>
-          <Button
-            color="gray"
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
             margin={0}
-            onPress={[Function]}
-            title="Save"
-          />
-        </Styled(Styled(View))>
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
       </Styled(Styled(View))>
       <Styled(Styled(View))>
         <Styled(TextInput)
@@ -207,24 +264,43 @@ exports[`FixedInput.native renders a snapshot with show and onRequestDismiss 1`]
     <Styled(Styled(View))>
       <Styled(Styled(View))
         align="center"
-        direction="row"
       >
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
+        <Styled(View)
+          align=""
+          direction="row"
           margin={0}
-          size={16}
+          padding={0}
         >
-          Label
-        </Styled(Text)>
-        <Styled(Styled(View))>
-          <Button
-            color="gray"
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
             margin={0}
-            onPress={[Function]}
-            title="Save"
-          />
-        </Styled(Styled(View))>
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
       </Styled(Styled(View))>
       <Styled(Styled(View))>
         <Styled(TextInput)
@@ -265,24 +341,43 @@ exports[`FixedInput.native renders a snapshot with show and saveText 1`] = `
     <Styled(Styled(View))>
       <Styled(Styled(View))
         align="center"
-        direction="row"
       >
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
+        <Styled(View)
+          align=""
+          direction="row"
           margin={0}
-          size={16}
+          padding={0}
         >
-          Label
-        </Styled(Text)>
-        <Styled(Styled(View))>
-          <Button
-            color="gray"
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
             margin={0}
-            onPress={[Function]}
-            title="MySaveText"
-          />
-        </Styled(Styled(View))>
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                MySaveText
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
       </Styled(Styled(View))>
       <Styled(Styled(View))>
         <Styled(TextInput)
