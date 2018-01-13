@@ -34,6 +34,11 @@ createStory('FixedInput', module)
       <FixedInput />
     </StateProvider>
   ))
+  .add('with value', () => (
+    <StateProvider>
+      <FixedInput value='text' />
+    </StateProvider>
+  ))
   .add('with multiline', () => (
     <StateProvider>
       <FixedInput multiline />

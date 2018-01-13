@@ -40,6 +40,7 @@ export default class FixedInput extends Component {
       value: props.value
     }
   }
+  isValidString = (string) => string !== null && string !== undefined
   componentDidMount () {
     this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', this._keyboardDidHide)
   }
@@ -85,7 +86,12 @@ export default class FixedInput extends Component {
               </View>
             </Header>
             <Body>
-              <Input {...props} value={this.state.value || value} autoFocus onChangeText={this.handleChangeText} />
+              <Input
+                {...props}
+                value={this.isValidString(this.state.value) ? this.state.value : value}
+                autoFocus
+                onChangeText={this.handleChangeText}
+              />
             </Body>
           </Container>
         </KeyboardAvoidingView>
