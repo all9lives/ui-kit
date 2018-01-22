@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle.native renders a snapshot 1`] = `
+<Component
+  color="#191919"
+  label="Label"
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Toggle.native renders a snapshot labelStyle 1`] = `
+<Component
+  color="#191919"
+  label="Label"
+  labelStyle={
+    Object {
+      "color": "blue",
+    }
+  }
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Toggle.native renders a snapshot toggleStyle 1`] = `
+<Component
+  color="#191919"
+  label="Label"
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  toggleStyle={
+    Object {
+      "backgroundColor": "blue",
+    }
+  }
+/>
+`;
+
+exports[`Toggle.native renders a snapshot with label:Toggle 1`] = `
+<Component
+  color="#191919"
+  label="Toggle"
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Toggle.native renders a snapshot with reverse 1`] = `
+<Component
+  color="#191919"
+  label="Label"
+  reverse={true}
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Toggle.native renders a snapshot with tight 1`] = `
+<Component
+  color="#191919"
+  label="Label"
+  size={16}
+  style={
+    Array [
+      Object {
+        "position": "relative",
+      },
+      undefined,
+    ]
+  }
+  tight={true}
+/>
+`;
