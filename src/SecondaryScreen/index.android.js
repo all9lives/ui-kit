@@ -3,7 +3,7 @@ import styled from 'styled-components/native'
 import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated, RefreshControl } from 'react-native'
 import Size from '../utils/Size'
 import Color from '../utils/Color'
-import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
+import styles, { HEADER_HEIGHT, TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
 import View from '../View'
 import Icon from '../Icon'
 import base from './base'
@@ -109,6 +109,7 @@ export class Base extends Component {
           refreshControl={(refreshing || onRefresh) && <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
+            progressViewOffset={HEADER_HEIGHT}
           />}
           contentContainerStyle={[styles.body, bodyStyle]}
           onScroll={this.handleScroll}

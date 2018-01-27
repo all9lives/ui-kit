@@ -40,10 +40,19 @@ export default new StyleSheet({
     ...Shadow.normal()
   },
   scrollable: {
-    flex: 1
+    flex: 1,
+    ios: {
+      top: HEADER_HEIGHT,
+      overflow: 'visible'
+    }
   },
   body: {
-    paddingTop: HEADER_HEIGHT + TITLE_HEIGHT + 5 * Size.spacing
+    ios: {
+      paddingTop: TITLE_HEIGHT + 5 * Size.spacing
+    },
+    android: {
+      paddingTop: HEADER_HEIGHT + TITLE_HEIGHT + 5 * Size.spacing
+    }
   },
   backBtn: {
     width: HEADER_HEIGHT,
