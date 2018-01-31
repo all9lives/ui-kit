@@ -105,13 +105,13 @@ export class Base extends Component {
         </AnimatedView>
         <ScrollView
           ref={getScrollViewRef}
-          style={styles.scrollable}
+          style={[styles.scrollable, !transparentHeader && styles.adjustedScrollable]}
           refreshControl={(refreshing || onRefresh) && <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
             progressViewOffset={HEADER_HEIGHT}
           />}
-          contentContainerStyle={[styles.body, bodyStyle]}
+          contentContainerStyle={[styles.body, bodyStyle, !transparentHeader && styles.adjustedBody]}
           onScroll={this.handleScroll}
           scrollEventThrottle={16}
           {...scrollViewProps}

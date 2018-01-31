@@ -20,6 +20,7 @@
     "storybook:web": "start-storybook -p 6006 -c storybook/web",
     "build-storybook:web": "build-storybook -c storybook/web",
     "storybook:native": "storybook start -p 7007 -c storybook/native",
+    "android-reverse": "adb reverse tcp:7007 tcp:7007",
     "check-update": "yarn upgrade-interactive --latest"
   },
   "peerDependencies": {
