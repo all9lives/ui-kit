@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import React from 'react'
 import { shallow } from 'enzyme'
-import SecondaryScreen, { Base, Header } from '../index.ios.js'
+import FloatLabelScreen, { Base, Header } from '../index.ios.js'
 import Text from '../../Text'
 
 jest.mock('Animated', () => {
@@ -21,89 +21,89 @@ jest.mock('Animated', () => {
 
 const diveToBase = wrapper => wrapper.find(Base).dive()
 
-describe('SecondaryScreen.native', () => {
+describe('FloatLabelScreen.native', () => {
   it('renders a snapshot', () => {
     const wrapper = shallow(
-      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+      <FloatLabelScreen><Text>FloatLabelScreen</Text></FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `title:MyTitle`', () => {
     const wrapper = shallow(
-      <SecondaryScreen title='MyTitle'>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen title='MyTitle'>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `actionButtons`', () => {
     const wrapper = shallow(
-      <SecondaryScreen actionButtons={[<Text>1</Text>, <Text>2</Text>]}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen actionButtons={[<Text>1</Text>, <Text>2</Text>]}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `onBackPress`', () => {
     const wrapper = shallow(
-      <SecondaryScreen onBackPress={() => console.log('onBackPressed')}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen onBackPress={() => console.log('onBackPressed')}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `style`', () => {
     const wrapper = shallow(
-      <SecondaryScreen style={{ backgroundColor: 'black' }}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen style={{ backgroundColor: 'black' }}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `headerStyle`', () => {
     const wrapper = shallow(
-      <SecondaryScreen headerStyle={{ backgroundColor: 'black' }}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen headerStyle={{ backgroundColor: 'black' }}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `bodyStyle`', () => {
     const wrapper = shallow(
-      <SecondaryScreen bodyStyle={{ backgroundColor: 'black' }}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen bodyStyle={{ backgroundColor: 'black' }}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `onRefresh`', () => {
     const wrapper = shallow(
-      <SecondaryScreen onRefresh={() => {}}>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen onRefresh={() => {}}>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `refreshing`', () => {
     const wrapper = shallow(
-      <SecondaryScreen refreshing>
-        <Text>SecondaryScreen</Text>
-      </SecondaryScreen>
+      <FloatLabelScreen refreshing>
+        <Text>FloatLabelScreen</Text>
+      </FloatLabelScreen>
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with `handleScroll:toggleHeader:true`', () => {
     const wrapper = shallow(
-      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+      <FloatLabelScreen><Text>FloatLabelScreen</Text></FloatLabelScreen>
     )
     const baseWrapper = diveToBase(wrapper)
     baseWrapper.instance().handleScroll({ nativeEvent: { contentOffset: { y: 40 } } })
@@ -113,7 +113,7 @@ describe('SecondaryScreen.native', () => {
 
   it('renders a snapshot with `handleScroll:toggleHeader:false`', () => {
     const wrapper = shallow(
-      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+      <FloatLabelScreen><Text>FloatLabelScreen</Text></FloatLabelScreen>
     )
     const baseWrapper = diveToBase(wrapper)
     baseWrapper.instance().setState({ toggleHeader: true })
@@ -124,7 +124,7 @@ describe('SecondaryScreen.native', () => {
 
   it('renders a snapshot with `handleScroll:nothing`', () => {
     const wrapper = shallow(
-      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+      <FloatLabelScreen><Text>FloatLabelScreen</Text></FloatLabelScreen>
     )
     const baseWrapper = diveToBase(wrapper)
     baseWrapper.instance().handleScroll({ nativeEvent: { contentOffset: { y: 30 } } })
@@ -133,7 +133,7 @@ describe('SecondaryScreen.native', () => {
 
   it('renders a snapshot with `componentWillUpdate`', () => {
     const wrapper = shallow(
-      <SecondaryScreen><Text>SecondaryScreen</Text></SecondaryScreen>
+      <FloatLabelScreen><Text>FloatLabelScreen</Text></FloatLabelScreen>
     )
     const baseWrapper = diveToBase(wrapper)
     baseWrapper.setState({ toggleHeader: false })
@@ -142,7 +142,7 @@ describe('SecondaryScreen.native', () => {
   })
 })
 
-describe('SecondaryScreen.Header.native', () => {
+describe('FloatLabelScreen.Header.native', () => {
   it('renders a snapshot', () => {
     const wrapper = shallow(
       <Header actionButtons={[]} />

@@ -122,9 +122,9 @@ export class Base extends Component {
     )
   }
 }
-const SecondaryScreen = styled(Base)`
+const FloatLabelScreen = styled(Base)`
   ${base}
 `
-SecondaryScreen.defaultProps = defaultProps
+FloatLabelScreen.defaultProps = defaultProps
 
-export default SecondaryScreen
+export default FloatLabelScreen

@@ -2,58 +2,58 @@ import React from 'react'
 import { action } from '@storybook/addon-actions'
 import createStory from '../../storybook/createStory'
 import ScreenStuff from '../../storybook/createStory/ScreenStuff'
-import SecondaryScreen from '../../src/SecondaryScreen'
+import FloatLabelScreen from '../../src/FloatLabelScreen'
 import Text from '../../src/Text'
 
 export const main = () =>
-createStory('SecondaryScreen', module)
+createStory('FloatLabelScreen', module)
   .add('default', () => (
-    <SecondaryScreen>
+    <FloatLabelScreen>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with title `MyTitle`', () => (
-    <SecondaryScreen title='MyTitle'>
+    <FloatLabelScreen title='MyTitle'>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with actionButtons', () => (
-    <SecondaryScreen actionButtons={[
+    <FloatLabelScreen actionButtons={[
       <Text>Button 1</Text>,
       <Text>Button 2</Text>
     ]}>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with style', () => (
-    <SecondaryScreen style={{ backgroundColor: 'black' }}>
+    <FloatLabelScreen style={{ backgroundColor: 'black' }}>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with headerStyle', () => (
-    <SecondaryScreen headerStyle={{ backgroundColor: 'black' }}>
+    <FloatLabelScreen headerStyle={{ backgroundColor: 'black' }}>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with bodyStyle', () => (
-    <SecondaryScreen bodyStyle={{ backgroundColor: 'black' }}>
+    <FloatLabelScreen bodyStyle={{ backgroundColor: 'black' }}>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with refreshing', () => (
-    <SecondaryScreen refreshing>
+    <FloatLabelScreen refreshing>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with onRefresh', () => (
-    <SecondaryScreen onRefresh={action('PullToRefresh')}>
+    <FloatLabelScreen onRefresh={action('PullToRefresh')}>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
   .add('with transparentHeader', () => (
-    <SecondaryScreen transparentHeader>
+    <FloatLabelScreen transparentHeader>
       <ScreenStuff />
-    </SecondaryScreen>
+    </FloatLabelScreen>
   ))
 
 main()

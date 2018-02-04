@@ -36,9 +36,9 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 * Icon
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Icon.png" width="500">
 * Modal
-* SecondaryScreen
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_1.png" width="500">
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
+* FloatLabelScreen
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelScreen_1.png" width="500">
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelScreen_2.png" width="500">
 * Avatar
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Avatar.png" width="500">
 * FadeInView
