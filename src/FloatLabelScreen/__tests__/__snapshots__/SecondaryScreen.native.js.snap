@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SecondaryScreen.Header.native renders a snapshot 1`] = `
+exports[`FloatLabelScreen.Header.native renders a snapshot 1`] = `
 <Styled(View)
   align="middle"
   direction="row"
@@ -73,7 +73,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot 1`] = `
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.Header.native renders a snapshot with \`toggleHeader:true\` 1`] = `
+exports[`FloatLabelScreen.Header.native renders a snapshot with \`toggleHeader:true\` 1`] = `
 <Styled(View)
   align="middle"
   direction="row"
@@ -169,7 +169,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot with \`toggleHeader:tr
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteStyle:true\` 1`] = `
+exports[`FloatLabelScreen.Header.native renders a snapshot with \`whiteStyle:true\` 1`] = `
 <Styled(View)
   align="middle"
   direction="row"
@@ -236,7 +236,7 @@ exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteStyle:true
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -300,14 +300,22 @@ exports[`SecondaryScreen.native renders a snapshot 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -316,13 +324,13 @@ exports[`SecondaryScreen.native renders a snapshot 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`actionButtons\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -405,14 +413,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -421,13 +437,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = 
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -493,14 +509,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
         Object {
           "backgroundColor": "black",
         },
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -509,13 +533,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`componentWillUpdate\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`componentWillUpdate\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -579,14 +603,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`componentWillUpdate\` 
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -595,13 +627,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`componentWillUpdate\` 
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:nothing\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`handleScroll:nothing\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -665,14 +697,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:nothing\`
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -681,13 +721,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:nothing\`
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHeader:false\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`handleScroll:toggleHeader:false\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -751,14 +791,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHea
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -767,13 +815,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHea
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHeader:true\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`handleScroll:toggleHeader:true\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -837,14 +885,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHea
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -853,13 +909,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHea
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`headerStyle\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`headerStyle\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -928,14 +984,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`headerStyle\` 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -944,13 +1008,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`headerStyle\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`onBackPress\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1015,14 +1079,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -1031,13 +1103,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`onRefresh\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`onRefresh\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1101,20 +1173,29 @@ exports[`SecondaryScreen.native renders a snapshot with \`onRefresh\` 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     refreshControl={
       <RefreshControlMock
         onRefresh={[Function]}
+        progressViewOffset={45}
         refreshing={false}
       />
     }
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -1123,13 +1204,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`onRefresh\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`refreshing\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`refreshing\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1193,20 +1274,29 @@ exports[`SecondaryScreen.native renders a snapshot with \`refreshing\` 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     refreshControl={
       <RefreshControlMock
         onRefresh={undefined}
+        progressViewOffset={45}
         refreshing={true}
       />
     }
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -1215,13 +1305,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`refreshing\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`style\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`style\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1287,14 +1377,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`style\` 1`] = `
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -1303,13 +1401,13 @@ exports[`SecondaryScreen.native renders a snapshot with \`style\` 1`] = `
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
+exports[`FloatLabelScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
 <Styled(View)
   align=""
   direction="column"
@@ -1373,14 +1471,22 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
           "paddingTop": 135,
         },
         undefined,
+        Object {
+          "paddingTop": 90,
+        },
       ]
     }
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "marginTop": 45,
+        },
+      ]
     }
   >
     <Styled(Text)
@@ -1389,7 +1495,7 @@ exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = 
       margin={0}
       size={16}
     >
-      SecondaryScreen
+      FloatLabelScreen
     </Styled(Text)>
   </ScrollViewMock>
 </Styled(View)>

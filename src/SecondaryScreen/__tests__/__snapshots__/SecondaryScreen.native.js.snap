@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondaryScreen.native renders a snapshot 1`] = `
+<Styled(View)
+  align=""
+  direction="column"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <Header
+    inverse={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fafafa",
+          "paddingTop": 20,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Body
+    handleScroll={[Function]}
+  >
+    <Styled(Text)
+      alignSelf="auto"
+      color="#191919"
+      margin={0}
+      size={16}
+    >
+      SecondaryScreen
+    </Styled(Text)>
+  </Body>
+</Styled(View)>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with onBackPress 1`] = `
+<Styled(View)
+  align="middle"
+  direction="row"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fafafa",
+        "paddingTop": 20,
+      },
+      false,
+    ]
+  }
+>
+  <StatusBar
+    animated={false}
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Styled(View)
+      align="center middle"
+      direction="column"
+      margin={0}
+      padding={0}
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Base
+        size="regular"
+        source={1}
+      />
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+    style={
+      Array [
+        Object {
+          "color": "#191919",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
+  />
+</Styled(View)>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with onRefresh 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+  onScroll={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={undefined}
+    />
+  }
+  scrollEventThrottle={16}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</ScrollViewMock>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with refreshing 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+  onScroll={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={undefined}
+      refreshing={true}
+    />
+  }
+  scrollEventThrottle={16}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</ScrollViewMock>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with reverse 1`] = `
+<Styled(View)
+  align="middle"
+  direction="row"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fafafa",
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#191919",
+      },
+    ]
+  }
+>
+  <StatusBar
+    animated={false}
+    barStyle="light-content"
+    showHideTransition="fade"
+  />
+  <TouchableOpacity
+    activeOpacity={0.2}
+  >
+    <Styled(View)
+      align="center middle"
+      direction="column"
+      margin={0}
+      padding={0}
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Base
+        size="regular"
+        source={1}
+      />
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+    style={
+      Array [
+        Object {
+          "color": "#fafafa",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
+  />
+</Styled(View)>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with title 1`] = `
+<Styled(View)
+  align="middle"
+  direction="row"
+  margin={0}
+  padding={0}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fafafa",
+        "paddingTop": 20,
+      },
+      false,
+    ]
+  }
+>
+  <StatusBar
+    animated={false}
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TouchableOpacity
+    activeOpacity={0.2}
+  >
+    <Styled(View)
+      align="center middle"
+      direction="column"
+      margin={0}
+      padding={0}
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Base
+        size="regular"
+        source={1}
+      />
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+    style={
+      Array [
+        Object {
+          "color": "#191919",
+        },
+        undefined,
+      ]
+    }
+  >
+    My Title
+  </Styled(Text)>
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
+  />
+</Styled(View)>
+`;

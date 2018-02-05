@@ -42,6 +42,9 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 * Avatar
 > <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Avatar.png" width="500">
 * FadeInView
+* SecondaryScreen
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_1.png" width="500">
+> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
 
 ## Getting Started
 

@@ -6,5 +6,6 @@ const SCREEN_HEIGHT_ADJUST = Platform.OS === 'ios' ? 0 : 25
 export default {
   screenWidth: Dimensions.get('window').width,
   screenHeight: Dimensions.get('window').height - SCREEN_HEIGHT_ADJUST, // status bar
+  statusBarSize: Platform.OS === 'ios' ? 20 : 0,
   ...base
 }
