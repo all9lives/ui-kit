@@ -120,6 +120,38 @@ exports[`Text.native renders a snapshot with \`alignSelf:center\` 1`] = `
 </Text>
 `;
 
+exports[`Text.native renders a snapshot with \`bold\` 1`] = `
+<Text
+  accessible={true}
+  alignSelf="auto"
+  allowFontScaling={true}
+  bold={true}
+  color="#191919"
+  disabled={false}
+  ellipsizeMode="tail"
+  margin={0}
+  size={16}
+  style={
+    Array [
+      Object {
+        "alignSelf": "auto",
+        "color": "#191919",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "lineHeight": 20,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  Bold
+</Text>
+`;
+
 exports[`Text.native renders a snapshot with \`content\` 1`] = `
 <Text
   accessible={true}

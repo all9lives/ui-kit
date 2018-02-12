@@ -33,14 +33,27 @@ export default new StyleSheet({
       top: STATUS_BAR_HEIGHT
     }
   },
+  transparent: {
+    backgroundColor: 'transparent'
+  },
   shadow: {
     ...Shadow.normal()
   },
   scrollable: {
     flex: 1
   },
+  adjustedScrollable: {
+    ios: {
+      marginTop: HEADER_HEIGHT
+    }
+  },
   body: {
     paddingTop: HEADER_HEIGHT + TITLE_HEIGHT + 5 * Size.spacing
+  },
+  adjustedBody: {
+    ios: {
+      paddingTop: TITLE_HEIGHT + 5 * Size.spacing
+    }
   },
   backBtn: {
     width: HEADER_HEIGHT,

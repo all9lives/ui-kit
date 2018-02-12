@@ -1,9 +1,8 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
 import createStory from '../../storybook/createStory'
-import ScreenStuff from '../../storybook/createStory/ScreenStuff'
 import SecondaryScreen from '../../src/SecondaryScreen'
-import Text from '../../src/Text'
+import ScreenStuff from '../../storybook/createStory/ScreenStuff'
 
 export const main = () =>
 createStory('SecondaryScreen', module)
@@ -12,36 +11,18 @@ createStory('SecondaryScreen', module)
       <ScreenStuff />
     </SecondaryScreen>
   ))
-  .add('with title `MyTitle`', () => (
-    <SecondaryScreen title='MyTitle'>
+  .add('with title', () => (
+    <SecondaryScreen title='My SecondaryScreen'>
       <ScreenStuff />
     </SecondaryScreen>
   ))
-  .add('with actionButtons', () => (
-    <SecondaryScreen actionButtons={[
-      <Text>Button 1</Text>,
-      <Text>Button 2</Text>
-    ]}>
+  .add('with reverse', () => (
+    <SecondaryScreen reverse>
       <ScreenStuff />
     </SecondaryScreen>
   ))
-  .add('with whiteBackIcon', () => (
-    <SecondaryScreen whiteBackIcon>
-      <ScreenStuff />
-    </SecondaryScreen>
-  ))
-  .add('with style', () => (
-    <SecondaryScreen style={{ backgroundColor: 'black' }}>
-      <ScreenStuff />
-    </SecondaryScreen>
-  ))
-  .add('with headerStyle', () => (
-    <SecondaryScreen headerStyle={{ backgroundColor: 'black' }}>
-      <ScreenStuff />
-    </SecondaryScreen>
-  ))
-  .add('with bodyStyle', () => (
-    <SecondaryScreen bodyStyle={{ backgroundColor: 'black' }}>
+  .add('with onBackPress', () => (
+    <SecondaryScreen onBackPress={action('Pressed')}>
       <ScreenStuff />
     </SecondaryScreen>
   ))

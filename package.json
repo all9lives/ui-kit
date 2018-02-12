@@ -1,6 +1,6 @@
 {
   "name": "@fn/ui-kit",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "main": "./lib/main.js",
   "private": true,
   "scripts": {
@@ -20,11 +20,13 @@
     "storybook:web": "start-storybook -p 6006 -c storybook/web",
     "build-storybook:web": "build-storybook -c storybook/web",
     "storybook:native": "storybook start -p 7007 -c storybook/native",
+    "android-reverse": "adb reverse tcp:7007 tcp:7007",
     "check-update": "yarn upgrade-interactive --latest"
   },
   "peerDependencies": {
     "react": "16.0.0-beta.5",
-    "react-native": "0.49.1"
+    "react-native": "0.49.1",
+    "react-native-fast-image": "^2.2.4"
   },
   "dependencies": {
     "flow-bin": "^0.57.3",
@@ -82,7 +84,8 @@
       "/node_modules/",
       "helpers/",
       "lib/",
-      "native/"
+      "native/",
+      "generator/"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",

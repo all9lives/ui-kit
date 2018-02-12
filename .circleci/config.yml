@@ -12,7 +12,10 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
 
-      - run: yarn install
+      - run:
+          command: |
+            yarn install
+            yarn add react-native-fast-image
 
       - save_cache:
           paths:

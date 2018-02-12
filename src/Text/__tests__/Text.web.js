@@ -54,4 +54,11 @@ describe('Text.web', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `bold`', () => {
+    const wrapper = shallow(
+      <Text bold>Bold</Text>
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

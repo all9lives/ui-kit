@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image.native renders a snapshot 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   style={
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,
@@ -17,13 +17,13 @@ exports[`Image.native renders a snapshot 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with \`fit:cover\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   style={
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "cover",
         "width": "100%",
       },
       undefined,
@@ -33,13 +33,13 @@ exports[`Image.native renders a snapshot with \`fit:cover\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with \`height:100\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   style={
     Array [
       Object {
         "height": 100,
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,
@@ -49,13 +49,13 @@ exports[`Image.native renders a snapshot with \`height:100\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with \`size:100\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   style={
     Array [
       Object {
         "height": 100,
-        "resizeMode": "contain",
         "width": 100,
       },
       undefined,
@@ -65,13 +65,13 @@ exports[`Image.native renders a snapshot with \`size:100\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   style={
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": 100,
       },
       undefined,
@@ -81,14 +81,14 @@ exports[`Image.native renders a snapshot with \`width:100\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with number \`source\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   source={123}
   style={
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,
@@ -98,14 +98,14 @@ exports[`Image.native renders a snapshot with number \`source\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with number \`src\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   source={123}
   style={
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,
@@ -115,8 +115,9 @@ exports[`Image.native renders a snapshot with number \`src\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with string \`source\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   source={
     Object {
       "uri": "https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png",
@@ -126,7 +127,6 @@ exports[`Image.native renders a snapshot with string \`source\` 1`] = `
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,
@@ -136,8 +136,9 @@ exports[`Image.native renders a snapshot with string \`source\` 1`] = `
 `;
 
 exports[`Image.native renders a snapshot with string \`src\` 1`] = `
-<Image
+<FastImage
   innerRef={[Function]}
+  resizeMode="cover"
   source={
     Object {
       "uri": "https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png",
@@ -147,7 +148,6 @@ exports[`Image.native renders a snapshot with string \`src\` 1`] = `
     Array [
       Object {
         "height": "100%",
-        "resizeMode": "contain",
         "width": "100%",
       },
       undefined,

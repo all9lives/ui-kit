@@ -1,114 +1,104 @@
 import React, { Component } from 'react'
+import { Platform, StatusBar, TouchableOpacity, ScrollView, RefreshControl } from 'react-native'
 import styled from 'styled-components/native'
-import { View as RNView, Text as RNText, ScrollView, TouchableOpacity, Animated, RefreshControl } from 'react-native'
-import Size from '../utils/Size'
-import styles, { TITLE_BEGIN_Y, TITLE_END_Y, TITLE_BEGIN_X, TITLE_END_X } from './styles'
-import View from '../View'
-import Icon from '../Icon'
 import base from './base'
 import defaultProps from './defaultProps'
+import View from '../View'
+import Text from '../Text'
+import Icon from '../Icon'
+import styles from './style'
 
-const SCROLL_THRESHOLD = Size.spacing * 3.5
-const TRANSITION_TIME = 300
+const SCROLL_THRESHOLD = 0
 
-const AnimatedView = Animated.createAnimatedComponent(RNView)
-const AnimatedText = Animated.createAnimatedComponent(RNText)
-
-export const Header = ({ toggleHeader, headerStyle, actionButtons, onBackPress, whiteBackIcon }) => (
+export const Header = ({ inverse, title, onBackPress, titleStyle }) => (
   <View
-    style={[styles.header, toggleHeader && styles.shadow, headerStyle]}
-    align='middle'
     direction='row'
+    align='middle'
+    style={[styles.header, inverse && styles.headerInverse]}
   >
+    {Platform.OS === 'ios' &&
+      <StatusBar
+        barStyle={inverse ? 'light-content' : 'dark-content'}
+      />}
     <TouchableOpacity onPress={onBackPress}>
       <View style={styles.backBtn} align='center middle'>
-        <Icon source={whiteBackIcon ? require('../assets/back-white.png') : require('../assets/back-black.png')} />
+        <Icon source={inverse
+          ? require('../assets/back-white.png')
+          : require('../assets/back-black.png')}
+        />
       </View>
     </TouchableOpacity>
+    <Text style={[inverse ? styles.titleInverse : styles.title, titleStyle]}>
+      {title}
+    </Text>
     <View grow={1} />
-    <View style={styles.actionBtns} direction='row' align='middle'>
-      {actionButtons.map((btn, i) => <View key={i} style={styles.actionBtn}>{btn}</View>)}
-    </View>
   </View>
 )
 
+export const Body = ({ getScrollViewRef, bodyStyle, refreshing, onRefresh,
+bodyProps, children, handleScroll }) => (
+  <ScrollView
+    ref={getScrollViewRef}
+    style={styles.scrollView}
+    contentContainerStyle={[styles.body, bodyStyle]}
+    refreshControl={(refreshing || onRefresh) && <RefreshControl
+      refreshing={refreshing}
+      onRefresh={onRefresh}
+    />}
+    onScroll={handleScroll}
+    scrollEventThrottle={16}
+    {...bodyProps}
+  >
+    {children}
+  </ScrollView>
+)
+
 export class Base extends Component {
-  static defaultProps = {
-    title: 'Title',
-    actionButtons: [],
-    refreshing: false
-  }
   state = {
-    toggleHeader: false
-  }
-  animatedValue = new Animated.Value(0)
-  componentWillUpdate (nextProps, nextState) {
-    if (nextState.toggleHeader !== this.state.toggleHeader) {
-      Animated.timing(this.animatedValue, {
-        toValue: nextState.toggleHeader ? 1 : 0,
-        duration: TRANSITION_TIME
-      }).start()
-    }
+    isScrolled: false
   }
   handleScroll = (e) => {
     const scrollTop = e.nativeEvent.contentOffset.y
-    if (scrollTop > SCROLL_THRESHOLD && !this.state.toggleHeader) {
-      this.setState({ toggleHeader: true })
-    } else if (scrollTop <= SCROLL_THRESHOLD && this.state.toggleHeader) {
-      this.setState({ toggleHeader: false })
+    if (scrollTop > SCROLL_THRESHOLD && !this.state.isScrolled) {
+      this.setState(() => ({ isScrolled: true }))
+    } else if (scrollTop <= SCROLL_THRESHOLD && this.state.isScrolled) {
+      this.setState(() => ({ isScrolled: false }))
+    }
+    if (this.props.onScroll) {
+      this.props.onScroll(e)
     }
   }
   render () {
-    const { toggleHeader } = this.state
-    const { headerStyle, bodyStyle, title, children, actionButtons,
-      onBackPress, whiteBackIcon, getScrollViewRef, refreshing, onRefresh } = this.props
-    const animatedTop = this.animatedValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: [TITLE_BEGIN_Y, TITLE_END_Y]
-    })
-    const animatedLeft = this.animatedValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: [TITLE_BEGIN_X, TITLE_END_X]
-    })
-    const animatedFontSize = this.animatedValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: [Size.title, Size.regular]
-    })
+    const { isScrolled } = this.state
+    const {
+      children, style, reverse,
+      headerStyle, title, onBackPress, titleStyle,
+      bodyStyle, bodyProps, getScrollViewRef, refreshing, onRefresh
+    } = this.props
     return (
-      <View style={[this.props.style, styles.container]}>
+      <View style={[styles.container, style]}>
         <Header
-          toggleHeader={toggleHeader}
-          headerStyle={headerStyle}
-          actionButtons={actionButtons}
+          style={[styles.header, headerStyle]}
+          inverse={reverse ? !isScrolled : isScrolled}
+          title={title}
+          titleStyle={titleStyle}
           onBackPress={onBackPress}
-          whiteBackIcon={whiteBackIcon}
         />
-        <AnimatedView
-          style={[styles.title, { top: animatedTop, left: animatedLeft }]}
-        >
-          <AnimatedText
-            style={[styles.titleText, { fontSize: animatedFontSize }]}
-          >
-            {title}
-          </AnimatedText>
-        </AnimatedView>
-        <ScrollView
-          ref={getScrollViewRef}
-          style={styles.scrollable}
-          refreshControl={(refreshing || onRefresh) && <RefreshControl
-            refreshing={refreshing}
-            onRefresh={onRefresh}
-          />}
-          contentContainerStyle={[styles.body, bodyStyle]}
-          onScroll={this.handleScroll}
-          scrollEventThrottle={16}
+        <Body
+          getScrollViewRef={getScrollViewRef}
+          bodyStyle={bodyStyle}
+          bodyProps={bodyProps}
+          refreshing={refreshing}
+          onRefresh={onRefresh}
+          handleScroll={this.handleScroll}
         >
           {children}
-        </ScrollView>
+        </Body>
       </View>
     )
   }
 }
+
 const SecondaryScreen = styled(Base)`
   ${base}
 `

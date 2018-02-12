@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FixedInput.native renders a snapshot 1`] = `""`;
+
+exports[`FixedInput.native renders a snapshot with show 1`] = `
+<Component
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <KeyboardAvoidingView
+    behavior="height"
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableWithoutFeedback>
+      <Styled(View)
+        align=""
+        direction="column"
+        grow={1}
+        margin={0}
+        padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </TouchableWithoutFeedback>
+    <Styled(Styled(View))>
+      <Styled(Styled(View))
+        align="center"
+      >
+        <Styled(View)
+          align=""
+          direction="row"
+          margin={0}
+          padding={0}
+        >
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
+            margin={0}
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
+      </Styled(Styled(View))>
+      <Styled(Styled(View))>
+        <Styled(TextInput)
+          autoFocus={true}
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+        />
+      </Styled(Styled(View))>
+    </Styled(Styled(View))>
+  </KeyboardAvoidingView>
+</Component>
+`;
+
+exports[`FixedInput.native renders a snapshot with show and label 1`] = `
+<Component
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <KeyboardAvoidingView
+    behavior="height"
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableWithoutFeedback>
+      <Styled(View)
+        align=""
+        direction="column"
+        grow={1}
+        margin={0}
+        padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </TouchableWithoutFeedback>
+    <Styled(Styled(View))>
+      <Styled(Styled(View))
+        align="center"
+      >
+        <Styled(View)
+          align=""
+          direction="row"
+          margin={0}
+          padding={0}
+        >
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
+            margin={0}
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            MyLabel
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
+      </Styled(Styled(View))>
+      <Styled(Styled(View))>
+        <Styled(TextInput)
+          autoFocus={true}
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+        />
+      </Styled(Styled(View))>
+    </Styled(Styled(View))>
+  </KeyboardAvoidingView>
+</Component>
+`;
+
+exports[`FixedInput.native renders a snapshot with show and multiline 1`] = `
+<Component
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <KeyboardAvoidingView
+    behavior="height"
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableWithoutFeedback>
+      <Styled(View)
+        align=""
+        direction="column"
+        grow={1}
+        margin={0}
+        padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </TouchableWithoutFeedback>
+    <Styled(Styled(View))>
+      <Styled(Styled(View))
+        align="center"
+      >
+        <Styled(View)
+          align=""
+          direction="row"
+          margin={0}
+          padding={0}
+        >
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
+            margin={0}
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
+      </Styled(Styled(View))>
+      <Styled(Styled(View))>
+        <Styled(TextInput)
+          autoFocus={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+        />
+      </Styled(Styled(View))>
+    </Styled(Styled(View))>
+  </KeyboardAvoidingView>
+</Component>
+`;
+
+exports[`FixedInput.native renders a snapshot with show and onRequestDismiss 1`] = `
+<Component
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <KeyboardAvoidingView
+    behavior="height"
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+    >
+      <Styled(View)
+        align=""
+        direction="column"
+        grow={1}
+        margin={0}
+        padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </TouchableWithoutFeedback>
+    <Styled(Styled(View))>
+      <Styled(Styled(View))
+        align="center"
+      >
+        <Styled(View)
+          align=""
+          direction="row"
+          margin={0}
+          padding={0}
+        >
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
+            margin={0}
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                Save
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
+      </Styled(Styled(View))>
+      <Styled(Styled(View))>
+        <Styled(TextInput)
+          autoFocus={true}
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+        />
+      </Styled(Styled(View))>
+    </Styled(Styled(View))>
+  </KeyboardAvoidingView>
+</Component>
+`;
+
+exports[`FixedInput.native renders a snapshot with show and saveText 1`] = `
+<Component
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <KeyboardAvoidingView
+    behavior="height"
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TouchableWithoutFeedback>
+      <Styled(View)
+        align=""
+        direction="column"
+        grow={1}
+        margin={0}
+        padding={0}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+      />
+    </TouchableWithoutFeedback>
+    <Styled(Styled(View))>
+      <Styled(Styled(View))
+        align="center"
+      >
+        <Styled(View)
+          align=""
+          direction="row"
+          margin={0}
+          padding={0}
+        >
+          <Styled(Text)
+            alignSelf="auto"
+            color="#191919"
+            margin={0}
+            numberOfLines={1}
+            size={16}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Label
+          </Styled(Text)>
+          <Styled(Styled(View))>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Styled(Text)
+                alignSelf="auto"
+                color="#191919"
+                margin={0}
+                size={16}
+              >
+                MySaveText
+              </Styled(Text)>
+            </TouchableOpacity>
+          </Styled(Styled(View))>
+        </Styled(View)>
+      </Styled(Styled(View))>
+      <Styled(Styled(View))>
+        <Styled(TextInput)
+          autoFocus={true}
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+        />
+      </Styled(Styled(View))>
+    </Styled(Styled(View))>
+  </KeyboardAvoidingView>
+</Component>
+`;

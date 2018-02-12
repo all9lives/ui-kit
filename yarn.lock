@@ -7075,6 +7075,12 @@ react-native-compat@^1.0.0:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-fast-image@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-2.2.4.tgz#bc240feed8019337e8289ea6acd5fdf6aeab1b6d"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-web@0.0.x:
   version "0.0.130"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.0.130.tgz#fea4843999f29cb8d8c3680fcfc71e389db28951"

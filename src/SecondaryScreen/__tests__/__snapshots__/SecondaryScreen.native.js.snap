@@ -1,228 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SecondaryScreen.Header.native renders a snapshot 1`] = `
-<Styled(View)
-  align="middle"
-  direction="row"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Object {
-        "backgroundColor": "#fafafa",
-        "height": 45,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 20,
-        "zIndex": 1,
-      },
-      undefined,
-      undefined,
-    ]
-  }
->
-  <TouchableOpacity
-    activeOpacity={0.2}
-  >
-    <Styled(View)
-      align="center middle"
-      direction="column"
-      margin={0}
-      padding={0}
-      style={
-        Object {
-          "height": 45,
-          "width": 45,
-        }
-      }
-    >
-      <Base
-        size="regular"
-        source={1}
-      />
-    </Styled(View)>
-  </TouchableOpacity>
-  <Styled(View)
-    align=""
-    direction="column"
-    grow={1}
-    margin={0}
-    padding={0}
-  />
-  <Styled(View)
-    align="middle"
-    direction="row"
-    margin={0}
-    padding={0}
-    style={
-      Object {
-        "paddingRight": 10,
-      }
-    }
-  />
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.Header.native renders a snapshot with \`toggleHeader:true\` 1`] = `
-<Styled(View)
-  align="middle"
-  direction="row"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Object {
-        "backgroundColor": "#fafafa",
-        "height": 45,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 20,
-        "zIndex": 1,
-      },
-      Object {
-        "shadowColor": "black",
-        "shadowOffset": Object {
-          "height": 5,
-          "width": 5,
-        },
-        "shadowOpacity": 0.2,
-        "shadowRadius": 2.5,
-      },
-      undefined,
-    ]
-  }
->
-  <TouchableOpacity
-    activeOpacity={0.2}
-  >
-    <Styled(View)
-      align="center middle"
-      direction="column"
-      margin={0}
-      padding={0}
-      style={
-        Object {
-          "height": 45,
-          "width": 45,
-        }
-      }
-    >
-      <Base
-        size="regular"
-        source={1}
-      />
-    </Styled(View)>
-  </TouchableOpacity>
-  <Styled(View)
-    align=""
-    direction="column"
-    grow={1}
-    margin={0}
-    padding={0}
-  />
-  <Styled(View)
-    align="middle"
-    direction="row"
-    margin={0}
-    padding={0}
-    style={
-      Object {
-        "paddingRight": 10,
-      }
-    }
-  >
-    <Styled(View)
-      align=""
-      direction="column"
-      key="0"
-      margin={0}
-      padding={0}
-      style={
-        Object {
-          "marginLeft": 10,
-          "marginRight": 10,
-        }
-      }
-    >
-      <Styled(Text)
-        alignSelf="auto"
-        color="#191919"
-        margin={0}
-        size={16}
-      >
-        Action
-      </Styled(Text)>
-    </Styled(View)>
-  </Styled(View)>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.Header.native renders a snapshot with \`whiteBackIcon:true\` 1`] = `
-<Styled(View)
-  align="middle"
-  direction="row"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Object {
-        "backgroundColor": "#fafafa",
-        "height": 45,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "top": 20,
-        "zIndex": 1,
-      },
-      undefined,
-      undefined,
-    ]
-  }
->
-  <TouchableOpacity
-    activeOpacity={0.2}
-  >
-    <Styled(View)
-      align="center middle"
-      direction="column"
-      margin={0}
-      padding={0}
-      style={
-        Object {
-          "height": 45,
-          "width": 45,
-        }
-      }
-    >
-      <Base
-        size="regular"
-        source={1}
-      />
-    </Styled(View)>
-  </TouchableOpacity>
-  <Styled(View)
-    align=""
-    direction="column"
-    grow={1}
-    margin={0}
-    padding={0}
-  />
-  <Styled(View)
-    align="middle"
-    direction="row"
-    margin={0}
-    padding={0}
-    style={
-      Object {
-        "paddingRight": 10,
-      }
-    }
-  />
-</Styled(View)>
-`;
-
 exports[`SecondaryScreen.native renders a snapshot 1`] = `
 <Styled(View)
   align=""
@@ -231,71 +8,33 @@ exports[`SecondaryScreen.native renders a snapshot 1`] = `
   padding={0}
   style={
     Array [
+      Object {
+        "height": "100%",
+        "width": "100%",
+      },
       Array [
         Object {
           "backgroundColor": "transparent",
         },
         undefined,
       ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
     ]
   }
 >
   <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
+    inverse={false}
     style={
       Array [
         Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
+          "backgroundColor": "#fafafa",
+          "paddingTop": 20,
         },
         undefined,
       ]
     }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
+  />
+  <Body
+    handleScroll={[Function]}
   >
     <Styled(Text)
       alignSelf="auto"
@@ -305,1166 +44,281 @@ exports[`SecondaryScreen.native renders a snapshot 1`] = `
     >
       SecondaryScreen
     </Styled(Text)>
-  </ScrollViewMock>
+  </Body>
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`actionButtons\` 1`] = `
+exports[`SecondaryScreen.native renders a snapshot with onBackPress 1`] = `
 <Styled(View)
-  align=""
-  direction="column"
+  align="middle"
+  direction="row"
   margin={0}
   padding={0}
   style={
     Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
       Object {
-        "height": "100%",
+        "backgroundColor": "#fafafa",
         "paddingTop": 20,
-        "width": "100%",
       },
+      false,
     ]
   }
 >
-  <Header
-    actionButtons={
-      Array [
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
-          margin={0}
-          size={16}
-        >
-          1
-        </Styled(Text)>,
-        <Styled(Text)
-          alignSelf="auto"
-          color="#191919"
-          margin={0}
-          size={16}
-        >
-          2
-        </Styled(Text)>,
-      ]
-    }
-    toggleHeader={false}
+  <StatusBar
+    animated={false}
+    barStyle="dark-content"
+    showHideTransition="fade"
   />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
   >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
+    <Styled(View)
+      align="center middle"
+      direction="column"
       margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`bodyStyle\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
+      padding={0}
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
       }
     >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        Object {
-          "backgroundColor": "black",
-        },
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`componentWillUpdate\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:nothing\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHeader:false\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={true}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`handleScroll:toggleHeader:true\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={true}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 45,
-          "top": 20,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 16,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`headerStyle\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    headerStyle={
-      Object {
-        "backgroundColor": "black",
-      }
-    }
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`onBackPress\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    onBackPress={[Function]}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`onRefresh\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    refreshControl={
-      <RefreshControlMock
-        onRefresh={[Function]}
-        refreshing={false}
+      <Base
+        size="regular"
+        source={1}
       />
-    }
-    scrollEventThrottle={16}
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "color": "#191919",
+        },
+        undefined,
+      ]
     }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
+  />
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`refreshing\` 1`] = `
+exports[`SecondaryScreen.native renders a snapshot with onRefresh 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+  onScroll={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={undefined}
+    />
+  }
+  scrollEventThrottle={16}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</ScrollViewMock>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with refreshing 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+  onScroll={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={undefined}
+      refreshing={true}
+    />
+  }
+  scrollEventThrottle={16}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+  >
+    SecondaryScreen
+  </Styled(Text)>
+</ScrollViewMock>
+`;
+
+exports[`SecondaryScreen.native renders a snapshot with reverse 1`] = `
 <Styled(View)
-  align=""
-  direction="column"
+  align="middle"
+  direction="row"
   margin={0}
   padding={0}
   style={
     Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
       Object {
-        "height": "100%",
+        "backgroundColor": "#fafafa",
         "paddingTop": 20,
-        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "#191919",
       },
     ]
   }
 >
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
+  <StatusBar
+    animated={false}
+    barStyle="light-content"
+    showHideTransition="fade"
   />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
+  <TouchableOpacity
+    activeOpacity={0.2}
   >
-    <AnimatedComponent
+    <Styled(View)
+      align="center middle"
+      direction="column"
+      margin={0}
+      padding={0}
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
       }
     >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    refreshControl={
-      <RefreshControlMock
-        onRefresh={undefined}
-        refreshing={true}
+      <Base
+        size="regular"
+        source={1}
       />
-    }
-    scrollEventThrottle={16}
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "color": "#fafafa",
+        },
+        undefined,
+      ]
     }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
+  />
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
+  />
 </Styled(View)>
 `;
 
-exports[`SecondaryScreen.native renders a snapshot with \`style\` 1`] = `
+exports[`SecondaryScreen.native renders a snapshot with title 1`] = `
 <Styled(View)
-  align=""
-  direction="column"
+  align="middle"
+  direction="row"
   margin={0}
   padding={0}
   style={
     Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        Object {
-          "backgroundColor": "black",
-        },
-      ],
       Object {
-        "height": "100%",
+        "backgroundColor": "#fafafa",
         "paddingTop": 20,
-        "width": "100%",
       },
+      false,
     ]
   }
 >
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
+  <StatusBar
+    animated={false}
+    barStyle="dark-content"
+    showHideTransition="fade"
   />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
+  <TouchableOpacity
+    activeOpacity={0.2}
   >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
+    <Styled(View)
+      align="center middle"
+      direction="column"
       margin={0}
-      size={16}
+      padding={0}
+      style={
+        Object {
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
     >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`title:MyTitle\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
+      <Base
+        size="regular"
+        source={1}
+      />
+    </Styled(View)>
+  </TouchableOpacity>
+  <Styled(Text)
+    alignSelf="auto"
+    color="#191919"
+    margin={0}
+    size={16}
+    style={
       Array [
         Object {
-          "backgroundColor": "transparent",
+          "color": "#191919",
         },
         undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
+      ]
+    }
+  >
+    My Title
+  </Styled(Text)>
+  <Styled(View)
+    align=""
+    direction="column"
+    grow={1}
+    margin={0}
+    padding={0}
   />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      MyTitle
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
-</Styled(View)>
-`;
-
-exports[`SecondaryScreen.native renders a snapshot with \`whiteBackIcon\` 1`] = `
-<Styled(View)
-  align=""
-  direction="column"
-  margin={0}
-  padding={0}
-  style={
-    Array [
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
-      Object {
-        "height": "100%",
-        "paddingTop": 20,
-        "width": "100%",
-      },
-    ]
-  }
->
-  <Header
-    actionButtons={Array []}
-    toggleHeader={false}
-    whiteBackIcon={true}
-  />
-  <AnimatedComponent
-    style={
-      Array [
-        Object {
-          "height": 45,
-          "justifyContent": "center",
-          "position": "absolute",
-          "zIndex": 9,
-        },
-        Object {
-          "left": 20,
-          "top": 75,
-        },
-      ]
-    }
-  >
-    <AnimatedComponent
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-          },
-          Object {
-            "fontSize": 25,
-          },
-        ]
-      }
-    >
-      Title
-    </AnimatedComponent>
-  </AnimatedComponent>
-  <ScrollViewMock
-    contentContainerStyle={
-      Array [
-        Object {
-          "paddingTop": 135,
-        },
-        undefined,
-      ]
-    }
-    onScroll={[Function]}
-    scrollEventThrottle={16}
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <Styled(Text)
-      alignSelf="auto"
-      color="#191919"
-      margin={0}
-      size={16}
-    >
-      SecondaryScreen
-    </Styled(Text)>
-  </ScrollViewMock>
 </Styled(View)>
 `;
