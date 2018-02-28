@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/Fineighbor/ui-kit.svg?style=shield)](https://circleci.com/gh/Fineighbor/ui-kit)
-[![codecov](https://codecov.io/gh/Fineighbor/ui-kit/graph/badge.svg)](https://codecov.io/gh/Fineighbor/ui-kit)
+[![CircleCI](https://circleci.com/gh/Node-us/ui-kit.svg?style=shield)](https://circleci.com/gh/Node-us/ui-kit)
+[![codecov](https://codecov.io/gh/Node-us/ui-kit/graph/badge.svg)](https://codecov.io/gh/Node-us/ui-kit)
 
 # UI Kit
 
@@ -8,9 +8,9 @@ This is the UI Kit powered by `storybook` and `styled-components`.
 It contains some basic components that we find using them a lot in other projects. We use it as a foundation of other components for both web and app development.
 
 ## Demo
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png" width="500">
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/android.png" width="500">
-<img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/ios.png" width="500">
+<img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/web.png" width="500">
+<img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/android.png" width="500">
+<img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/ios.png" width="500">
 
 ## Why
 
@@ -19,32 +19,32 @@ A team consists of at least engineers and designers. Hence, the tools those can 
 ## Current Available Components
 
 * Text
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Text.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Text.png" width="500">
 * View
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/View.png" width="500">
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/View_align.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/View.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/View_align.png" width="500">
 * Image
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Image.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Image.png" width="500">
 * Button
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Button.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Button.png" width="500">
 * Input
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Input.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Input.png" width="500">
 * FloatLabelInput
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelInput.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/FloatLabelInput.png" width="500">
 * Checkbox
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Checkbox.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Checkbox.png" width="500">
 * Icon
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Icon.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Icon.png" width="500">
 * Modal
 * FloatLabelScreen
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelScreen_1.png" width="500">
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/FloatLabelScreen_2.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/FloatLabelScreen_1.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/FloatLabelScreen_2.png" width="500">
 * Avatar
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/Avatar.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/Avatar.png" width="500">
 * FadeInView
 * SecondaryScreen
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_1.png" width="500">
-> <img src="https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/SecondaryScreen_1.png" width="500">
+> <img src="https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/SecondaryScreen_2.png" width="500">
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-git clone https://github.com/Fineighbor/ui-kit.git
+git clone https://github.com/Node-us/ui-kit.git
 cd ui-kit
 npm install // or yarn install
 ```

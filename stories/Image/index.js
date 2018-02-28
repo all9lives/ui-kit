@@ -2,7 +2,7 @@ import React from 'react'
 import createStory from '../../storybook/createStory'
 import Image from '../../src/Image'
 
-const sourceUrl = 'https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png'
+const sourceUrl = 'https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/web.png'
 
 createStory('Image', module)
   .add('with fit `contain`', () =>

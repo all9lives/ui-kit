@@ -15,14 +15,14 @@ describe('Image.native', () => {
 
   it('renders a snapshot with string `src`', () => {
     const wrapper = shallow(
-      <Image src='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png' />
+      <Image src='https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/web.png' />
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
 
   it('renders a snapshot with string `source`', () => {
     const wrapper = shallow(
-      <Image source='https://raw.githubusercontent.com/Fineighbor/ui-kit/master/screenshots/web.png' />
+      <Image source='https://raw.githubusercontent.com/Node-us/ui-kit/master/screenshots/web.png' />
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
