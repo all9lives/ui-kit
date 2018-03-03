@@ -61,4 +61,11 @@ describe('Button.web', () => {
     const result = wrapper.props().onClick()
     expect(result).toEqual('onPressed')
   })
+
+  it('renders a snapshot with `padding:2`', () => {
+    const wrapper = shallow(
+      <Button title='Text' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })

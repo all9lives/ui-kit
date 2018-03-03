@@ -67,6 +67,13 @@ describe('Button.native', () => {
     )
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `padding:2`', () => {
+    const wrapper = shallow(
+      <Button title='Text' />
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
 })
 
 describe('Button.StyledView.native', () => {

@@ -33,3 +33,6 @@ createStory('Button', module)
   .add('with `style`', () =>
     <Button style={{ width: 200, alignItems: 'center' }} />
   )
+  .add('with `padding`', () =>
+    <Button padding='2 3' />
+  )

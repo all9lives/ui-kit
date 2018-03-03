@@ -7,12 +7,17 @@ import defaultProps from './defaultProps'
 import View from '../View'
 import Color from '../utils/Color'
 import Size from '../utils/Size'
+import Unit from '../utils/Unit'
+
+const parsePadding = props => props.padding
+  ? Unit.parse(props.padding, (padding) => padding * Size.spacing)
+  : `${Size.spacing}px ${Size.spacing * 2}px`
 
 export const StyledView = styled(View).attrs({
   ...attrs
 })`
   background-color: ${props => props.color};
-  padding: ${Size.spacing}px ${Size.spacing * 3}px;
+  padding: ${parsePadding};
   border-radius: ${Size.spacing * 2};
 `
 StyledView.defaultProps = {

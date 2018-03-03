@@ -145,6 +145,42 @@ exports[`Button.web renders a snapshot with \`onPress\` 1`] = `
 </button>
 `;
 
+exports[`Button.web renders a snapshot with \`padding:2\` 1`] = `
+.c0 {
+  margin: 0px;
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  color: #FFFFFF;
+  background-color: #191919;
+  opacity: 1;
+  font-size: 14px;
+}
+
+.c0:active {
+  -webkit-transform: translate3d(1px,1px,0);
+  -ms-transform: translate3d(1px,1px,0);
+  transform: translate3d(1px,1px,0);
+}
+
+<button
+  className="c0"
+  color="#191919"
+  onClick={[Function]}
+  title="Text"
+>
+  Text
+</button>
+`;
+
 exports[`Button.web renders a snapshot with \`primary\` 1`] = `
 .c0 {
   margin: 0px;
