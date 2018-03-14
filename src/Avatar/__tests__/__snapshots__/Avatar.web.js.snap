@@ -349,6 +349,34 @@ exports[`Avatar.web renders a snapshot with \`nameTextStyle\` 1`] = `
 </Styled(View)>
 `;
 
+exports[`Avatar.web renders a snapshot with \`resizeMode:cover\` 1`] = `
+.c0 {
+  position: relative;
+}
+
+<Styled(View)
+  align=""
+  borderRadius={0}
+  className="c0"
+  direction="column"
+  margin={0}
+  padding={0}
+  resizeMode="cover"
+  size="regular"
+  source={1}
+>
+  <mapProps(Styled(Image))
+    size={72}
+    source={1}
+    style={
+      Object {
+        "borderRadius": 0,
+      }
+    }
+  />
+</Styled(View)>
+`;
+
 exports[`Avatar.web renders a snapshot with \`size:small\` 1`] = `
 .c0 {
   position: relative;
