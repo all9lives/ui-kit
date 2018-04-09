@@ -2,6 +2,7 @@
 
 exports[`Input.native renders a snapshot 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={true}
   placeholder="Placeholder"
   secureTextEntry={false}
@@ -23,6 +24,7 @@ exports[`Input.native renders a snapshot 1`] = `
 
 exports[`Input.native renders a snapshot with \`onChange\` 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={true}
   onChange={[Function]}
   placeholder="Placeholder"
@@ -45,6 +47,7 @@ exports[`Input.native renders a snapshot with \`onChange\` 1`] = `
 
 exports[`Input.native renders a snapshot with \`onChangeText\` 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={true}
   onChangeText={[Function]}
   placeholder="Placeholder"
@@ -67,6 +70,7 @@ exports[`Input.native renders a snapshot with \`onChangeText\` 1`] = `
 
 exports[`Input.native renders a snapshot with \`placeholder:Placeholder\` 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={true}
   placeholder="Placeholder"
   secureTextEntry={false}
@@ -88,6 +92,7 @@ exports[`Input.native renders a snapshot with \`placeholder:Placeholder\` 1`] = 
 
 exports[`Input.native renders a snapshot with \`readOnly\` 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={false}
   placeholder="Placeholder"
   readOnly={true}
@@ -110,6 +115,7 @@ exports[`Input.native renders a snapshot with \`readOnly\` 1`] = `
 
 exports[`Input.native renders a snapshot with \`type:password\` 1`] = `
 <TextInput
+  allowFontScaling={true}
   editable={true}
   keyboardType="default"
   placeholder="Placeholder"

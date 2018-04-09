@@ -19,7 +19,6 @@ exports[`GhostButton.native renders a snapshot with \`StyledText\` 1`] = `
   alignSelf="auto"
   allowFontScaling={true}
   color="#191919"
-  disabled={false}
   ellipsizeMode="tail"
   margin={0}
   size={16}
