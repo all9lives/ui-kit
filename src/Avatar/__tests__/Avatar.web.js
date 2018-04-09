@@ -85,4 +85,11 @@ describe('Avatar.web', () => {
     )
     expect(diveToBase(wrapper)).toMatchSnapshot()
   })
+
+  it('renders a snapshot with `resizeMode:cover`', () => {
+    const wrapper = shallow(
+      <Avatar resizeMode='cover' />
+    )
+    expect(diveToBase(wrapper)).toMatchSnapshot()
+  })
 })

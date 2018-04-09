@@ -5,7 +5,6 @@ exports[`Button.StyledText.native renders a snapshot 1`] = `
   accessible={true}
   allowFontScaling={true}
   color="#191919"
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [
@@ -25,7 +24,6 @@ exports[`Button.StyledText.native renders a snapshot with \`color:white\` 1`] = 
   accessible={true}
   allowFontScaling={true}
   color="white"
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [
@@ -45,7 +43,6 @@ exports[`Button.StyledText.native renders a snapshot with \`title:Text\` 1`] = `
   accessible={true}
   allowFontScaling={true}
   color="#191919"
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [
@@ -73,8 +70,8 @@ exports[`Button.StyledView.native renders a snapshot 1`] = `
         "backgroundColor": "#191919",
         "borderRadius": 20,
         "paddingBottom": 10,
-        "paddingLeft": 30,
-        "paddingRight": 30,
+        "paddingLeft": 20,
+        "paddingRight": 20,
         "paddingTop": 10,
       },
       undefined,
@@ -97,8 +94,8 @@ exports[`Button.StyledView.native renders a snapshot with \`color:white\` 1`] = 
         "backgroundColor": "#fafafa",
         "borderRadius": 20,
         "paddingBottom": 10,
-        "paddingLeft": 30,
-        "paddingRight": 30,
+        "paddingLeft": 20,
+        "paddingRight": 20,
         "paddingTop": 10,
       },
       undefined,
@@ -198,6 +195,29 @@ exports[`Button.native renders a snapshot with \`onPress\` 1`] = `
   >
     <Styled(Text)>
       Button
+    </Styled(Text)>
+  </Styled(Styled(View))>
+</TouchableOpacity>
+`;
+
+exports[`Button.native renders a snapshot with \`padding:2\` 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Styled(Styled(View))
+    margin={0}
+    style={
+      Array [
+        undefined,
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Styled(Text)>
+      Text
     </Styled(Text)>
   </Styled(Styled(View))>
 </TouchableOpacity>

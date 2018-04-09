@@ -10,6 +10,7 @@ exports[`FixedInput.native renders a snapshot with show 1`] = `
 >
   <KeyboardAvoidingView
     behavior="height"
+    enabled={true}
     keyboardVerticalOffset={0}
     style={
       Object {
@@ -92,6 +93,7 @@ exports[`FixedInput.native renders a snapshot with show and label 1`] = `
 >
   <KeyboardAvoidingView
     behavior="height"
+    enabled={true}
     keyboardVerticalOffset={0}
     style={
       Object {
@@ -174,6 +176,7 @@ exports[`FixedInput.native renders a snapshot with show and multiline 1`] = `
 >
   <KeyboardAvoidingView
     behavior="height"
+    enabled={true}
     keyboardVerticalOffset={0}
     style={
       Object {
@@ -258,6 +261,7 @@ exports[`FixedInput.native renders a snapshot with show and onRequestDismiss 1`]
 >
   <KeyboardAvoidingView
     behavior="height"
+    enabled={true}
     keyboardVerticalOffset={0}
     style={
       Object {
@@ -342,6 +346,7 @@ exports[`FixedInput.native renders a snapshot with show and saveText 1`] = `
 >
   <KeyboardAvoidingView
     behavior="height"
+    enabled={true}
     keyboardVerticalOffset={0}
     style={
       Object {

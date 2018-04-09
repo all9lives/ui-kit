@@ -124,6 +124,7 @@ yarn generate:story [STORY_NAME]
 ## Known Issues
 * Props are not filtering out so that all of them are passed to the inner components/elements ([Issue](https://github.com/styled-components/styled-components/issues/439))
 * Currently Jest is not resolving files based on `Platform` correctly. ([Issue](https://github.com/facebook/jest/issues/1370))
+  * styled-component v3 deprecated `styled-components/native` cannot be applied
 * Can't use this repo as git submodules in react-native project (module duplicated)
   * On web, forking this repo and make it submodules in any directory you like.
   * On native, forking this repo and specify it as dependencies in `package.json`.

@@ -55,11 +55,16 @@ export class Base extends Component {
     </Name>
   )
   render () {
-    const { size, source, name, label, borderRadius } = this.props
+    const { size, source, name, label, borderRadius, fit } = this.props
     const imageSize = Size.icon * SIZE_MAPPING[size]
     return (
       <View direction='column' {...this.props}>
-        <Image size={isNaN(imageSize) ? size : imageSize} source={source} style={{ borderRadius }} />
+        <Image
+          size={isNaN(imageSize) ? size : imageSize}
+          source={source}
+          style={{ borderRadius }}
+          fit={fit}
+        />
         {name && this.renderName(this.props)}
         {label && this.renderLabel(this.props)}
       </View>

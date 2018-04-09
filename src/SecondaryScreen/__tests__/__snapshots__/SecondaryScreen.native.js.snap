@@ -118,7 +118,7 @@ exports[`SecondaryScreen.native renders a snapshot with onBackPress 1`] = `
 `;
 
 exports[`SecondaryScreen.native renders a snapshot with onRefresh 1`] = `
-<ScrollViewMock
+<ScrollView
   contentContainerStyle={
     Array [
       undefined,
@@ -147,11 +147,11 @@ exports[`SecondaryScreen.native renders a snapshot with onRefresh 1`] = `
   >
     SecondaryScreen
   </Styled(Text)>
-</ScrollViewMock>
+</ScrollView>
 `;
 
 exports[`SecondaryScreen.native renders a snapshot with refreshing 1`] = `
-<ScrollViewMock
+<ScrollView
   contentContainerStyle={
     Array [
       undefined,
@@ -180,7 +180,7 @@ exports[`SecondaryScreen.native renders a snapshot with refreshing 1`] = `
   >
     SecondaryScreen
   </Styled(Text)>
-</ScrollViewMock>
+</ScrollView>
 `;
 
 exports[`SecondaryScreen.native renders a snapshot with reverse 1`] = `

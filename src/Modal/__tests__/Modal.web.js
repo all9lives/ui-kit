@@ -17,7 +17,7 @@ describe('Modal.web', () => {
   it('renders a snapshot with `isOpen` changed to true', () => {
     const wrapper = shallow(
       <Modal isOpen={false}><Text>Content</Text></Modal>
-    , { lifecycleExperimental: true })
+      , { lifecycleExperimental: true })
     wrapper.setProps({ isOpen: true })
     wrapper.update()
     expect(wrapper).toMatchSnapshot()
@@ -39,7 +39,7 @@ describe('Modal.StateProvider.web', () => {
       <StateProvider isOpen={false}>
         <Text>Child</Text>
       </StateProvider>
-    , { lifecycleExperimental: true })
+      , { lifecycleExperimental: true })
     wrapper.setProps({ isOpen: true })
     wrapper.update()
     expect(wrapper).toMatchSnapshot()
@@ -50,7 +50,7 @@ describe('Modal.StateProvider.web', () => {
       <StateProvider isOpen>
         <Text>Child</Text>
       </StateProvider>
-    , { lifecycleExperimental: true })
+      , { lifecycleExperimental: true })
     jest.useFakeTimers()
     wrapper.setProps({ isOpen: false })
     jest.runAllTimers()
@@ -63,7 +63,7 @@ describe('Modal.StateProvider.web', () => {
       <StateProvider isOpen>
         <Text>Child</Text>
       </StateProvider>
-    , { lifecycleExperimental: true })
+      , { lifecycleExperimental: true })
     wrapper.setProps({ isOpen: true })
     wrapper.update()
     expect(wrapper).toMatchSnapshot()

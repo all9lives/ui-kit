@@ -82,8 +82,9 @@ exports[`View.web renders a snapshot with \`grow:1\` 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   margin: 0px;
   padding: 0px;
