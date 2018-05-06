@@ -9,7 +9,9 @@ const base = css`
 `
 
 export const labelBase = css`
-  color: ${props => props.isFocus ? Color.primary : Color.black};
+  color: ${props => props.isFocus
+    ? (props.labelFocusColor || Color.primary)
+    : (props.labelColor || Color.black)};
 `
 
 export const inputBase = css`
@@ -35,13 +37,15 @@ export const getComponent = ({ Container, Label, Input }) => class Component ext
   }
   render () {
     const { isFocus } = this.state
-    const { value, placeholder } = this.props
+    const { value, placeholder, labelColor, labelFocusColor } = this.props
     return (
       <Container>
         <Label
           size='small'
           show={!!value}
           isFocus={isFocus}
+          labelColor={labelColor}
+          labelFocusColor={labelFocusColor}
         >
           {placeholder}
         </Label>
