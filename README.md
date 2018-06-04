@@ -64,14 +64,14 @@ Run storybook for web
 ```
 npm run storybook:web
 // or
-yarn stroybook:native
+yarn storybook:web
 ```
 
 Run storybook for native (android & ios)
 ```
 npm run storybook:native
 // or
-yarn stroybook:native
+yarn storybook:native
 ```
 
 Build dist source
